@@ -2,7 +2,7 @@
     "id":  "daggerheart-mass-heart",
     "title":  "Mass Heart for Daggerheart",
     "description":  "Mass Effect-inspired science-fiction compendium module for the Foundryborne Daggerheart system.",
-    "version":  "0.1.0",
+    "version":  "0.1.1",
     "type":  "module",
     "authors":  [
                     {
@@ -31,7 +31,7 @@
                       },
     "url":  "https://github.com/Happytreedice/daggerheart-mass-heart",
     "manifest":  "https://github.com/Happytreedice/daggerheart-mass-heart/releases/latest/download/module.json",
-    "download":  "https://github.com/Happytreedice/daggerheart-mass-heart/releases/download/v0.1.0/daggerheart-mass-heart.zip",
+    "download":  "https://github.com/Happytreedice/daggerheart-mass-heart/releases/download/v0.1.1/daggerheart-mass-heart.zip",
     "readme":  "readme.md",
     "esmodules":  [
                       "src/module/mass-heart.mjs"
