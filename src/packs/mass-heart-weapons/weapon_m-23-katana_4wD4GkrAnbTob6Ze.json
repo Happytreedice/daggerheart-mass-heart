@@ -1,0 +1,176 @@
+{
+  "name": "M-23 Katana",
+  "type": "weapon",
+  "img": "icons/weapons/guns/shotgun-tech-green-yellow.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Reloading</p>",
+    "quantity": 1,
+    "actions": {
+      "ZVOD9TP0imGk48xd": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Reloading",
+        "description": "After an attack, roll a d6. On a 1, mark a Stress to reload before firing again.",
+        "img": "icons/weapons/ammunition/shot-round-blue.webp",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "ZVOD9TP0imGk48xd",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsReloading",
+        "effectIds": [],
+        "actionIds": [
+          "ZVOD9TP0imGk48xd"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/shotgun-tech-green-yellow.webp",
+      "_id": "RBAEJDD6KLyubVG4",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "veryClose",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "strength",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d12",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d12",
+              "bonus": 1,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "physical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d12",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 1,
+      "slot": "primary",
+      "weaponType": "Shotgun",
+      "featureText": "Reloading"
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "4wD4GkrAnbTob6Ze",
+  "sort": 0,
+  "_key": "!items!4wD4GkrAnbTob6Ze"
+}

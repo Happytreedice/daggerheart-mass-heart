@@ -1,0 +1,30 @@
+{
+  "name": "Sur'Kesh: STG Bio-Lab",
+  "type": "environment",
+  "img": "icons/commodities/tech/cog-gear-steel-glass.webp",
+  "system": {
+    "description": "<p>### Tier 2 Infiltration / Stealth\nA high-tech research facility nestled within a lush, vibrant jungle. Waterfalls cascade over glass structures where Salarian scientists push the boundaries of evolution.  \nImpulses: Steal the data, bypass the sensors, silence the alarm.</p><p>#### Features\nSecurity Protocol - Countdown: Setup a Consequence Countdown (6) named &quot;Detected.&quot; When a PC fails a Stealth or Hacking roll, mark a box. When it triggers, the lab enters lockdown: heavy blast doors close, and two Security Drones (Geth Hunter reskined) are deployed immediately into the scene.</p><p>Does the alarm sound like a rhythmic pulse or a piercing shriek? How do the Salarian scientists react to the intrusion?</p><p>STG Cloaking Field - Action: Spend a Fear. The lab&#x27;s internal sensors activate a localized jamming field. PCs have disadvantage to all Tech or Knowledge Roll for the remainder of the scene, as their systems are flooded with white noise.</p><p>Why is your Omni-tool suddenly displaying gibberish? Can you still navigate by sight alone?</p><p>Evolutionary Mutagen - Reaction: When a PC marks HP while near a containment tank, the tank shatters. Spend a Fear. The mutagenic gas grants the PC a temporary +2 to Strength Rolls for the remainder of the scene, but forces them to mark 2 Stress as their biology begins to mutate painfully.</p><p>Does your skin harden or do your muscles swell? What is the price of this sudden strength?\n}}</p><p>{{environment,</p>",
+    "tier": 2,
+    "role": "Infiltration / Stealth",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Infiltration / Stealth"
+    }
+  },
+  "_id": "fZmZJxwXC5588rHm",
+  "sort": 0,
+  "_key": "!actors!fZmZJxwXC5588rHm"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Collector Drone",
+  "type": "adversary",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>### Tier 2 Standard\nA disturbing fusion of insect and cybernetics, controlled by a remote will.  \nMotives &amp; Tactics: Paralyze, collect samples, advance inexorably, &quot;Take Direct Control&quot;</p><p>#### Features\nParticle Beam - Action: Mark 1 Stress to emit a continuous beam at a target. Make an attack roll. If successful, the target takes standard damage and the beam remains locked on. For the next attack to the same target, the Collector Drone has advantage, and it causes Direct Damage.</p><p>Harbinger&#x27;s Will - Passive: Each Collector Drone knows everything that the other Collector Drones in the same scene know, including any hidden enemies that are only visible to one of them.</p><p>Assume Control - Reaction: When the Drone is defeated, roll a d6. On a 6, the drone explodes in a burst of biotic energy, forcing all enemies within close range to make an Instinct Reaction roll. Those who fail are Vulnerable.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Standard",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Standard"
+    }
+  },
+  "_id": "uBSHC2lzkZidTESz",
+  "sort": 0,
+  "_key": "!actors!uBSHC2lzkZidTESz"
+}

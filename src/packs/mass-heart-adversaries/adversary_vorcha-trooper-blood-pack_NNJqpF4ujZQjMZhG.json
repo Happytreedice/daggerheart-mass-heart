@@ -1,0 +1,30 @@
+{
+  "name": "Vorcha Trooper (Blood Pack)",
+  "type": "adversary",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>### Tier 1 Standard\nA savage, regenerative reptilian humanoid wielding an assault rifle and a bad attitude.  \nMotives &amp; Tactics: Intimidate, regenerate wounds, flank, suppress fire</p><p>#### Features\nHyper-Regeneration - Passive: When the Vorcha gains the Spotlight, if they has marked HP but are not defeated, clear 1 HP.</p><p>Bloodlust - Action: The Vorcha has an advantage against opponents who have already marked HP.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 1,
+    "role": "Standard",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Standard"
+    }
+  },
+  "_id": "NNJqpF4ujZQjMZhG",
+  "sort": 0,
+  "_key": "!actors!NNJqpF4ujZQjMZhG"
+}

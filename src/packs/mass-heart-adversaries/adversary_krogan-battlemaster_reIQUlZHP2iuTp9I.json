@@ -1,0 +1,30 @@
+{
+  "name": "Krogan Battlemaster",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "system": {
+    "description": "<p>### Tier 2 Solo\nAn elder warlord possessing immense physical strength and biotics, capable of taking on whole squads alone.  \nMotives &amp; Tactics: Charge, barrier regeneration, blast, rage</p><p>#### Features\nRelentless (2): The Banshee can be spotlighted up to 2 times per GM turn. Spend Fear as usual to spotlight them.</p><p>Biotic Charge - Action: Mark a Stress to charge through a group within Close range and make an attack against all targets in the Battlemaster’s path. Targets the Battlemaster succeeds against take 2d6+8 physical damage and are knocked back to Very Far range. If a target is knocked into a solid object or another creature, they take an extra 1d6 damage (combine their damage).</p><p>Barrier - Reaction: When the Battlemaster would take damage, spend 1 Stress to roll 1d12. Reduce the damage by the result.</p><p>Nova - Action: Spend 2 Fear. The Battlemaster expends their Biotic Barrier in an explosion. All targets within Close range take 4d8 ene damage. The Battlemaster can&#x27;t use the Barrier reaction anymore.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Solo",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Solo"
+    }
+  },
+  "_id": "reIQUlZHP2iuTp9I",
+  "sort": 0,
+  "_key": "!actors!reIQUlZHP2iuTp9I"
+}

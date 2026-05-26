@@ -1,0 +1,167 @@
+{
+  "name": "Chameleon Tool",
+  "type": "weapon",
+  "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Karma: When you are attacked, roll a d6. On a 6, the target must mark a HP.</p>",
+    "quantity": 1,
+    "actions": {
+      "M00cgBnpOiVUwR0l": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Karma",
+        "description": "When you are attacked, roll a d6. On a 6, the target must mark a HP.",
+        "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
+        "cost": [],
+        "_id": "M00cgBnpOiVUwR0l",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsKarma",
+        "effectIds": [],
+        "actionIds": [
+          "M00cgBnpOiVUwR0l"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+      "_id": "PSA2fROkPGlaUgYg",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "far",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "knowledge",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d4",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d4",
+              "bonus": 2,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "magical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d4",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 2,
+      "slot": "secondary",
+      "weaponType": "Omni-tool",
+      "featureText": "Karma: When you are attacked, roll a d6. On a 6, the target must mark a HP."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "LHdlTKX1f9iyZyhd",
+  "sort": 0,
+  "_key": "!items!LHdlTKX1f9iyZyhd"
+}

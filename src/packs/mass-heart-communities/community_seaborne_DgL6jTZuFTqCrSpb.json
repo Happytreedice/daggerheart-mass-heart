@@ -1,0 +1,26 @@
+{
+  "name": "Seaborne",
+  "type": "community",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "description": "<p>You may not have necessarily grown up near a large body of water, but you have always been around spaceports and freighter docks. You may have helped with resupplying or maintaining ships that arrived, guiding the crew on their visit, or entertained travelers with a local tradition.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "DgL6jTZuFTqCrSpb",
+  "sort": 0,
+  "_key": "!items!DgL6jTZuFTqCrSpb"
+}

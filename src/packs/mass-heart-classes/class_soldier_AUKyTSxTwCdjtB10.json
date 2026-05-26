@@ -1,0 +1,37 @@
+{
+  "name": "Soldier",
+  "type": "class",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p># Soldier\nDomains: Valor, Blade</p><p>#### Shock Trooper\nThe Shock Trooper is a mobile fighter that can use Adrenaline to push beyond their limits.</p><p>Domain: Bone</p><p>#### Commando\nThe Commando specializes in weapons, enhancing them with Munitions to be prepared for any situation.</p><p>Domain: Midnight\n::\n##</p>",
+    "domains": [
+      "valor",
+      "blade"
+    ],
+    "evasion": null,
+    "hitPoints": null,
+    "features": [],
+    "subclasses": [
+      "Shock Trooper",
+      "Commando"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "AUKyTSxTwCdjtB10",
+  "sort": 0,
+  "_key": "!items!AUKyTSxTwCdjtB10"
+}

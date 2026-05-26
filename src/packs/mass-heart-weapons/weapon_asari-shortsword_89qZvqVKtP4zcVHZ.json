@@ -1,0 +1,177 @@
+{
+  "name": "Asari Shortsword",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Paired: 1+Tier to primary weapon damage to targets within Melee range</p>",
+    "quantity": 1,
+    "actions": {},
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsPaired",
+        "effectIds": [
+          "gORyHy8QAHiBnyRr"
+        ],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/swords/sword-runed-glowing.webp",
+      "_id": "ujmiXY0UaefROVxi",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "finesse",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d8",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d8",
+              "bonus": 1,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "physical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Paired",
+      "type": "base",
+      "img": "icons/magic/control/silhouette-aura-energy.webp",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        }
+      },
+      "changes": [
+        {
+          "key": "system.bonuses.damage.primaryWeapon.bonus",
+          "mode": 2,
+          "value": "ITEM.@system.tier + 1"
+        }
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "1+Tier to primary weapon damage to targets within Melee range.",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "daggerheartSpace": {
+          "generatedFeature": "dhsPaired"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_id": "gORyHy8QAHiBnyRr",
+      "sort": 0,
+      "_key": "!items.effects!89qZvqVKtP4zcVHZ.gORyHy8QAHiBnyRr"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 1,
+      "slot": "secondary",
+      "weaponType": "Melee",
+      "featureText": "Paired: 1+Tier to primary weapon damage to targets within Melee range"
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "89qZvqVKtP4zcVHZ",
+  "sort": 0,
+  "_key": "!items!89qZvqVKtP4zcVHZ"
+}

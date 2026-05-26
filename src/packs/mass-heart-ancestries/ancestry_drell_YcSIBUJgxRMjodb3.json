@@ -1,0 +1,26 @@
+{
+  "name": "Drell",
+  "type": "ancestry",
+  "img": "icons/creatures/magical/humanoid-silhoette-alien-gray.webp",
+  "system": {
+    "description": "<p>Native to the arid desert world Rakhana, the reptile-like Drell are rarely found in the Milky Way. The sparse resources on their homeworld led to the emergence of perfect eidetic memory, to remember oases as they traveled nomadically. As resources dwindled further, the Hanar took steps to evacuate as many Drell as possible, but many still suffered the harsh reality of extinction.</p><p>&gt; Drell are not well accustomed to the humidity of the Hanar homeworld, leading many of the rescued Drell to develop a disease called &#x27;Kepral Syndrome&#x27;. As of yet, no cure has been discovered, leading many Drell to turn towards</p><p>- Eidetic Memory: You can accurately recall any memory. You have Advantage on Knowledge and Instinct Rolls that involve an enemy or location already encountered.\n- Survival Sense: Once per rest, mark a Stress to force an adversary to reroll an attack against you or an ally within Very Close range.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "YcSIBUJgxRMjodb3",
+  "sort": 0,
+  "_key": "!items!YcSIBUJgxRMjodb3"
+}

@@ -1,0 +1,167 @@
+{
+  "name": "N7 Valkyrie",
+  "type": "weapon",
+  "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Dual-Barrel: When you fail an attack with Hope, you may reroll it once.</p>",
+    "quantity": 1,
+    "actions": {
+      "oDtALD66tMEiM04B": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Dual-Barrel",
+        "description": "When you fail an attack with Hope, you may reroll it once.",
+        "img": "icons/magic/control/silhouette-aura-energy.webp",
+        "cost": [],
+        "_id": "oDtALD66tMEiM04B",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsDualBarrel",
+        "effectIds": [],
+        "actionIds": [
+          "oDtALD66tMEiM04B"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+      "_id": "ZBg3HBnUEOFFnKby",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "close",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "agility",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d8",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d8",
+              "bonus": 10,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "physical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 4,
+      "slot": "primary",
+      "weaponType": "Assault Rifle",
+      "featureText": "Dual-Barrel: When you fail an attack with Hope, you may reroll it once."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "I2Uzf88pdkTQCzt1",
+  "sort": 0,
+  "_key": "!items!I2Uzf88pdkTQCzt1"
+}

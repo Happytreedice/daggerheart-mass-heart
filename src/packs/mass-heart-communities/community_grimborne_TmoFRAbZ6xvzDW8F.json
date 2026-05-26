@@ -1,0 +1,26 @@
+{
+  "name": "Grimborne",
+  "type": "community",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "description": "<p>You grew up in the lawless territories outside Citadel-protected space - the Terminus Systems. Growing up here, you quickly learned that kindness and trust are a form of weakness to exploit. You might have been a part of mercenary groups on Omega, part of a pirate squad, or a slaver by trade. Alternatively, you might have been subjected to the brutal reign these groups enforced upon you, or you have been fighting tirelessly, often forced to forsake your own principles.\n- Drastic Measure: Once per session, when you or an ally you Helped roll with Hope, you can turn it into a roll with Fear to gain +1 on all action and reaction rolls for the remainder of the session.</p><p>{{FrameHeader,wide\n### Mass Heart\n:</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "TmoFRAbZ6xvzDW8F",
+  "sort": 0,
+  "_key": "!items!TmoFRAbZ6xvzDW8F"
+}

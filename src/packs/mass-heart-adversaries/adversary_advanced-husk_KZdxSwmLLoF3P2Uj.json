@@ -1,0 +1,30 @@
+{
+  "name": "Advanced Husk",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "system": {
+    "description": "<p>### Tier 2 Minion\nA mindlessly aggressive cybernetic zombie. They swarm in terrifying numbers.  \nMotives &amp; Tactics: Swarm, grab and bite</p><p>#### Features\nMinion (10): For every 6 points of damage dealt, defeat an additional Husk in the group.</p><p>Static Pulse - Reaction: When a Husk is defeated in Melee, it releases an electrical burst. The attacker must make an Instinct Reaction Roll or mark 1 Stress.</p><p>Weight of Numbers - Passive: If a PC is within Melee range of 3 or more Husks, they are Restrained and cannot move until they succeed on a Strength Reaction Roll.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Minion",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Minion"
+    }
+  },
+  "_id": "KZdxSwmLLoF3P2Uj",
+  "sort": 0,
+  "_key": "!actors!KZdxSwmLLoF3P2Uj"
+}

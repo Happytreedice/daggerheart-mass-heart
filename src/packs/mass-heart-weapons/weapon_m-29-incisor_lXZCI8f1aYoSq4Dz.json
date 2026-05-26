@@ -1,0 +1,176 @@
+{
+  "name": "M-29 Incisor",
+  "type": "weapon",
+  "img": "icons/weapons/guns/rifle-sniper-energy-heavy.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Overheat 3</p>",
+    "quantity": 1,
+    "actions": {
+      "2782ORhfBQXrJsAX": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Overheat 3",
+        "description": "When you attack, add a Heat token. If this weapon has more than 3 Heat, it cannot be used. Mark a Stress to clear all Heat.",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "2782ORhfBQXrJsAX",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": 0,
+          "max": 3,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsOverheat3",
+        "effectIds": [],
+        "actionIds": [
+          "2782ORhfBQXrJsAX"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/rifle-sniper-energy-heavy.webp",
+      "_id": "PMuvafIKrBfRVTF1",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "veryFar",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "finesse",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d6",
+              "bonus": 3,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "physical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 1,
+      "slot": "primary",
+      "weaponType": "Sniper Rifle",
+      "featureText": "Overheat 3"
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "lXZCI8f1aYoSq4Dz",
+  "sort": 0,
+  "_key": "!items!lXZCI8f1aYoSq4Dz"
+}

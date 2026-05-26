@@ -1,0 +1,30 @@
+{
+  "name": "Reaper Marauder",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "system": {
+    "description": "<p>### Tier 3 Support\nA corrupted Turian strategos that hardens nearby allies with carapace plating.  \nMotives &amp; Tactics: Fortify, cover</p><p>#### Features\nCarapace Fortification - Action: The Marauder screams, signaling the Reaper signal. Up to 3 allies within Far range restore 2 HP and their Minor Threshold increases by 3 for the remainder of the scene.</p><p>Tactical Elbow - Reaction: If a PC enters Melee range, the Marauder may spend 1 Fear to strike them for 1d12+5 phy damage and push them to Close range.</p><p>Covering Fire - Passive: When an ally within Far range of the Marauder moves, the Marauder may make a free Standard Attack against any PC that has &quot;Spotlight&quot; on that ally.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 3,
+    "role": "Support",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Support"
+    }
+  },
+  "_id": "ymRNbo7Zy7nrBHdm",
+  "sort": 0,
+  "_key": "!actors!ymRNbo7Zy7nrBHdm"
+}

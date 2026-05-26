@@ -1,0 +1,176 @@
+{
+  "name": "Prodigy Amp",
+  "type": "weapon",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Deflecting: When you are attacked, you can mark a Shield Slot to gain a bonus to your Evasion equal to your unmarked Shield Slots against the attack.</p>",
+    "quantity": 1,
+    "actions": {
+      "LxC2ZEydLens3ABq": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Deflecting",
+        "description": "When attacked, mark a Shield Slot to gain an Evasion bonus equal to your unmarked Shield Slots against the attack.",
+        "img": "icons/skills/melee/shield-block-bash-blue.webp",
+        "cost": [
+          {
+            "key": "armor",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "LxC2ZEydLens3ABq",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsDeflectingShield",
+        "effectIds": [],
+        "actionIds": [
+          "LxC2ZEydLens3ABq"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "_id": "ZWTBceZPtBmcENST",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "instinct",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d8",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d8",
+              "bonus": 2,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "magical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 2,
+      "slot": "secondary",
+      "weaponType": "Amp",
+      "featureText": "Deflecting: When you are attacked, you can mark a Shield Slot to gain a bonus to your Evasion equal to your unmarked Shield Slots against the attack."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "IopHqWQtH9iAtxDV",
+  "sort": 0,
+  "_key": "!items!IopHqWQtH9iAtxDV"
+}

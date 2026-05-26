@@ -1,0 +1,248 @@
+{
+  "name": "Geth Spitfire Prototype",
+  "type": "weapon",
+  "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Ammo 3. Supermassive: -2 to Evasion, -1 Agility. On a successful attack, reroll any amount of damage dice once.</p>",
+    "quantity": 1,
+    "actions": {
+      "B0dqN939R73UhzaZ": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Ammo 3",
+        "description": "Remove an Ammo token when you attack with this weapon.",
+        "img": "icons/weapons/ammunition/shot-round-blue.webp",
+        "cost": [],
+        "_id": "B0dqN939R73UhzaZ",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": 0,
+          "max": 3,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "YWiN6HLeM8qmBTtK": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Supermassive",
+        "description": "On a successful attack, reroll any amount of damage dice once.",
+        "img": "icons/magic/control/silhouette-aura-energy.webp",
+        "cost": [],
+        "_id": "YWiN6HLeM8qmBTtK",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 3,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsAmmo3",
+        "effectIds": [],
+        "actionIds": [
+          "B0dqN939R73UhzaZ"
+        ]
+      },
+      {
+        "value": "dhsSupermassive",
+        "effectIds": [
+          "LPwww2QqwkCHOR6q"
+        ],
+        "actionIds": [
+          "YWiN6HLeM8qmBTtK"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+      "_id": "Qhg58QMO9AtAEUMS",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "far",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "strength",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d12",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d12",
+              "bonus": 6,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "magical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d12",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Supermassive",
+      "type": "base",
+      "img": "icons/magic/movement/acceleration-speed-tech-blue.webp",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        }
+      },
+      "changes": [
+        {
+          "key": "system.evasion",
+          "mode": 2,
+          "value": "-2"
+        },
+        {
+          "key": "system.traits.agility.value",
+          "mode": 2,
+          "value": "-1"
+        }
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "-2 to Evasion, -1 Agility.",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "daggerheartSpace": {
+          "generatedFeature": "dhsSupermassive"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_id": "LPwww2QqwkCHOR6q",
+      "sort": 0,
+      "_key": "!items.effects!iz0XoGPRfcGww70q.LPwww2QqwkCHOR6q"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 3,
+      "slot": "heavy-primary",
+      "weaponType": "Heavy Weapon",
+      "featureText": "Ammo 3. Supermassive: -2 to Evasion, -1 Agility. On a successful attack, reroll any amount of damage dice once."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "iz0XoGPRfcGww70q",
+  "sort": 0,
+  "_key": "!items!iz0XoGPRfcGww70q"
+}

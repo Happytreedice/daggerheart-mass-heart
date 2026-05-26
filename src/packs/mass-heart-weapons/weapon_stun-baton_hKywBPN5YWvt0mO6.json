@@ -1,0 +1,167 @@
+{
+  "name": "Stun Baton",
+  "type": "weapon",
+  "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Stunning: On a successful attack, you can make the target temporarily Restrained until the end of their next spotlight.</p>",
+    "quantity": 1,
+    "actions": {
+      "itJrPdkcG4vIOZPn": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Stunning",
+        "description": "On a successful attack, temporarily Restrain the target until the end of their next spotlight.",
+        "img": "icons/magic/control/debuff-chains-ropes-net-purple-blue.webp",
+        "cost": [],
+        "_id": "itJrPdkcG4vIOZPn",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsStunning",
+        "effectIds": [],
+        "actionIds": [
+          "itJrPdkcG4vIOZPn"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+      "_id": "sJbpS73AhOdpkspl",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "strength",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d8",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d8",
+              "bonus": null,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "magical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d8",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 1,
+      "slot": "secondary",
+      "weaponType": "Melee",
+      "featureText": "Stunning: On a successful attack, you can make the target temporarily Restrained until the end of their next spotlight."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "hKywBPN5YWvt0mO6",
+  "sort": 0,
+  "_key": "!items!hKywBPN5YWvt0mO6"
+}

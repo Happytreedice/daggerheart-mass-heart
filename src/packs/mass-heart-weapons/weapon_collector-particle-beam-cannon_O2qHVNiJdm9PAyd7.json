@@ -1,0 +1,202 @@
+{
+  "name": "Collector Particle Beam Cannon",
+  "type": "weapon",
+  "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Ammo 6. Recharging: On rest, if you have less than 2 Ammo remaining on this weapon, regain 1 Ammo token.</p>",
+    "quantity": 1,
+    "actions": {
+      "Ks6AsY5Tct4tF2AI": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Ammo 6",
+        "description": "Remove an Ammo token when you attack with this weapon.",
+        "img": "icons/weapons/ammunition/shot-round-blue.webp",
+        "cost": [],
+        "_id": "Ks6AsY5Tct4tF2AI",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": 0,
+          "max": 6,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "5yDc1mCARYktFm8r": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Recharging",
+        "description": "On rest, if you have less than 2 Ammo remaining on this weapon, regain 1 Ammo token.",
+        "img": "icons/weapons/ammunition/shot-round-blue.webp",
+        "cost": [],
+        "_id": "5yDc1mCARYktFm8r",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsAmmo6",
+        "effectIds": [],
+        "actionIds": [
+          "Ks6AsY5Tct4tF2AI"
+        ]
+      },
+      {
+        "value": "dhsRecharging",
+        "effectIds": [],
+        "actionIds": [
+          "5yDc1mCARYktFm8r"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+      "_id": "HfumeBAeZ9aGvH1S",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "veryFar",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "finesse",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d12",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d12",
+              "bonus": 10,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "magical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d12",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 4,
+      "slot": "heavy-primary",
+      "weaponType": "Heavy Weapon",
+      "featureText": "Ammo 6. Recharging: On rest, if you have less than 2 Ammo remaining on this weapon, regain 1 Ammo token."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "O2qHVNiJdm9PAyd7",
+  "sort": 0,
+  "_key": "!items!O2qHVNiJdm9PAyd7"
+}

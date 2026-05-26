@@ -1,0 +1,177 @@
+{
+  "name": "N7 Hurricane",
+  "type": "weapon",
+  "img": "icons/weapons/guns/machine-gun-sub-pistol.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Recoil: -1 to Attack Rolls.</p>",
+    "quantity": 1,
+    "actions": {},
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "secondary": false,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsRecoil",
+        "effectIds": [
+          "TyjPWF4HzwwxrJqz"
+        ],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/machine-gun-sub-pistol.webp",
+      "_id": "NoJkZGt4S7HRcYWA",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "veryClose",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "agility",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d10",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d10",
+              "bonus": 11,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "physical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d10",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Recoil",
+      "type": "base",
+      "img": "icons/magic/control/silhouette-aura-energy.webp",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        }
+      },
+      "changes": [
+        {
+          "key": "system.bonuses.roll.primaryWeapon.bonus",
+          "mode": 2,
+          "value": "-1"
+        }
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "-1 to attack rolls.",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "daggerheartSpace": {
+          "generatedFeature": "dhsRecoil"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_id": "TyjPWF4HzwwxrJqz",
+      "sort": 0,
+      "_key": "!items.effects!M8blukTs5K7ghPJw.TyjPWF4HzwwxrJqz"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 4,
+      "slot": "primary",
+      "weaponType": "SMG",
+      "featureText": "Recoil: -1 to Attack Rolls."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "M8blukTs5K7ghPJw",
+  "sort": 0,
+  "_key": "!items!M8blukTs5K7ghPJw"
+}

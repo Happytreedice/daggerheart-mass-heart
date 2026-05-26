@@ -1,0 +1,26 @@
+{
+  "name": "Human",
+  "type": "ancestry",
+  "img": "icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p>Humans, originally from Earth, have dexterous hands, rounded ears, and can live up to 140 years with proper care. They are remarkably strong-willed and ambitious as they persevere to face the galaxy&#x27;s unknown. This gives them an advantage in adapting to many situations.</p><p>&gt; Humans are relative newcomers in galactic civilization. Some older Humans may still remember a time from before they discovered the Mass Relays. Some inhabitants of the galaxy feel threatened by their quick rise to power.</p><p>- Galactic Ambition: Gain an additional Stress slot at character creation.\n- Persevere: When you roll with Fear, you may mark 2 Stress to turn it into a roll with Hope.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "TwbdDhPPDpXDDDTV",
+  "sort": 0,
+  "_key": "!items!TwbdDhPPDpXDDDTV"
+}

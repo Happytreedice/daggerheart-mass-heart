@@ -1,0 +1,211 @@
+{
+  "name": "M-560 Hydra Missile Launcher",
+  "type": "weapon",
+  "img": "icons/weapons/guns/launcher-rocket-bazooka.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Ammo 2. Multilock: Mark 1 or more Stress when you attack to target that many additional enemies within range.</p>",
+    "quantity": 1,
+    "actions": {
+      "WtkZD5NeLjhbndd2": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Ammo 2",
+        "description": "Remove an Ammo token when you attack with this weapon.",
+        "img": "icons/weapons/ammunition/shot-round-blue.webp",
+        "cost": [],
+        "_id": "WtkZD5NeLjhbndd2",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": 0,
+          "max": 2,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "PfbLVvc7TQyGvcA8": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Multilock",
+        "description": "Mark 1 or more Stress when you attack to target that many additional enemies within range.",
+        "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 1,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "PfbLVvc7TQyGvcA8",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsAmmo2",
+        "effectIds": [],
+        "actionIds": [
+          "WtkZD5NeLjhbndd2"
+        ]
+      },
+      {
+        "value": "dhsMultilock",
+        "effectIds": [],
+        "actionIds": [
+          "PfbLVvc7TQyGvcA8"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/launcher-rocket-bazooka.webp",
+      "_id": "AVnRtB4A01GfDNHt",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "far",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "instinct",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d12",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d12",
+              "bonus": 4,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "physical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d12",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 2,
+      "slot": "heavy-primary",
+      "weaponType": "Heavy Weapon",
+      "featureText": "Ammo 2. Multilock: Mark 1 or more Stress when you attack to target that many additional enemies within range."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "j6hF5eIZHlBeHx1W",
+  "sort": 0,
+  "_key": "!items!j6hF5eIZHlBeHx1W"
+}

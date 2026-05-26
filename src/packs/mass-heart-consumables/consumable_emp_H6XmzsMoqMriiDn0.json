@@ -1,0 +1,32 @@
+{
+  "name": "EMP",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+  "system": {
+    "description": "<p>Targets you succeed against are Shocked. Shocked targets can&#x27;t take reactions. Synthetic targets also take 1d20 energy damage.</p>",
+    "quantity": 1,
+    "resource": {
+      "value": 1,
+      "max": 1
+    },
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "category": "consumable"
+    }
+  },
+  "_id": "H6XmzsMoqMriiDn0",
+  "sort": 0,
+  "_key": "!items!H6XmzsMoqMriiDn0"
+}

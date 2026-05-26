@@ -1,0 +1,38 @@
+{
+  "name": "Mechanic",
+  "type": "subclass",
+  "img": "icons/commodities/tech/cog-gear-steel-glass.webp",
+  "system": {
+    "description": "<p>Play the Mechanic if you want to work in tandem with your drone as an extension of yourself. Gain access to the <strong>Splendor</strong> domain.</p><h3>Foundation Features</h3><p><strong>Zap!:</strong> When you damage a target in Melee range of your drone, add 1d6 to the damage roll.</p><p><strong>Relay:</strong> You may mark a Stress to use your drone as the point of origin of a spell. Spells cast this way cannot trigger Zap!</p><h3>Specialization Feature</h3><p><strong>Drone Specialist:</strong> When you summon your drone, you can spend an additional Hope to give it a specialization: Defense gives adversaries in Melee range of the drone Disadvantage on attacks; Combat lets you make a Spellcast Roll against a target in Far range of your Drone to command an attack that deals d8+6 physical damage using your proficiency; Explosive makes all adversaries in Very Close range mark a Stress when the drone dissipates.</p><h3>Mastery Feature</h3><p><strong>Artificer:</strong> As an additional downtime move you can choose, create a simple consumable that expires on your next rest.</p><p><strong>Delivery:</strong> When you summon your drone, you may attach one consumable from your inventory. Any ally in Melee range of your Drone can use the consumable, or you may command your drone to use it.</p>",
+    "class": "Engineer",
+    "domain": "Splendor",
+    "powerTrait": "Knowledge - Tech",
+    "features": [
+      "Zap!",
+      "Relay",
+      "Drone Specialist",
+      "Artificer",
+      "Delivery"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Engineer",
+      "domain": "Splendor"
+    }
+  },
+  "_id": "eVGMeTENfWTepfIz",
+  "sort": 0,
+  "_key": "!items!eVGMeTENfWTepfIz"
+}

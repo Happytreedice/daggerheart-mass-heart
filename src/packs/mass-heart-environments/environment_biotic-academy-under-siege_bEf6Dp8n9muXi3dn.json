@@ -1,0 +1,30 @@
+{
+  "name": "Biotic Academy Under Siege",
+  "type": "environment",
+  "img": "icons/commodities/tech/cog-gear-steel-glass.webp",
+  "system": {
+    "description": "<p>### Tier 3 Event\nA school for young biotics under attack by Cerberus or the Reapers. Unstable force fields everywhere.  \nImpulses: Shattering glass, blue energy flares, desperate cries for help.</p><p>#### Features\nBiotic Anomaly - Action: Spend a Fear, to shift the unstable biotic field shifts. Choose a direction: everyone (PCs and enemies) is shoved to Far Range in that direction. Anyone who hits a wall or solid object takes 1d10+5 magic (biotic) damage.</p><p>Is it a wave of blue force or a sudden gravity reversal? Who gets slammed against the ceiling?</p><p>Unstable Singularity - Reaction: When a PC rolls with Fear, a localized singularity collapses nearby. Create a Very Close zone that lasts for one round. Any creature that moves through or ends their turn in this zone takes 2d8 magic damage and is Slowed.</p><p>Does the singularity look like a miniature black hole or a swirling vortex of blue light?</p><p>Student Shield - Passive: Panicked students are projecting shields. Once per scene, a PC can move to a student&#x27;s location to immediately recover 2 Shield Slots as they share the protection. However, doing so makes the student the target of the next adversary attack.</p><p>Do you take the protection and risk the student, or stand in front of them to take the hit?\n}}</p><p>{{environment,</p>",
+    "tier": 3,
+    "role": "Event",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Event"
+    }
+  },
+  "_id": "bEf6Dp8n9muXi3dn",
+  "sort": 0,
+  "_key": "!actors!bEf6Dp8n9muXi3dn"
+}

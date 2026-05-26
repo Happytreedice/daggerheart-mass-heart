@@ -1,0 +1,26 @@
+{
+  "name": "Salarian",
+  "type": "ancestry",
+  "img": "icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p>Salarians are amphibians, native to the planet Sur&#x27;Kesh. Their extremely quick metabolism lets them live, think and act at twice the speed of other races. Though, this also means they rarely live past 40 human years. They have slender, tall bodies with large oval-shaped eyes and cartilagous horns.</p><p>&gt; Salarians were close behind the Asari in their discovery of the Citadel. They play a vital role in intelligence and research divisions.</p><p>- Rapid Analysis: You may mark a Stress to gain Advantage on a Reaction Roll.\n- Hyperactive: Gain a permanent +1 bonus to your Evasion at character creation.</p><p>{{</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "PXM25OAcDXt2U44t",
+  "sort": 0,
+  "_key": "!items!PXM25OAcDXt2U44t"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Ardat-Yakshi",
+  "type": "adversary",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p>### Tier 3 Social/Special\nA genetic variant of the Asari who dominates victims psychically and burns their nervous system.  \nMotives &amp; Tactics: Seduce, dominate, terrorize</p><p>#### Features\nDominate Mind - Action: The Ardat-Yakshi locks eyes with a target. The target must make a Presence Reaction Roll. On a failure, they must mark 3 Stress, they gain immediately the Spotlight, and the GM chooses their next action (must be an attack against an ally or a move away from the objective).</p><p>Embrace Eternity - Action: Make an attack against a Restrained or Vulnerable target at Melee range. If successful, deal 5d10 ene damage. The Ardat-Yakshi clears 2 HP and 2 Stress as she drains the target’s life force.</p><p>Aura of Terror - Passive: Any target starting their action within Close range of the Ardat-Yakshi must mark 1 Stress or have Disadvantage on all rolls.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 3,
+    "role": "Social/Special",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Social/Special"
+    }
+  },
+  "_id": "kSDaPuEu6lhT2stO",
+  "sort": 0,
+  "_key": "!actors!kSDaPuEu6lhT2stO"
+}

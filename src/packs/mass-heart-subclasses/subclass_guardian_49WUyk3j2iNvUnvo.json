@@ -1,0 +1,38 @@
+{
+  "name": "Guardian",
+  "type": "subclass",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "system": {
+    "description": "<p>Play the Guardian if you want to take hits for your team and support them. Gain access to the <strong>Valor</strong> domain.</p><h3>Foundation Features</h3><p><strong>Fortification:</strong> Once per long rest when you activate Tech Armor, gain Overshield equal to your Tier and these additional benefits until Tech Armor deactivates: resistance to physical damage, immunity to Restrained and Vulnerable, and you cannot be moved against your will.</p><p><strong>Retaliate:</strong> When you mark a Shield Slot to reduce damage from an adversary in Close range while Tech Armor is active, they must mark a Stress.</p><h3>Specialization Feature</h3><p><strong>Protector:</strong> When an ally in Very Close range would take damage, you may mark a Shield Slot to reduce the damage by one threshold.</p><p><strong>Defense Matrix:</strong> When Tech Armor ends, clear a Shield Slot.</p><h3>Mastery Feature</h3><p><strong>Tech Burst:</strong> Once per rest when Tech Armor ends, all adversaries in Very Close range must succeed on a Reaction Roll (17) or they are knocked back to Far range and become temporarily Vulnerable. Additionally, all allies in Very Close range clear one Shield Slot.</p>",
+    "class": "Sentinel",
+    "domain": "Valor",
+    "powerTrait": "Strength",
+    "features": [
+      "Fortification",
+      "Retaliate",
+      "Protector",
+      "Defense Matrix",
+      "Tech Burst"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Sentinel",
+      "domain": "Valor"
+    }
+  },
+  "_id": "49WUyk3j2iNvUnvo",
+  "sort": 0,
+  "_key": "!items!49WUyk3j2iNvUnvo"
+}

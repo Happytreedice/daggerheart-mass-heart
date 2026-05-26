@@ -1,0 +1,186 @@
+{
+  "name": "Kinetic Barrier",
+  "type": "weapon",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Barrier: +Tier to Armor Score; −1 to Evasion</p>",
+    "quantity": 1,
+    "actions": {},
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsBarrierMass",
+        "effectIds": [
+          "ZyQqFArsQ62TjFTD"
+        ],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "_id": "fCGXtYOSVANzmQBR",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "melee",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "strength",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d6",
+              "bonus": null,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "physical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Barrier",
+      "type": "base",
+      "img": "icons/skills/melee/shield-block-bash-blue.webp",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        }
+      },
+      "changes": [
+        {
+          "key": "Armor",
+          "type": "armor",
+          "value": 0,
+          "typeData": {
+            "type": "armor",
+            "max": "ITEM.@system.tier"
+          }
+        },
+        {
+          "key": "system.evasion",
+          "mode": 2,
+          "value": "-1"
+        }
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "+Tier to Armor Score; -1 to Evasion.",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "daggerheartSpace": {
+          "generatedFeature": "dhsBarrierMass"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_id": "ZyQqFArsQ62TjFTD",
+      "sort": 0,
+      "_key": "!items.effects!ETKXZp6IeKLMinKF.ZyQqFArsQ62TjFTD"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 1,
+      "slot": "secondary",
+      "weaponType": "Omni-tool",
+      "featureText": "Barrier: +Tier to Armor Score; −1 to Evasion"
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "ETKXZp6IeKLMinKF",
+  "sort": 0,
+  "_key": "!items!ETKXZp6IeKLMinKF"
+}

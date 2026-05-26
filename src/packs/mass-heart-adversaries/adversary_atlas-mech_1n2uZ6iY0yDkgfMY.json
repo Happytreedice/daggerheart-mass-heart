@@ -1,0 +1,30 @@
+{
+  "name": "Atlas Mech",
+  "type": "adversary",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>### Tier 4 Bruiser\nA gargantuan piloted mech suit equipped with a mass accelerator cannon and heavy missile launchers.  \nMotives &amp; Tactics: Crush cover, grab, endure</p><p>#### Features\nMissile Barrage - Action: Spend 1 Fear. The Atlas fires a volley at up to three different targets within Far range. Each target must make a Reaction Roll or take 4d8 ene damage and became Vulnerable.</p><p>Hydraulic Crush - Action: Make an attack in melee range. If the attack is successful, the target is Restrained.</p><p>Hardened Ceramic Plating - Reaction: When the Atlas enters the scene, add 10 Shield tokens.</p><p>Gargantuan - Reaction: When the Atlas takes damage, you can Spend a Fear and remove a Shield token to reduce the damage by 15.</p><p>Siege Engine - Passive: The Atlas ignores all cover that is not &quot;Heavy&quot; (like a reinforced bunker). It destroys smaller cover (crates, thin walls) simply by moving through or shooting at it.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 4,
+    "role": "Bruiser",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Bruiser"
+    }
+  },
+  "_id": "1n2uZ6iY0yDkgfMY",
+  "sort": 0,
+  "_key": "!actors!1n2uZ6iY0yDkgfMY"
+}

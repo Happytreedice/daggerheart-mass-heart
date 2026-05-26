@@ -1,0 +1,26 @@
+{
+  "name": "Spaceborne",
+  "type": "community",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "description": "<p>Your home is among the stars, without gravity holding you down or atmosphere bringing you comfort. The sound of recirculating air and the sight of stars through metal are all you know. You may have lived on a mining station, a cargo ship, or among the Migrant Fleet.\n- Zero-G Adaptation: You have Advantage on Agility rolls to move in zero-gravity and can easily orient yourself in chaotic situations.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "bwL3DWneBmfE0VAg",
+  "sort": 0,
+  "_key": "!items!bwL3DWneBmfE0VAg"
+}

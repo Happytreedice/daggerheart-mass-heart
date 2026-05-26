@@ -1,0 +1,211 @@
+{
+  "name": "X-492 Blackstar",
+  "type": "weapon",
+  "img": "icons/weapons/guns/launcher-rocket-bazooka.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Ammo 1. Mass Field: Mark 2 Stress to use. Target a point in Close range. Use the attack against everyone in Very Close range of the point. Targets the attack succeeds against are Restrained, Vulnerable and start floating until damaged.</p>",
+    "quantity": 1,
+    "actions": {
+      "XGGGb9txFZsPBYqz": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Ammo 1",
+        "description": "Remove an Ammo token when you attack with this weapon.",
+        "img": "icons/weapons/ammunition/shot-round-blue.webp",
+        "cost": [],
+        "_id": "XGGGb9txFZsPBYqz",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": 0,
+          "max": 1,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "FJMNUVIzvgCqlKAH": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Mass Field",
+        "description": "Mark 2 Stress to attack everyone within Very Close range of a point in Close range. Successful targets are Restrained, Vulnerable, and floating until damaged.",
+        "img": "icons/magic/control/debuff-chains-ropes-net-purple-blue.webp",
+        "cost": [
+          {
+            "key": "stress",
+            "value": 2,
+            "itemId": null,
+            "scalable": false,
+            "step": null,
+            "consumeOnSuccess": false
+          }
+        ],
+        "_id": "FJMNUVIzvgCqlKAH",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsAmmo1",
+        "effectIds": [],
+        "actionIds": [
+          "XGGGb9txFZsPBYqz"
+        ]
+      },
+      {
+        "value": "dhsMassField",
+        "effectIds": [],
+        "actionIds": [
+          "FJMNUVIzvgCqlKAH"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/launcher-rocket-bazooka.webp",
+      "_id": "scOpz0PayYQk5Ufy",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "close",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "strength",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d20",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d20",
+              "bonus": 5,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "magical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d20",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 4,
+      "slot": "heavy-primary",
+      "weaponType": "Heavy Weapon",
+      "featureText": "Ammo 1. Mass Field: Mark 2 Stress to use. Target a point in Close range. Use the attack against everyone in Very Close range of the point. Targets the attack succeeds against are Restrained, Vulnerable and start floating until damaged."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "oHkA8FhS46Cn6AbV",
+  "sort": 0,
+  "_key": "!items!oHkA8FhS46Cn6AbV"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Fenris Mech",
+  "type": "adversary",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>### Tier 1 Skulk\nA quadruple-legged robotic hound designed for pursuit and takedowns, equipped with a taser bite.  \nMotives &amp; Tactics: Rush from cover, stun target</p><p>#### Features\nAmbush Predator - Passive: The Fenris Mech deals direct damage while they’re Hidden.</p><p>Neural Shock - Reaction: When the Fenris Mech deals damage with its Taser Bite, the GM may spend 1 Fear to inflict the Shocked condition. Shocked targets have disadvantage on their next action roll, then clear the condition.</p><p>High-Speed Servos - Action: The Fenris Mech can move up to Far range as a free movement and immediately take the Hide action.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 1,
+    "role": "Skulk",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Skulk"
+    }
+  },
+  "_id": "5yaay4J1X27sVWuv",
+  "sort": 0,
+  "_key": "!actors!5yaay4J1X27sVWuv"
+}

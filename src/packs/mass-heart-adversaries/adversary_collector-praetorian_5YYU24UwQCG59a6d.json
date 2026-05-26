@@ -1,0 +1,30 @@
+{
+  "name": "Collector Praetorian",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "system": {
+    "description": "<p>### Tier 4 Solo\nA floating, horrific amalgamation of husks with a particle beam and an impenetrable barrier.  \nMotives &amp; Tactics: Tank, clearing area</p><p>#### Features\nRelentless (2): The Praetorian can be spotlighted up to 2 times per GM turn. Spend Fear as usual to spotlight them.</p><p>Death Beam - Action: The Praetorian maintains its beam on a single target. With a successful attack, if the Praetorian uses the next attack on the same target, it deals an additional 2d12 damage.</p><p>Biotic Ground Slam - Action: Spend 2 Fear. The Praetorian crashes into the ground. All targets within Close range take 4d10 phy damage and are pushed to Close range. The Praetorian restores 1 Stress Points per each target.</p><p>Ominous Float - Passive: The Praetorian is always hovering. It ignores difficult terrain and can overcome obstacles on the ground.</p><p>}}</p><p>{{wide</p>",
+    "tier": 4,
+    "role": "Solo",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Solo"
+    }
+  },
+  "_id": "5YYU24UwQCG59a6d",
+  "sort": 0,
+  "_key": "!actors!5YYU24UwQCG59a6d"
+}

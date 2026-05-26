@@ -1,0 +1,30 @@
+{
+  "name": "Asari Commando (Eclipse)",
+  "type": "adversary",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p>### Tier 3 Standard\nAn elite biotic warrior clad in sleek armor, capable of manipulating gravity to crush her foes.  \nMotives &amp; Tactics: Mobility, Control, Suppress</p><p>#### Features\nBiotic Lift - Action: The target must make an Instinct Reaction Roll. On a failure, the target is lifted into the air and become Restrained and Vulnerable until the end of their next turn.</p><p>Warp - Action: Spend 1 Fear. The Commando hits a target with a molecular-shredding field. The target’s Thresholds are reduced by 4 until they receive a heal/cleanse, or until the scene ends. This debuff can&#x27;t stack.</p><p>Blink - Reaction: When targeted by an attack, the Commando may spend 1 Stress to teleport to Close range, potentially causing the attack to miss if the new position provides full cover.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 3,
+    "role": "Standard",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Standard"
+    }
+  },
+  "_id": "xNYmLtj9vlgBPCrO",
+  "sort": 0,
+  "_key": "!actors!xNYmLtj9vlgBPCrO"
+}

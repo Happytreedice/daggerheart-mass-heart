@@ -1,0 +1,38 @@
+{
+  "name": "Nemesis",
+  "type": "subclass",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p>Play the Nemesis to exert yourself to become a master of biotic destruction. Gain access to the <strong>Arcana</strong> domain.</p><h3>Foundation Features</h3><p><strong>Warp:</strong> Make a Spellcast Roll against a target. On a success, spend a Hope to make the target Warped. Spellcast and damage rolls against a Warped target gain a bonus equal to your tier. This condition lasts until the GM spends Fear equal to your Instinct to remove it, until you Warp another creature, or until the scene ends.</p><p><strong>Exert:</strong> Once per session, when you Fail with Fear on a Spellcast Roll from a Domain Card, you can place that card in your Vault to turn it into a Success with Fear. Its recall cost is increased by 2 until your next rest.</p><h3>Specialization Features</h3><p><strong>Unstable Warp:</strong> When a Spellcast Roll succeeds against your Warped target, you can end the condition and cause a Biotic Detonation. The target takes d20+3 additional energy damage using your proficiency.</p><p><strong>Clear Mind:</strong> You may add the number of cards in your Vault to your energy damage rolls.</p><h3>Mastery Feature</h3><p><strong>Biotic God:</strong> Once per long rest, after you make a successful Spellcast Roll, you may cast an additional Spell using the same roll. Then, place that card in your Vault.</p>",
+    "class": "Adept",
+    "domain": "Arcana",
+    "powerTrait": "Instinct - Biotic",
+    "features": [
+      "Warp",
+      "Exert",
+      "Unstable Warp",
+      "Clear Mind",
+      "Biotic God"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Adept",
+      "domain": "Arcana"
+    }
+  },
+  "_id": "rhvLYidg0K8jtfhb",
+  "sort": 0,
+  "_key": "!items!rhvLYidg0K8jtfhb"
+}

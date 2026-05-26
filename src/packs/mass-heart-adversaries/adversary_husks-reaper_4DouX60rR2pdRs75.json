@@ -1,0 +1,30 @@
+{
+  "name": "Husks (Reaper)",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "system": {
+    "description": "<p>### Tier 1 Horde (1/HP)\nSynthetic-organic &quot;zombies&quot; created from the bodies of organic beings.  \nMotives &amp; Tactics: Grapple, overwhelm, chase</p><p>#### Features\nHorde (1d6+1) - Passive: When the Husks have marked half or more of their HP, their standard attack deals 1d6+1 physical damage instead.</p><p>Terrifying Hiss (Passive): When the Husks make a successful attack, the target must mark a Stress.\n}}</p><p>{{adversary,</p>",
+    "tier": 1,
+    "role": "Horde (1/HP)",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Horde (1/HP)"
+    }
+  },
+  "_id": "4DouX60rR2pdRs75",
+  "sort": 0,
+  "_key": "!actors!4DouX60rR2pdRs75"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Sentinel",
+  "type": "class",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p># Sentinel\nDomains: Splendor, Codex</p><p>#### Guardian\nThe Guardian uses powerful shields to protect their team and enhance their abilities.</p><p>Domain: Valor</p><p>#### Raider\nThe Raider is a jack-of-all-trades that can catch people off-guard by weaving their many talents together.</p><p>Domain: Sage\n::\n##</p>",
+    "domains": [
+      "splendor",
+      "codex"
+    ],
+    "evasion": null,
+    "hitPoints": null,
+    "features": [],
+    "subclasses": [
+      "Guardian",
+      "Raider"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "zRXU7lCgHZNsj0vg",
+  "sort": 0,
+  "_key": "!items!zRXU7lCgHZNsj0vg"
+}

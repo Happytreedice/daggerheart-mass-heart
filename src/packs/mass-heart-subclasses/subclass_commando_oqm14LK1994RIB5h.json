@@ -1,0 +1,38 @@
+{
+  "name": "Commando",
+  "type": "subclass",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>Play the Commando if you like to enhance your weapons with special Munitions to be prepared for anything. Gain access to the <strong>Midnight</strong> domain.</p><h3>Foundation Features</h3><p><strong>Bandolier:</strong> When picking this subclass, you gain access to two Munitions. When you reach a new tier, choose one more. Once per long rest, you may swap one Munition on your belt for another.</p><p><strong>Locked &amp; Loaded:</strong> Mark a Stress to load a Munition on a non-Heavy weapon until the end of the scene or until the GM ends it as a consequence. When you make a successful attack with that weapon, you can apply the effects of the Munition. Each weapon can only be loaded with one Munition at a time.</p><h3>Specialization Features</h3><p><strong>Special Reserves:</strong> When you use a consumable or spend Ammo from a Heavy Weapon, roll a d6. On a 6, it is not consumed.</p><p><strong>Thriller:</strong> When you would gain Hope, you may choose to gain Adrenaline instead.</p><h3>Mastery Feature</h3><p><strong>Powerful Attacks:</strong> You can always spend 1 Adrenaline during a damage roll to roll another damage die and discard the lowest.</p><h3>Munitions</h3><ul><li><strong>Inferno Rounds:</strong> The target must Mark a Stress.</li><li><strong>Cryo Rounds:</strong> The target has Disadvantage on their next reaction roll.</li><li><strong>Warp Rounds:</strong> The target's Damage Thresholds are reduced by your Tier until they clear a Hit Point.</li><li><strong>Disruptor Rounds:</strong> The target uses a d12 instead of a d20 for their next attack roll.</li><li><strong>Tungsten Rounds:</strong> Damage dealt cannot be reduced by any features.</li><li><strong>Shredder Rounds:</strong> If you deal Severe damage, the target marks an additional HP.</li><li><strong>Hammerhead Rounds:</strong> The target must succeed on a Reaction Roll (14) or they are knocked back a Close range.</li><li><strong>Phasing Rounds:</strong> Your attack roll ignores disadvantage on Hidden targets and may hit targets in cover.</li><li><strong>Radioactive Rounds:</strong> The next action against the target has Advantage.</li><li><strong>Chemical Rounds:</strong> The target becomes Corroded, reducing their difficulty by 1 until cleared.</li></ul>",
+    "class": "Soldier",
+    "domain": "Midnight",
+    "powerTrait": "Finesse or Strength",
+    "features": [
+      "Bandolier",
+      "Locked & Loaded",
+      "Special Reserves",
+      "Thriller",
+      "Powerful Attacks"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Soldier",
+      "domain": "Midnight"
+    }
+  },
+  "_id": "oqm14LK1994RIB5h",
+  "sort": 0,
+  "_key": "!items!oqm14LK1994RIB5h"
+}

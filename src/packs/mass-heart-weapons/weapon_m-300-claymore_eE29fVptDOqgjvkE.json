@@ -1,0 +1,208 @@
+{
+  "name": "M-300 Claymore",
+  "type": "weapon",
+  "img": "icons/weapons/guns/shotgun-tech-green-yellow.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.</p>",
+    "quantity": 1,
+    "actions": {
+      "cz1iVHU3kqYKA9IE": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Massive",
+        "description": "On a successful attack, roll an additional damage die and discard the lowest result.",
+        "img": "icons/magic/control/silhouette-aura-energy.webp",
+        "cost": [],
+        "_id": "cz1iVHU3kqYKA9IE",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsMassive",
+        "effectIds": [
+          "i0oPtmprg99LWwtC"
+        ],
+        "actionIds": [
+          "cz1iVHU3kqYKA9IE"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/shotgun-tech-green-yellow.webp",
+      "_id": "aG4NQ36PZLWaEKKi",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "veryClose",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "strength",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d12",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d12",
+              "bonus": 4,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "physical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d12",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Massive",
+      "type": "base",
+      "img": "icons/magic/movement/acceleration-speed-tech-blue.webp",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        }
+      },
+      "changes": [
+        {
+          "key": "system.evasion",
+          "mode": 2,
+          "value": "-1"
+        }
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "-1 to Evasion.",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "daggerheartSpace": {
+          "generatedFeature": "dhsMassive"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_id": "i0oPtmprg99LWwtC",
+      "sort": 0,
+      "_key": "!items.effects!eE29fVptDOqgjvkE.i0oPtmprg99LWwtC"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 2,
+      "slot": "primary",
+      "weaponType": "Shotgun",
+      "featureText": "Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "eE29fVptDOqgjvkE",
+  "sort": 0,
+  "_key": "!items!eE29fVptDOqgjvkE"
+}

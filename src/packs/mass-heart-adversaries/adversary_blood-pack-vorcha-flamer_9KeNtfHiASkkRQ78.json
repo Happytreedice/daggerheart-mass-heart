@@ -1,0 +1,30 @@
+{
+  "name": "Blood Pack Vorcha (Flamer)",
+  "type": "adversary",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>### Tier 1 Standard\nThe Blood Pack mercenaries o0ften employ Vorcha for their resilience and aggression. This variant focuses on area denial and punishing stationary players.  \nMotives &amp; Tactics: Flush out cover, regenerate, burn\nA fragile, bipedal security robot programmed for mass deployment. They march forward firing indiscriminately.</p><p>#### Features\nPyro-Shielding - Passive: The Vorcha takes half damage from fire-based attacks.</p><p>Vent Heat - Action: Mark a Stress to unleash a burst of flame in a cone. All targets within Very Close range must make an Agility Reaction Roll. On a failure, they take 1d6 ene damage and they must mark 1 Shield Slot without gaining its benefits due to thermal overload.</p><p>Resilient Biology - Reaction: When the Vorcha marks HP, you can spend a Fear to immediately clear 1 Stress.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 1,
+    "role": "Standard",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Standard"
+    }
+  },
+  "_id": "9KeNtfHiASkkRQ78",
+  "sort": 0,
+  "_key": "!actors!9KeNtfHiASkkRQ78"
+}

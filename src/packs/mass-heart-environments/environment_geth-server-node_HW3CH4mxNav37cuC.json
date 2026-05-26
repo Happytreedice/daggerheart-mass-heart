@@ -1,0 +1,30 @@
+{
+  "name": "Geth Server Node",
+  "type": "environment",
+  "img": "icons/commodities/tech/electronics-chip-data.webp",
+  "system": {
+    "description": "<p>### Tier 3 Exploration / Mental\nAn abstract digital landscape within the geth collective consciousness. Reality is made up of cascading green and black data, where thoughts take physical form.  \nImpulses: Rewrite the code, glitch the system, merge with the collective.</p><p>#### Features\nVirtual Physics - Passive: Physicality is an illusion here. PCs must use Knowledge instead of Strength and Instinct instead of Agility for all movement, defense, and melee attack rolls.</p><p>How does your digital avatar differ from your physical body? Does your weapon look like code or a shimmering light?</p><p>Hacking Reality - Action: A PC may attempt to rewrite the environment. On a successful Knowledge Roll (17), they can create a temporary bridge, delete a piece of cover an enemy is using, or grant an ally Advantage on their next roll.</p><p>What lines of code do you visualize to bridge the digital chasm?</p><p>Firewall Detection - Reaction: When a PC rolls with Fear, the system identifies them as a virus. Spend a Fear to spawn a &quot;Security Spike.&quot; The target must make a Knowledge Reaction Roll (17) or take 2d10+5 tech damage as the server attempts to purge their consciousness.</p><p>Do you feel the heat of the server&#x27;s processing power as it tries to delete you?\n}}</p><p>{{environment,</p>",
+    "tier": 3,
+    "role": "Exploration / Mental",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Exploration / Mental"
+    }
+  },
+  "_id": "HW3CH4mxNav37cuC",
+  "sort": 0,
+  "_key": "!actors!HW3CH4mxNav37cuC"
+}

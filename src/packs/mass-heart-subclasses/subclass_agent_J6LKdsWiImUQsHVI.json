@@ -1,0 +1,38 @@
+{
+  "name": "Agent",
+  "type": "subclass",
+  "img": "icons/equipment/back/cloak-collared-grey.webp",
+  "system": {
+    "description": "<p>Play the Agent if you want to deceive your opponents and strike at the most opportune moments. Gain access to the <strong>Codex</strong> domain.</p><h3>Foundation Features</h3><p><strong>Decoy:</strong> When you become Cloaked, create a stationary decoy that looks like you and is convincing from Close range and further. While the Decoy is active, you can spend a Hope to stay Cloaked even when you end your move in line of sight. The decoy deactivates when it takes damage, is out of range, or when you create a new Decoy.</p><p><strong>I'm In:</strong> You gain Advantage on bypassing security systems and handling evidence, such as falsifying security logs, using cameras, finding or deleting footage, and setting off alarms.</p><h3>Specialization Features</h3><p><strong>Superposition:</strong> You may mark a Stress to swap your position with your Tactical Decoy, switching the target of any attacks. Additionally, you may immediately move a Close range when you become Cloaked.</p><p><strong>Expertise:</strong> When you add an experience, you may mark a Stress instead of spending Hope to double the bonus.</p><h3>Mastery Feature</h3><p><strong>Pass without Trace:</strong> Once per rest, when you become Cloaked, you may spend any amount of Hope to make an additional ally in Close range also Cloaked for each Hope spent.</p>",
+    "class": "Infiltrator",
+    "domain": "Codex",
+    "powerTrait": "Knowledge - Tech",
+    "features": [
+      "Decoy",
+      "I'm In",
+      "Superposition",
+      "Expertise",
+      "Pass without Trace"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Infiltrator",
+      "domain": "Codex"
+    }
+  },
+  "_id": "J6LKdsWiImUQsHVI",
+  "sort": 0,
+  "_key": "!items!J6LKdsWiImUQsHVI"
+}

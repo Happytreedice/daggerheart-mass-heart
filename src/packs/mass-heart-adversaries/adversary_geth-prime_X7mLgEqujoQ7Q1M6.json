@@ -1,0 +1,30 @@
+{
+  "name": "Geth Prime",
+  "type": "adversary",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>### Tier 3 Leader\nA towering white-armored Geth platform that boosts the combat efficiency of nearby synthetic units.  \nMotives &amp; Tactics: Command, deploy, suppress</p><p>#### Features\nCombat Network - Reaction: When another Geth ally within Far range is targeted by an attack, you can mark a Stress to give the attacker Disadvantage.</p><p>Deploy Combat Drone - Action: Spend a Fear to summon a Geth Attack Drone (Tier 1 Minion). It appears within Close range and immediately takes the spotlight.</p><p>Siege Protocol - Action: The Prime fires a continuous beam. One target must make a Reaction Roll (Strength 20). On a failure, they take 4d10 ene damage and are pushed back to Far range.</p><p>Siege Pulse - Reaction: When you make a successful standard attack against a target, they must mark a shield slot without gaining its benefits.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 3,
+    "role": "Leader",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Leader"
+    }
+  },
+  "_id": "X7mLgEqujoQ7Q1M6",
+  "sort": 0,
+  "_key": "!actors!X7mLgEqujoQ7Q1M6"
+}

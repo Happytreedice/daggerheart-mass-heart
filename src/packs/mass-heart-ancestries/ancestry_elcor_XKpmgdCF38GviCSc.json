@@ -1,0 +1,26 @@
+{
+  "name": "Elcor",
+  "type": "ancestry",
+  "img": "icons/creatures/magical/humanoid-silhoette-alien-gray.webp",
+  "system": {
+    "description": "<p>Elcor are massive four-legged beings from the high-gravity planet of Dekuuna. Because they use all of their limbs for stability, they mount weapons on their backs for combat situations. Their emotions are usually extremely subtle, using pheromones or very slight adjustments in body language when talking with other Elcor. When dealing with other races, they rely on describing their intonations or other methods of conveying their feelings about a situation.</p><p>- Walking Tank You can Trample enemies as an improvised weapon - Strength, d8+d6 physical, Melee\n- Stoic Speech Once per rest, when you make a Presence Roll you may use another trait in place of your Presence trait.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "XKpmgdCF38GviCSc",
+  "sort": 0,
+  "_key": "!items!XKpmgdCF38GviCSc"
+}

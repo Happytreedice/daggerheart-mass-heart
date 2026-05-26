@@ -1,0 +1,37 @@
+{
+  "name": "Warlord",
+  "type": "subclass",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>Play the Warlord if you want to get in your enemies' face and lock them down. Gain access to the <strong>Valor</strong> domain.</p><h3>Foundation Feature</h3><p><strong>Opportunist:</strong> If an adversary within Melee range attempts to move, you can make a reaction roll using your primary weapon trait against their Difficulty. Choose one effect on a success, or two if you critically succeed: they cannot move, you deal your primary weapon damage to them, you move with them, or you gain a Hope or clear a Stress.</p><h3>Specialization Feature</h3><p><strong>Battlemaster:</strong> If an adversary within Melee range attempts to make an attack where you are not the target, you may also use Opportunist. You also gain extra options: become the target of their attack, or make them Vulnerable until they mark HP.</p><p><strong>Lash:</strong> Once per rest, you can make a Spellcast Roll against an adversary in Far range. On a success, pull them into Melee range with you.</p><h3>Mastery Features</h3><p><strong>Lord of War:</strong> When you succeed on the reaction from your Opportunist Feature, you may choose one additional option. Additionally, once per rest, spend any amount of Hope to choose one more option for each Hope spent.</p>",
+    "class": "Vanguard",
+    "domain": "Valor",
+    "powerTrait": "Strength - Biotic",
+    "features": [
+      "Opportunist",
+      "Battlemaster",
+      "Lash",
+      "Lord of War"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Vanguard",
+      "domain": "Valor"
+    }
+  },
+  "_id": "eHyJPnEbIP8SvrY9",
+  "sort": 0,
+  "_key": "!items!eHyJPnEbIP8SvrY9"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Loreborne",
+  "type": "community",
+  "img": "icons/commodities/tech/electronics-chip-data.webp",
+  "system": {
+    "description": "<p>You grew up in centers of research excellence, scientific academies, or digital libraries, where knowledge is the most precious resource. For example you might hail from the prestigious Grissom Academy, or you may have researched relics from a long lost civilization.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "x6rcQLljcMuyLIkz",
+  "sort": 0,
+  "_key": "!items!x6rcQLljcMuyLIkz"
+}

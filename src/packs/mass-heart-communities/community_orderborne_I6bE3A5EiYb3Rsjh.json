@@ -1,0 +1,26 @@
+{
+  "name": "Orderborne",
+  "type": "community",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>You were part of a strict organization for a part of your life. You could be part of a military organization, but also a security force like C-Sec or Elanus Risk Control Services, working a bureaucratic job at the Citadel Tower, or living in religious centers like one of numerous Hanar temples devoted to the Enkindlers.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "I6bE3A5EiYb3Rsjh",
+  "sort": 0,
+  "_key": "!items!I6bE3A5EiYb3Rsjh"
+}

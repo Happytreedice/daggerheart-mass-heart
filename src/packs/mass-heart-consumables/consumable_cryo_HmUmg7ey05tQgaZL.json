@@ -1,0 +1,32 @@
+{
+  "name": "Cryo",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+  "system": {
+    "description": "<p>Targets you succeed against become Brittle. Brittle targets take double damage from physical attacks.</p>",
+    "quantity": 1,
+    "resource": {
+      "value": 1,
+      "max": 1
+    },
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "category": "consumable"
+    }
+  },
+  "_id": "HmUmg7ey05tQgaZL",
+  "sort": 0,
+  "_key": "!items!HmUmg7ey05tQgaZL"
+}

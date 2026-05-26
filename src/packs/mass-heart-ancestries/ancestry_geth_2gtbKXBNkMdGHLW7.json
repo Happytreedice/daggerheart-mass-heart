@@ -1,0 +1,26 @@
+{
+  "name": "Geth",
+  "type": "ancestry",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>Geth are a synthetic hivemind, originally created by the Quarians. Many Geth live in server nodes, but some may choose to control a bipedal mobile platform, consisting of an array of synthetic muscle netting, armor plating, and a single flashlight as their &#x27;head&#x27;. These Geth can still connect to other Geth programs, although it will never be as efficient as living directly in the network.</p><p>&gt; Geth are not welcome in Citadel space, because of their history with driving the Quarians from their homeworld (in self-defense).</p><p>- Synthetic: You do not need to eat, breathe, or sleep. You are immune to poison and organic diseases.\n- Neural Network: Make an Instinct roll (12) to connect to the Geth network. On a success, you can communicate across any distance with other Geth.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "2gtbKXBNkMdGHLW7",
+  "sort": 0,
+  "_key": "!items!2gtbKXBNkMdGHLW7"
+}

@@ -1,0 +1,202 @@
+{
+  "name": "M-490 Blackstorm",
+  "type": "weapon",
+  "img": "icons/weapons/guns/launcher-rocket-bazooka.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Ammo 2. Gravity-Warping: On a successful attack, the target and their allies in Very Close range must succeed on a Reaction Roll (16) or they start floating and are Restrained until damaged.</p>",
+    "quantity": 1,
+    "actions": {
+      "6eAMVNLaMKGxFzHt": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Ammo 2",
+        "description": "Remove an Ammo token when you attack with this weapon.",
+        "img": "icons/weapons/ammunition/shot-round-blue.webp",
+        "cost": [],
+        "_id": "6eAMVNLaMKGxFzHt",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": 0,
+          "max": 2,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      },
+      "T5sbxo3XGOwVBtHU": {
+        "type": "effect",
+        "chatDisplay": true,
+        "name": "Gravity-Warping",
+        "description": "On a successful attack, the target and their allies in Very Close range must succeed on a Reaction Roll (16) or start floating and become Restrained until damaged.",
+        "img": "icons/magic/control/debuff-chains-ropes-net-purple-blue.webp",
+        "cost": [],
+        "_id": "T5sbxo3XGOwVBtHU",
+        "effects": [],
+        "systemPath": "actions",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        },
+        "actionType": "action",
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "triggers": [],
+        "areas": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        }
+      }
+    },
+    "attached": [],
+    "tier": 3,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsAmmo2",
+        "effectIds": [],
+        "actionIds": [
+          "6eAMVNLaMKGxFzHt"
+        ]
+      },
+      {
+        "value": "dhsGravityWarping",
+        "effectIds": [],
+        "actionIds": [
+          "T5sbxo3XGOwVBtHU"
+        ]
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/launcher-rocket-bazooka.webp",
+      "_id": "Bu7zDgBsftvGGXQo",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "close",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "strength",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d10",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d10",
+              "bonus": 7,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "magical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d10",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 3,
+      "slot": "heavy-primary",
+      "weaponType": "Heavy Weapon",
+      "featureText": "Ammo 2. Gravity-Warping: On a successful attack, the target and their allies in Very Close range must succeed on a Reaction Roll (16) or they start floating and are Restrained until damaged."
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "Dl8TcaNBepLxGvlG",
+  "sort": 0,
+  "_key": "!items!Dl8TcaNBepLxGvlG"
+}

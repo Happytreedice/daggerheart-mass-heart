@@ -1,0 +1,30 @@
+{
+  "name": "Batarian Slaver",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhoette-alien-gray.webp",
+  "system": {
+    "description": "<p>### Tier 2 Social\nA ruthless negotiator and intimidation expert who prefers to take prisoners rather than corpses.  \nMotives &amp; Tactics: Demoralize, negotiate hostage release, intimidate</p><p>#### Features\nHostage Shield - Reaction: If the Slaver is within Melee range of a target or a restrained ally, they can spend 1 Fear to redirect an incoming attack to that target.</p><p>Intimidating Shout - Action: Mark a Stress to say something mocking and force a target within Close range to make a Presence Reaction Roll (14). On a failure, the target must mark 2 Stress and is Vulnerable until the scene ends.</p><p>Net Trap - Action: The Slaver fires a weighted net. The target must make an Agility Reaction Roll (14) or become Restrained.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Social",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Social"
+    }
+  },
+  "_id": "xYj6mf0SuDiNFtwg",
+  "sort": 0,
+  "_key": "!actors!xYj6mf0SuDiNFtwg"
+}

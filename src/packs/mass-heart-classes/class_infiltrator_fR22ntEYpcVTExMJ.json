@@ -1,0 +1,37 @@
+{
+  "name": "Infiltrator",
+  "type": "class",
+  "img": "icons/equipment/back/cloak-collared-grey.webp",
+  "system": {
+    "description": "<p># Infiltrator\nDomains: Midnight, Bone</p><p>#### Assassin\nThe Assassin employs lethal precision and capitalizes on Critical Successes.</p><p>Domain: Blade</p><p>#### Agent\nThe Agent expertly deceives opponents and security systems, sticking closely to the shadows.</p><p>Domain: Codex\n::\n##</p>",
+    "domains": [
+      "midnight",
+      "bone"
+    ],
+    "evasion": null,
+    "hitPoints": null,
+    "features": [],
+    "subclasses": [
+      "Assassin",
+      "Agent"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "fR22ntEYpcVTExMJ",
+  "sort": 0,
+  "_key": "!items!fR22ntEYpcVTExMJ"
+}

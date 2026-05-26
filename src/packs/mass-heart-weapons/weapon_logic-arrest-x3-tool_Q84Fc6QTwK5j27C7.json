@@ -1,0 +1,186 @@
+{
+  "name": "Logic Arrest X3 Tool",
+  "type": "weapon",
+  "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+  "system": {
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    },
+    "description": "<p>Double Duty: +3 to Armor Score; +3 to primary weapon damage within Melee range</p>",
+    "quantity": 1,
+    "actions": {},
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "secondary": true,
+    "burden": "oneHanded",
+    "weaponFeatures": [
+      {
+        "value": "dhsDoubleDuty3",
+        "effectIds": [
+          "Ynw1QlAjhc7OAgW1"
+        ],
+        "actionIds": []
+      }
+    ],
+    "attack": {
+      "name": "Attack",
+      "img": "icons/weapons/guns/rifle-assault-energy-gauss.webp",
+      "_id": "5FMzDC5yFEJ2M4et",
+      "baseAction": true,
+      "chatDisplay": false,
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "veryClose",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "knowledge",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": {
+          "hitPoints": {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d6",
+              "bonus": 5,
+              "multiplier": "prof",
+              "flatMultiplier": 1
+            },
+            "type": [
+              "magical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        },
+        "includeBase": false,
+        "direct": false
+      },
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "triggers": [],
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      },
+      "areas": []
+    },
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Double Duty",
+      "type": "base",
+      "img": "icons/skills/melee/shield-block-bash-blue.webp",
+      "system": {
+        "rangeDependence": {
+          "enabled": false,
+          "type": "withinRange",
+          "target": "hostile",
+          "range": "melee"
+        }
+      },
+      "changes": [
+        {
+          "key": "Armor",
+          "type": "armor",
+          "value": 0,
+          "typeData": {
+            "type": "armor",
+            "max": "3"
+          }
+        },
+        {
+          "key": "system.bonuses.damage.primaryWeapon.bonus",
+          "mode": 2,
+          "value": "3"
+        }
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "+3 Armor Score; +3 to primary weapon damage.",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "daggerheartSpace": {
+          "generatedFeature": "dhsDoubleDuty3"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null
+      },
+      "_id": "Ynw1QlAjhc7OAgW1",
+      "sort": 0,
+      "_key": "!items.effects!Q84Fc6QTwK5j27C7.Ynw1QlAjhc7OAgW1"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "tier": 4,
+      "slot": "secondary",
+      "weaponType": "Omni-tool",
+      "featureText": "Double Duty: +3 to Armor Score; +3 to primary weapon damage within Melee range"
+    },
+    "daggerheart": {
+      "featureType": "weapon"
+    }
+  },
+  "_id": "Q84Fc6QTwK5j27C7",
+  "sort": 0,
+  "_key": "!items!Q84Fc6QTwK5j27C7"
+}

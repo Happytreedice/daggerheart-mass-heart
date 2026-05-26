@@ -1,0 +1,26 @@
+{
+  "name": "Coreborne",
+  "type": "community",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>You spent most of your time near the first footsteps of your ancestors, in the core systems of your ancestry. You are particularly well aware of where you came from and how far you&#x27;ve come since as a people.\n- Historic Purpose: During character creation, you may choose an Experience that best reflects your time in the core worlds and describe what you learned from it. Give it a permanent +1 bonus.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "NVohPO6jBpY45hT5",
+  "sort": 0,
+  "_key": "!items!NVohPO6jBpY45hT5"
+}

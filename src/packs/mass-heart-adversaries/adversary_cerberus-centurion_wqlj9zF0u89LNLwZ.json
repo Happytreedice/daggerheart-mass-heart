@@ -1,0 +1,30 @@
+{
+  "name": "Cerberus Centurion",
+  "type": "adversary",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>### Tier 2 Leader\nA field commander coordinating fireteams with ruthless efficiency and smoke grenades.  \nMotives &amp; Tactics: Mark targets, obscure, suppress</p><p>#### Features\nSmoke Grenade - Action: Spend 1 Fear. The Centurion creates a cloud of smoke at Close range. All creatures within the smoke are Obscured (Attacks against them have Disadvantage) and can take the Hide action as a free move.</p><p>Focus Fire - Action: Mark a Stress to spotlight 1d4 allies within range of a target they can attack without moving. On a success, their attacks deal half damage.</p><p>Tactical Shield Initialization - Reaction: When the Centurion enters in a scene, put 3 Kinetic Shield token on them.</p><p>Tactical Shield - Reaction: When the Centurion takes damage, you can remove a Kinetic Shield token to reduce that damage by 5.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Leader",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Leader"
+    }
+  },
+  "_id": "wqlj9zF0u89LNLwZ",
+  "sort": 0,
+  "_key": "!actors!wqlj9zF0u89LNLwZ"
+}

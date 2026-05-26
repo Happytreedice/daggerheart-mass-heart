@@ -1,0 +1,39 @@
+{
+  "name": "Slayer",
+  "type": "subclass",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>Play the Slayer if you want to move quickly around the battlefield, risking your safety to deal more damage. Gain access to the <strong>Arcana</strong> domain.</p><h3>Foundation Features</h3><p><strong>Assault:</strong> Before you make an attack, you may mark a Shield Slot to use a d20 as your Hope die. If the attack succeeds against a target in Melee range, add 1d10 energy damage to the damage roll and knock them back to a Close range from you.</p><p><strong>Battery:</strong> Gain Overshield 1 at the start of a scene. Additionally, you may gain Overshield 2 when you choose the Overcharge downtime move.</p><h3>Specialization Features</h3><p><strong>Heavy Assault:</strong> The energy damage from Assault increases to 2d10.</p><p><strong>Living on the Edge:</strong> The first time each rest when all your Shield Slots are marked, clear 2 Stress. Additionally, when you would mark a Shield Slot but cannot, you can mark 2 Stress instead.</p><h3>Mastery Features</h3><p><strong>Unrelenting Assault:</strong> The energy damage from Assault increases to 3d10.</p><p><strong>Nova:</strong> Once per rest, when you mark a Shield Slot from the Assault feature, you can mark an additional Shield Slot to use the attack roll against all targets in Very Close range.</p>",
+    "class": "Vanguard",
+    "domain": "Arcana",
+    "powerTrait": "Agility or Instinct - Biotic",
+    "features": [
+      "Assault",
+      "Battery",
+      "Heavy Assault",
+      "Living on the Edge",
+      "Unrelenting Assault",
+      "Nova"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Vanguard",
+      "domain": "Arcana"
+    }
+  },
+  "_id": "0xZuJYUWfM2HrliW",
+  "sort": 0,
+  "_key": "!items!0xZuJYUWfM2HrliW"
+}

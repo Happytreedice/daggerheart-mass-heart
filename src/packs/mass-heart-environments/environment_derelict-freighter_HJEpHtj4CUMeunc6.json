@@ -1,0 +1,30 @@
+{
+  "name": "Derelict Freighter",
+  "type": "environment",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "description": "<p>### Tier 2 Exploration / Horror\nA ship adrift in deep space, with no gravity and no atmosphere, infested with Husks or rogue VIs.  \nImpulses: Drifting into the void, flickering lights, the sound of metal groaning.</p><p>#### Features\nZero-G Combat - Passive: Movement is handled by pushing off surfaces. PCs have Advantage on Agility rolls to maneuver or dodge, but Disadvantage on Strength rolls for melee or physical force.</p><p>How do you stabilize your aim while floating? What happens when you push off a wall too hard?</p><p>Oxygen Reserve - Countdown: Setup a Dynamic Countdown (8) named &quot;Oxygen.&quot; When the countdown triggers, the air is gone; every PC must mark 1 HP when they gain a Spotlight until they restore life support.</p><p>Does the air taste metallic before it runs out? Is there a frantic scramble for the last remaining emergency canisters?</p><p>Life Support Breach - Action: Spend a Fear. An explosion or hull breach creates a vacuum. All PCs and adversaries within a zone must make a Strength Reaction Roll (15). On a failure, they are pulled toward the breach and become Restrained as they cling to the environment for dear life.</p><p>What piece of the ship just blew out into the stars? Can you seal the door before everyone is sucked out?\n}}</p><p>{{environment,</p>",
+    "tier": 2,
+    "role": "Exploration / Horror",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Exploration / Horror"
+    }
+  },
+  "_id": "HJEpHtj4CUMeunc6",
+  "sort": 0,
+  "_key": "!actors!HJEpHtj4CUMeunc6"
+}

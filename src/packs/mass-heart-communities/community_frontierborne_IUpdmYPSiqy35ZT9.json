@@ -1,0 +1,26 @@
+{
+  "name": "Frontierborne",
+  "type": "community",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "description": "<p>You grew up on a world at the edge of known space, where civilization is a fragile outpost and under constant threat of nature, predators, or criminals. You&#x27;ve learned to make the most of any situation despite hardship and that you need to pull your weight in order to survive.\n- Frontier Spirit: Once per rest, if you have less than 2 Hope, you may mark a Stress to gain 2 Hope.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "IUpdmYPSiqy35ZT9",
+  "sort": 0,
+  "_key": "!items!IUpdmYPSiqy35ZT9"
+}

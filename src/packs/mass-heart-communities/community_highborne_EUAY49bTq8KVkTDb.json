@@ -1,0 +1,26 @@
+{
+  "name": "Highborne",
+  "type": "community",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>You grew up in high galactic society in a luxurious lifestyle. You may be close to the embassies on the Citadel Presidium, living large in the luxury penthouses dotting the immense skyscrapers near the Silversun Strip, or pursuing lucrative business opportunities on planets like Illium or Bekenstein.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "EUAY49bTq8KVkTDb",
+  "sort": 0,
+  "_key": "!items!EUAY49bTq8KVkTDb"
+}

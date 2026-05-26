@@ -1,0 +1,26 @@
+{
+  "name": "Wanderborne",
+  "type": "community",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "description": "<p>You never really felt like settling down in one particular place and wandered between planets, ships and space stations, always traveling where your interest or the circumstances would take you.</p><p>### New Communities</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "UIS6DwsjWPIhHP7A",
+  "sort": 0,
+  "_key": "!items!UIS6DwsjWPIhHP7A"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Blue Suns Trooper",
+  "type": "adversary",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>### Tier 1 Standard\nDisciplined and well-equipped mercenaries, known for their blue armor and use of illegal technology.  \nMotives &amp; Tactics: Mercenary Tactics +2</p><p>#### Features\nConcussive Shot - Action: Mark 1 Stress to fire a concussive shot at a target within close range. If the attack is successful, the target is knocked back to Close range and, if it hits a solid surface, becomes Vulnerable.</p><p>Shield Disruption - Passive: The Trooper uses disruptor ammunition. If the Trooper&#x27;s attack hits a target that still has active shield slots, it deals +2 damage.</p><p>Tactical Retreat - Reaction: When the Trooper takes damage, it can immediately move to a cover area within Close range.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 1,
+    "role": "Standard",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Standard"
+    }
+  },
+  "_id": "BNoYcCnzpRd9zRvy",
+  "sort": 0,
+  "_key": "!actors!BNoYcCnzpRd9zRvy"
+}

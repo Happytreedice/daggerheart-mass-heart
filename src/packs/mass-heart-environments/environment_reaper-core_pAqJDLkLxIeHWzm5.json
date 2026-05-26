@@ -1,0 +1,30 @@
+{
+  "name": "Reaper Core",
+  "type": "environment",
+  "img": "icons/commodities/tech/electronics-chip-data.webp",
+  "system": {
+    "description": "<p>### Tier 4 Traversal / Psychological\nThe biomechanical interior of a Reaper. Pulsating tubes of liquid sentient species, whispers in the mind, and shifting gravity. It is the belly of the beast.  \nImpulses: Corrupt the soul, bend the will, offer false salvation.</p><p>#### Features\nIndoctrination - Countdown: Setup a Consequence Countdown (6) named &quot;Indoctrination&quot; for each PC. Every time a PC fails a roll with Fear, mark a box. When a PC&#x27;s countdown is filled, the GM takes the Spotlight for that character, forcing them to either attack an ally, freeze in Paralysis, or drop their weapon in &quot;submission.&quot; After this action, clear the countdown.</p><p>What lies is the Reaper whispering to you? Whose voice does it use to trick you?</p><p>Organic Gravity - Reaction: The Reaper&#x27;s internal orientation is non-Euclidean. When a PC fails with Fear, the floor becomes the ceiling. The PC must make an Instinct Reaction Roll (20) or fall, becoming Vulnerable until their next spotlight and taking 1d10 Direct Damage.</p><p>Does your stomach churn as the world spins? Can you find your footing on the pulsating walls?</p><p>Sentient Attrition - Action: Mark a Stress. The core pulses with a psychic scream. All PCs must make a Presence Reaction Roll (20). On a failure, they cannot spend Hope until they successfully hit an enemy, as their resolve is temporarily shattered by the Reaper&#x27;s overwhelming presence.</p><p>How do you maintain your sense of self against the weight of a machine-god&#x27;s mind?\n}}</p><p>{{environment,</p>",
+    "tier": 4,
+    "role": "Traversal / Psychological",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Traversal / Psychological"
+    }
+  },
+  "_id": "pAqJDLkLxIeHWzm5",
+  "sort": 0,
+  "_key": "!actors!pAqJDLkLxIeHWzm5"
+}

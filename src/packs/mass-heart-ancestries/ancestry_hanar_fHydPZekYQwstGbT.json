@@ -1,0 +1,26 @@
+{
+  "name": "Hanar",
+  "type": "ancestry",
+  "img": "icons/creatures/magical/humanoid-silhoette-alien-gray.webp",
+  "system": {
+    "description": "<p>Hanar are tall, jellyfish-like beings from the ocean planet Kahje. They generally live in water but have the ability to walk and breathe in air with the support of mass effect fields. Their skin is often pink, which shifts color as they speak through bioluminescence. Thankfully, modern translator units are able to convert this into more commonly understood audible language for other species.</p><p>&gt; Hanar are known for their intense politeness and use different names depending on who they are speaking with. Learning a Hanar&#x27;s Soul Name is a great honor.</p><p>- Amphibious: You can breathe and move naturally underwater.\n- Tentacular: You can swap weapons without marking Stress. Additionally, treat the range of your Melee weapons, abilities, and spells as Very Close.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "fHydPZekYQwstGbT",
+  "sort": 0,
+  "_key": "!items!fHydPZekYQwstGbT"
+}

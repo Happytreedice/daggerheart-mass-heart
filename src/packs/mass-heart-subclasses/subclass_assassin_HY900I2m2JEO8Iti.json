@@ -1,0 +1,38 @@
+{
+  "name": "Assassin",
+  "type": "subclass",
+  "img": "icons/equipment/back/cloak-collared-grey.webp",
+  "system": {
+    "description": "<p>Play the Assassin if you want to employ lethal precision to best your enemies. Gain access to the <strong>Blade</strong> domain.</p><h3>Foundation Features</h3><p><strong>Anticipation:</strong> After a rest, roll a d12 and place it on this card. When you roll your Duality Dice, you may mark 2 Stress to replace the value of your Fear die with the value of this die. If this results in a Success, remove it.</p><p><strong>Headshot:</strong> When you critically succeed on an attack, duplicate a damage die of your choice.</p><h3>Specialization Feature</h3><p><strong>No Distractions:</strong> If you have not moved during your spotlight or there are no other characters in Close range of you, you may spend an amount of Hope up to your Tier to add to the result of your Hope Die.</p><p><strong>High Expectations:</strong> Once per long rest, you may give the GM a Fear to roll a new die for your Anticipation feature.</p><h3>Mastery Features</h3><p><strong>Professional Standards:</strong> You may reroll any dice that land on a 1 until they land on a different value.</p>",
+    "class": "Infiltrator",
+    "domain": "Blade",
+    "powerTrait": "Finesse - Tech",
+    "features": [
+      "Anticipation",
+      "Headshot",
+      "No Distractions",
+      "High Expectations",
+      "Professional Standards"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Infiltrator",
+      "domain": "Blade"
+    }
+  },
+  "_id": "HY900I2m2JEO8Iti",
+  "sort": 0,
+  "_key": "!items!HY900I2m2JEO8Iti"
+}

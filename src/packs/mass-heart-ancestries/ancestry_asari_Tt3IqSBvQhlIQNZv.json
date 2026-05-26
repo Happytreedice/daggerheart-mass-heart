@@ -1,0 +1,26 @@
+{
+  "name": "Asari",
+  "type": "ancestry",
+  "img": "icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p>Asari are humanoids originating from Thessia, capable of living well over 1000 years. They are mono-gendered - neither male nor female - though they are predominantly considered female-presenting. The hue of their skin is blue to violet, betraying a natural affinity with biotics. They do not develop hair, but they possess semi-flexible scalp-crests that grow into shape. They are capable of short psychic connections with other beings to share thoughts and experiences.</p><p>&gt; The Asari are the first race to discover the Citadel. They were instrumental in founding the Council. Naturally gravitating towards cooperation with other species, they have been at the heart of galactic society ever since.</p><p>- Natural Biotic: Asari can use Biotic Amps. Additionally, when you make an Instinct Roll, Spend 2 Hope to reroll the Hope die.\n- Mind Meld: As an additional downtime action, you can make a mental connection with one ally. You may exchange any amount of Hope and Stress between each other.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "Tt3IqSBvQhlIQNZv",
+  "sort": 0,
+  "_key": "!items!Tt3IqSBvQhlIQNZv"
+}

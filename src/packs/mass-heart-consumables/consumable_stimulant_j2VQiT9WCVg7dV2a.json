@@ -1,0 +1,32 @@
+{
+  "name": "Stimulant",
+  "type": "consumable",
+  "img": "icons/tools/laboratory/injector-needle-syringe-plunger.webp",
+  "system": {
+    "description": "<p>Clear 1d4+1 Stress</p>",
+    "quantity": 1,
+    "resource": {
+      "value": 1,
+      "max": 1
+    },
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "category": "consumable"
+    }
+  },
+  "_id": "j2VQiT9WCVg7dV2a",
+  "sort": 0,
+  "_key": "!items!j2VQiT9WCVg7dV2a"
+}

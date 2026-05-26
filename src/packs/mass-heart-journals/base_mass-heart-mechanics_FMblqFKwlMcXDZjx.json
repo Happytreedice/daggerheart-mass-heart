@@ -1,0 +1,37 @@
+{
+  "name": "Mass Heart Mechanics",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Mass Heart Mechanics",
+      "type": "text",
+      "_id": "8GXDpEua95mNCnpj",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>## Campaign Frame Mechanics\nThese are mechanics specific to this campaign frame.\n}}</p><p>### Magic Damage and Spells\nIn a Mass Effect campaign, Magic damage is called Energy damage. Energy damage can come from different sources - Biotic, Tech, or non-projectile weapons. Some abilities may care about the type of source that causes damage.</p><p>Spells and Spellcast Rolls are similarly divided into Biotic and Tech, depending on the character class.</p><p>:\n### Armor\nIn this campaign frame, you still have access to the regular sets of armor, but this armor is equipped with personal shield generators. This makes them behave slightly different.\n:\n#### Shield Slots\nThe Armor Slots on your character sheet are used as Shield Slots which reflect the strength of your Kinetic Barrier. You have a number of Shield Slots equal to half your Armor Score, rounded down. This also means that any effects that change your Armor Score have a halved effect on your Shield Slots.</p><p>Unlike standard armor that requires repairs, any marked Shield Slots are automatically cleared during downtime. Downtime can be a rest, but also any other sufficiently long period of low tension.\n:\n####  Taking Cover\nIt&#x27;s also possible to replenish Shield Slots during tense situations. Several classes have abilities or features that restore Shield Slots for themselves or allies. Additionally, every character can &#x27;Take Cover&#x27; to restore Shield Slots.</p><p>- Take Cover Make an Action Roll to take cover and become Hidden. If you roll with Hope, you may immediately clear 1 Shield Slot instead of gaining Hope.</p><p>&gt; The trait used for &#x27;Take Cover&#x27; depends on the narrative; it does not need to be Finesse because of &#x27;hiding&#x27;. Work together to describe the cover to make it fit in the story.</p><p>:\n#### Overshield\nSome abilities apply &quot;Overshield&quot;. Overshield applies temporary Shield Slots on top of your regular Shield Slots, with some special rules.</p><p>- Overshield can not be recharged. Once you mark the Shield Slot, it is depleted until a new source of Overshield is applied.\n- Overshield does not stack. When you have Overshield 1 and gain Overshield 2 from another source, the new source overrides the old one. You&#x27;ll have 2 temporary Shield Slots, not 3.\n- Any remaining Overshield clears when you take a rest.</p><p>#### New Downtime Moves\nWith automatic Shield regeneration, the &quot;Repair Armor&quot; downtime move no longer exists. These alternative downtime moves are available instead.</p><p>##### Short Rest\n- Overcharge: Gain Overshield 1.\n- Talk to the Team: Choose a teammate. Until your next rest, you can both use a d20 as a Hope die for the next Tag Team Roll you make together.\n:\n##### Long Rest\n- Recalibrate: Gain a permanent Shield Slot until your next long rest.\n- Talk to the Crew: Speak to your group about your adventure and the choices you made. Describe the scene, then gain 1 Morality point*.</p><p>&gt; \\* Morality Points are described on the next page!</p><p>:\n### Domains</p><p>#### Sage\nWhen using this frame, there are likely few places that have not been touched by civilization at some point. This can make abilities that rely on your natural connection with the world narratively unsatisfying.</p><p>We&#x27;ve chosen to reflavor the Sage domain to fit a wider interpretation of &#x27;connection&#x27;. Think about how you connect to your surroundings as a whole. Feel the silent hum of the Element Zero that is used to power the things around you. Sage spells are deeply connected with biotics, gravity, and mass-altering effects. Use this information to guide your descriptions for any Sage-related abilities and spells.\n:\n#### Valor\nArmorer (Level 5) does not work, as there is no downtime move to repair armor. Instead, when you &#x27;Overcharge&#x27; you can apply the effect to one other ally.</p><p>As mentioned in the section about Kinetic Barriers, any gains to Armor Score are converted into Shield Slots with the conversion rate of 2 Armor Score &gt; 1 Shield Slot. You can instead choose to change the effect into granting Overshield, if this causes confusion.</p><p>#</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!FMblqFKwlMcXDZjx.8GXDpEua95mNCnpj"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "FMblqFKwlMcXDZjx",
+  "sort": 0,
+  "_key": "!journal!FMblqFKwlMcXDZjx"
+}

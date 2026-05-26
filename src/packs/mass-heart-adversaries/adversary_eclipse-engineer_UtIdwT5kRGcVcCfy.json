@@ -1,0 +1,30 @@
+{
+  "name": "Eclipse Engineer",
+  "type": "adversary",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>### Tier 2 Support\nA tech specialist capable of stripping shields and deploying combat drones to harass enemies.  \nMotives &amp; Tactics: Control the battlefield with drones and high-damage tech abilities from a safe distance.</p><p>#### Features\nDeploy Combat Drone - Action: Spend 1 Fear. The Engineer deploys a Drone (Difficulty 12, 1 HP, Dmg 4 ene). The Drone immediately gain the Spotlight.</p><p>Overload - Action: The Engineer targets a PC&#x27;s tech or armor. The target must make an agility Reaction Roll. On a failure, they must mark one Shield Slot and mark 1 Stress.</p><p>Incinerate - Action: The Engineer launches a high-heat projectile. Target takes 2d6 ene damage and is Burning (takes 3 ene damage whenever they have the Spotlight until they spend an action to put it out).</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Support",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Support"
+    }
+  },
+  "_id": "UtIdwT5kRGcVcCfy",
+  "sort": 0,
+  "_key": "!actors!UtIdwT5kRGcVcCfy"
+}

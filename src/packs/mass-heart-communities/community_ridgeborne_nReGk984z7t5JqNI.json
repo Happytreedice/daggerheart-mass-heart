@@ -1,0 +1,26 @@
+{
+  "name": "Ridgeborne",
+  "type": "community",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "description": "<p>Your body was forged by the crushing gravity and extreme atmospheric conditions of planets like Tuchanka or Dekuuna, or maybe you became a captive of criminals, that forced you to work in an illegal mining operation.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "nReGk984z7t5JqNI",
+  "sort": 0,
+  "_key": "!items!nReGk984z7t5JqNI"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Turian",
+  "type": "ancestry",
+  "img": "icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p>Turians, originating from Palaven, are humanoids known for their iron discipline, which is matched only by their metallic skin plating. Their faces have mandibles that they use for expression and eyes are sunken in their vaguely dragon-like features. They stand slightly taller than humans and have a similar lifespan.</p><p>&gt; Turians are the third species on the Citadel Council. Their fleet is by far the largest of any species and their military is the core that their society is build around.</p><p>- Exoskeleton: When you would mark 2 or more Hit Points, you can mark a Stress to mark 1 fewer HP.\n- Apex Predator: When you deal at least Major damage to a creature that already has Hit Points marked, they must also mark a Stress.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "QMcvdz4ftuSbxrD2",
+  "sort": 0,
+  "_key": "!items!QMcvdz4ftuSbxrD2"
+}

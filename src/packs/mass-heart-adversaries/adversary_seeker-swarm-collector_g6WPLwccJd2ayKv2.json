@@ -1,0 +1,30 @@
+{
+  "name": "Seeker Swarm (Collector)",
+  "type": "adversary",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>### Tier 3 Horde\nA buzzing cloud of mechanical insects that seeks to sting and paralyze targets for harvest.  \nMotives &amp; Tactics: Paralyze, overwhelm</p><p>#### Features\nCollector Paralysis - Passive: Any target hit by the Seeker Swarm must make a Strength Reaction Roll. On a failure, they gain the Restrained condition. While Restrained this way, they cannot gain or spend Hope.</p><p>Ominous Buzzing - Action: The swarm fills a zone (Close range). All targets in the zone must make an Instinct Roll (Difficulty 17). On a failure, they mark 2 Stress and are Vulnerable.</p><p>Flight - Passive: The Swarm can move over obstacles and ignore difficult terrain. It has Advantage on Agility-based rolls.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 3,
+    "role": "Horde",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Horde"
+    }
+  },
+  "_id": "g6WPLwccJd2ayKv2",
+  "sort": 0,
+  "_key": "!actors!g6WPLwccJd2ayKv2"
+}

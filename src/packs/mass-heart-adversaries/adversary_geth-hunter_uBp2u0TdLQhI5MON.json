@@ -1,0 +1,30 @@
+{
+  "name": "Geth Hunter",
+  "type": "adversary",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>### Tier 2 Skulk\nA synthetic trooper equipped with a tactical cloaking device and a powerful shotgun.  \nMotives &amp; Tactics: Ambush, jamming</p><p>#### Features\nTactical Cloak - Action: The Geth Hunter becomes Hidden. While Hidden, they have +3 to their difficulty.</p><p>Radar Jamming - Passive: While the Geth Hunter is within Close range of a target, that target has Disadvantage on any rolls that rely on Tech or sensors.</p><p>Flanking Strike - Passive: If the Geth Hunter attacks a target that is already engaged with another Geth, it deals an additional 1d10 ene damage.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Skulk",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Skulk"
+    }
+  },
+  "_id": "uBp2u0TdLQhI5MON",
+  "sort": 0,
+  "_key": "!actors!uBp2u0TdLQhI5MON"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Reaper Ravager",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "system": {
+    "description": "<p>### Tier 3 Ranged\nA bloated, heavy-artillery monstrosity created from a corrupted Rachni, carrying twin cannons.  \nMotives &amp; Tactics: Fire support, suppress</p><p>#### Features\nArtillery Bombardment - Action: The Ravager fires into the air. Choose a location within Far range. All targets within Close range of that spot must make an Agility Reaction Roll or take 3d12 ene damage and become Vulnerable.</p><p>Swarmer Spawning - Reaction: When the Ravager marks HP from a physical attack, the GM may spend 1 Fear to spawn a number of Small Swarm (Tier 1 Minion, 1 HP, Melee 0, Dmg 1) equal to the HP marked, at the Ravager&#x27;s feet.</p><p>Acid Rupture - Passive: When the Ravager is defeated or its Major Threshold is crossed, it leaves a pool of acid (Close range). Any creature entering or starting their turn in the pool takes 6 ene damage.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 3,
+    "role": "Ranged",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Ranged"
+    }
+  },
+  "_id": "EeKQ8pcziSgIxc3d",
+  "sort": 0,
+  "_key": "!actors!EeKQ8pcziSgIxc3d"
+}

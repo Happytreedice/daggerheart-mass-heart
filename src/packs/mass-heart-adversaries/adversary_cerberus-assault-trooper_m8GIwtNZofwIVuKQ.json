@@ -1,0 +1,30 @@
+{
+  "name": "Cerberus Assault Trooper",
+  "type": "adversary",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>### Tier 1 Ranged\nThese soldiers function with determined precision and practiced teamwork  \nMotives &amp; Tactics: Acquire, cover, eliminate</p><p>#### Features\nTactical Cover - Reaction: Mark 1 Stress to gain +2 Difficulty against a ranged attack if near cover.</p><p>Smoke Grenade - Action: Creates a Very Close area that grants Disadvantage to all ranged attack rolls made into or out of the area.\n}}</p><p>{{adversary,</p>",
+    "tier": 1,
+    "role": "Ranged",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Ranged"
+    }
+  },
+  "_id": "m8GIwtNZofwIVuKQ",
+  "sort": 0,
+  "_key": "!actors!m8GIwtNZofwIVuKQ"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Batarian",
+  "type": "ancestry",
+  "img": "icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p>Humanoids native to the world of Khar&#x27;shan, the Batarians have isolated themselves after several incidents where the strict adherence of their caste-like system caused conflict with other Citadel species. They have pointed ears, several bony protrusions on their face that surround their distinctive set of four eyes. Their skin varies from green/yellow to brownish red, with occasional facial patterns. They do not trust easily and often come across as hostile.</p><p>&gt; The Batarian Hegemony closed their embassy on the Citadel and chose to isolate themselves from the rest of the galaxy. The Terminus Systems are infested with batarian pirate gangs and slaving rings, fueling the stereotype of the batarian thug.</p><p>- Sturdy: When you have 1 Hit Point remaining, attacks against you have Disadvantage.\n- Tormented: While you have 0 or 1 Hope, you may add an Experience to your roll without spending Hope.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "FofG5Ehh0tyPtqqR",
+  "sort": 0,
+  "_key": "!items!FofG5Ehh0tyPtqqR"
+}

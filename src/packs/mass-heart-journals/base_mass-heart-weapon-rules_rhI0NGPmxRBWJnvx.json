@@ -1,0 +1,37 @@
+{
+  "name": "Mass Heart Weapon Rules",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Mass Heart Weapon Rules",
+      "type": "text",
+      "_id": "ET0vwjR4ekhMTPIW",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>## Weapons\nThis following weapons are available in this campaign. Share these tables with the players during character creation.\n}}</p><p>### Weapon Scaling\nThe weapons in these tables have been separated by Tier in order to reflect their rarity and overall availability among merchants. The tier where the weapon appears is generally the earliest moment it can be acquired.</p><p>Weapons of lower tiers remain viable as they can be found in higher Tiers when characters reach higher levels. This can be represented by custom modifications, better manufacturers, or overall higher quality.</p><p>For each tier increase, the damage of the weapon increases by 3 (2 for Secondary Weapons). \nIf an effect mentions a &quot;+Tier&quot; in the description of its effect, that effect scales when the weapon is found in higher tiers.</p><p>&gt; It&#x27;s generally not advised to downscale weapons, because their special features can make them extremely powerful on lower levels.</p><p>::\n#### Optional: Heavy Weapons\nThere is a special table with Heavy weapons, which are much stronger than most regular weapons. The caveat is that these weapons require a lot of energy to fire, that normal power cells and thermal clips can&#x27;t provide.</p><p>All Heavy weapons are carried like regular weapons. Remember that switching weapons during combat requires marking a Stress. Additionally, each Heavy Weapon has the Ammo feature.</p><p>&gt; Ammo X: The weapon can have up to X Ammo tokens on it. When you make an attack with this weapon, remove an Ammo Token. If it has no Ammo, the weapon cannot be used.</p><p>Ammo tokens do not replenish during rests. If you decide to use Heavy Weapons, make sure to it clear to everyone at the table whether the weapon is discarded after its Ammo is spent, or if there will be possibilities to replenish Ammo tokens.</p><p>If you choose to allow replenishing Ammo, Heavy Weapon Ammo can be made available from merchants or by scavenging. These can be individual Ammo tokens, or packs that restore the entire capacity at once. Loading new Ammo into a weapon during downtime is free, but characters must Mark a Stress to do so during combat.</p><p>### Weapon Mechanics\n- Amp (Weapon Type)\tAmplifiers are only available to characters that are already naturally capable of Biotics: Sentinel, Adept, Vanguard, or using the Asari Ancestry.\n- Overheat X When you attack using this weapon, add a Heat token to it. If you take an action without this weapon, remove 1 Heat. If it has more than X Heat Tokens, it cannot be used. Mark a Stress to clear all Heat. Heat automatically clear at the end of a scene.\n- Sidearm dX When an attack with your primary weapon would miss in range of this weapon, you may add 1dX to the attack roll. If that would succeed against the adversary, deal this weapon&#x27;s damage. The attack is still considered a Failure.\n- Reloading After an attack, roll a d6. On a 1, you must Mark a Stress to un-jam and reload the weapon before you can use it again.\n- Quick Mark a Stress to attack another adversary in range.</p><p>{{DHTable,wide</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!rhI0NGPmxRBWJnvx.ET0vwjR4ekhMTPIW"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "rhI0NGPmxRBWJnvx",
+  "sort": 0,
+  "_key": "!journal!rhI0NGPmxRBWJnvx"
+}

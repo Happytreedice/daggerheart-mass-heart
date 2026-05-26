@@ -1,0 +1,26 @@
+{
+  "name": "Volus",
+  "type": "ancestry",
+  "img": "icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p>Volus are small humanoids native to the planet Irune, which possesses a high-pressure greenhouse atmosphere and supports a ammonia-based biochemistry. This is vastly different from the other ancestries which are primarily carbon-oxygen based. As a result, the volus must wear strong pressure suits and breathers when dealing with other species.</p><p>&gt; Because they are not physically adept compared to most species, volus mostly make their influence felt through trade and commerce, and they have a long history on the Citadel. However, they have never been invited to join the Council, which is a sore point for many volus individuals.</p><p>- Shell: You have a bonus to your damage thresholds equal to your proficiency.\n- Pressurized: Once per rest, you can release high-pressure ammonia from your suit to create a temporary toxic cloud in Very Close range that obscures vision.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "Ymg7rzBECaFqAdEt",
+  "sort": 0,
+  "_key": "!items!Ymg7rzBECaFqAdEt"
+}

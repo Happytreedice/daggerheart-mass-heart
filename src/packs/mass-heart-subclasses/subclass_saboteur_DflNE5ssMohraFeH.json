@@ -1,0 +1,38 @@
+{
+  "name": "Saboteur",
+  "type": "subclass",
+  "img": "icons/equipment/back/cloak-collared-grey.webp",
+  "system": {
+    "description": "<p>Play the Saboteur if you want to use the environment to tip the scales in your favor. Gain access to the <strong>Midnight</strong> domain.</p><h3>Foundation Features</h3><p><strong>Hack:</strong> Once per session, describe an unattended object in the area to hack for one benefit: give Overshield 1 to yourself and all allies; you and an ally clear a HP or a Stress; you gain 2 Hope or a handful of gold; or you learn one secret about the area.</p><h3>Specialization Feature</h3><p><strong>Sabotage:</strong> When an adversary in Close range attacks, make a Knowledge Reaction Roll against their attack roll. When you succeed, spend a Hope to have them mark a Stress or reroll their attack.</p><p><strong>Hacker:</strong> Once per long rest, when an adversary fails an attack, you may apply one temporary condition: Jammed, Shocked, or Staggered.</p><h3>Mastery Feature</h3><p><strong>Hackst:</strong> You may use Hacker three times per long rest; each option once.</p><p><strong>Demolitionist:</strong> Describe a technical item you wish to destroy within Far range, then make a Spellcast Roll. Once per long rest on a success, create a temporary hazardous area in Very Close range around the item. Creatures in the area must succeed on a Reaction Roll against the Spellcast result to escape. All creatures are Vulnerable while in the hazard.</p>",
+    "class": "Engineer",
+    "domain": "Midnight",
+    "powerTrait": "Knowledge - Tech",
+    "features": [
+      "Hack",
+      "Sabotage",
+      "Hacker",
+      "Hackst",
+      "Demolitionist"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Engineer",
+      "domain": "Midnight"
+    }
+  },
+  "_id": "DflNE5ssMohraFeH",
+  "sort": 0,
+  "_key": "!items!DflNE5ssMohraFeH"
+}

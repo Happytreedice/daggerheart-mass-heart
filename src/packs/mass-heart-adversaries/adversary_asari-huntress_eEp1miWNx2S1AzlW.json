@@ -1,0 +1,30 @@
+{
+  "name": "Asari Huntress",
+  "type": "adversary",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p>### Tier 2 Skulk\nA disciplined biotic operative who strikes from the shadows.  \nMotives &amp; Tactics: Isolate targets, disrupt formations, vanish</p><p>#### Features\nTactical Cloak - Passive: The Huntress deals direct damage while they’re Hidden.</p><p>Warp Field - Action: Mark a Stress to target an enemy within Far range. Make an attack roll. On a success, the target takes standard damage and becomes Vulnerable. Until the end of the scene (or until they clear the condition), the target cannot recover Shield Slots.</p><p>Biotic Blink - Reaction: When the Huntress is targeted by an attack, spend a Fear to teleport to a location within Close range, potentially causing the attack to miss. The attack made against the Huntress has Disadvantage.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Skulk",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Skulk"
+    }
+  },
+  "_id": "eEp1miWNx2S1AzlW",
+  "sort": 0,
+  "_key": "!actors!eEp1miWNx2S1AzlW"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Ancient Alien Dig Site",
+  "type": "environment",
+  "img": "icons/tools/navigation/map-marked-blue.webp",
+  "system": {
+    "description": "<p>### Tier 1 Exploration\nAncient ruins on an unstable planet, with alien technology pulsating with unknown energy and collapsing ground.  \nImpulses: Reveal ancient secrets, collapse under pressure, emit strange signals.</p><p>#### Features\nBeacon Pulse - Action: Mark a Stress to have the central Alien artifact emit a wave of incomprehensible data. All PCs within Far range must make a Knowledge Reaction Roll (11). On a failure, their Omni-tools/Tech abilities are disabled (overloaded) until the end of the scene, and they may mark 2 Stress to activate them agaim.</p><p>What visions flash before your eyes? How does your tech spark and whine before shutting down?</p><p>Unstable Ground - Reaction: When a PC moves or takes physical action, the ancient walkways crumble. Spend a Fear to force a PC to make an Agility Reaction Roll (11). On a failure, they fall to Close range below and take 1d6+2 physical damage.</p><p>How deep is the pit beneath the walkway? What ancient machinery do you crash into?</p><p>Decipher the Glyphs - Passive: PCs can attempt to activate ancient consoles to gain an advantage. A successful Knowledge Roll grants the party a Hope and reveals a secret path or hazard. A failure advances a &quot;Security Protocols&quot; Countdown (4) that summons Geth or Mechs when filled.</p><p>Do the glyphs warn of danger or promise power?\n}}</p><p>{{environment,</p>",
+    "tier": 1,
+    "role": "Exploration",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Exploration"
+    }
+  },
+  "_id": "N77juKhLpw0NJ88t",
+  "sort": 0,
+  "_key": "!actors!N77juKhLpw0NJ88t"
+}

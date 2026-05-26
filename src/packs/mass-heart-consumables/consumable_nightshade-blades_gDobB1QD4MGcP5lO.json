@@ -1,0 +1,32 @@
+{
+  "name": "Nightshade Blades",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+  "system": {
+    "description": "<p>Make an Agility Roll against a group of targets within Very Close Range. Targets you succeed against are Restrained.</p>",
+    "quantity": 1,
+    "resource": {
+      "value": 1,
+      "max": 1
+    },
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "category": "consumable"
+    }
+  },
+  "_id": "gDobB1QD4MGcP5lO",
+  "sort": 0,
+  "_key": "!items!gDobB1QD4MGcP5lO"
+}

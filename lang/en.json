@@ -1,0 +1,1774 @@
+{
+  "DHMH": {
+    "Module": {
+      "Title": "Mass Heart for Daggerheart",
+      "Description": "Mass Effect-inspired science-fiction compendium module for the Foundryborne Daggerheart system."
+    },
+    "Pack": {
+      "mass-heart-classes": "Mass Heart: Classes",
+      "mass-heart-subclasses": "Mass Heart: Subclasses",
+      "mass-heart-ancestries": "Mass Heart: Ancestries",
+      "mass-heart-communities": "Mass Heart: Communities",
+      "mass-heart-weapons": "Mass Heart: Weapons",
+      "mass-heart-consumables": "Mass Heart: Consumables",
+      "mass-heart-adversaries": "Mass Heart: Adversaries",
+      "mass-heart-environments": "Mass Heart: Environments",
+      "mass-heart-journals": "Mass Heart: Lore and Rules"
+    },
+    "PackFolder": {
+      "Label": "Mass Heart"
+    },
+    "Source": {
+      "Daggerheart": "Daggerheart SRD 1.0",
+      "DarringtonPress": "Darrington Press Community Gaming License",
+      "FoundryVTT": "Foundry Virtual Tabletop",
+      "MassEffect": "Mass Effect",
+      "MassHeart": "Mass Heart",
+      "TheNewUnknown": "The New Unknown",
+      "TheNewUnknownV2": "The New Unknown Playtest Volume 2.0 - Mind"
+    },
+    "Compendium": {
+      "mass-heart-classes": {
+        "0KQtWDyzf1V3cY6r": {
+          "Description": "# Vanguard\nDomains: Blade, Sage\n#### Warlord\nThe Warlord is a powerful melee combatant that overpowers and locks down their enemies.\nDomain: Valor\n#### Slayer\nThe Slayer moves quickly around the battlefield, exchanging their defenses for damage in high-risk, high-reward gameplay.\nDomain: Arcana",
+          "Name": "Vanguard",
+          "Type": "class"
+        },
+        "4us66OI0EVPuMKur": {
+          "Description": "# Engineer\nDomains: Codex, Arcana\n#### Mechanic\nThe Mechanic works in tandem with their drone, using it as an extension of themselves.\nDomain: Splendor\n#### Saboteur\nThe Saboteur uses their enemies and the environment to tip the scales in their favor.\nDomain: Midnight\n##",
+          "Name": "Engineer",
+          "Type": "class"
+        },
+        "8TSjVrk5lWRMarUZ": {
+          "Description": "# Adept\nDomains: Sage, Splendor\n#### Nemesis\nThe Nemesis is a master of destruction, pouring maximum effort into violent displays of biotics.\nDomain: Arcana\n#### Bastion\nThe Bastion uses biotic interruptions to controls the battlefield and incapacitate your enemies.\nDomain: Bone\n::\n##",
+          "Name": "Adept",
+          "Type": "class"
+        },
+        "AUKyTSxTwCdjtB10": {
+          "Description": "# Soldier\nDomains: Valor, Blade\n#### Shock Trooper\nThe Shock Trooper is a mobile fighter that can use Adrenaline to push beyond their limits.\nDomain: Bone\n#### Commando\nThe Commando specializes in weapons, enhancing them with Munitions to be prepared for any situation.\nDomain: Midnight\n::\n##",
+          "Name": "Soldier",
+          "Type": "class"
+        },
+        "fR22ntEYpcVTExMJ": {
+          "Description": "# Infiltrator\nDomains: Midnight, Bone\n#### Assassin\nThe Assassin employs lethal precision and capitalizes on Critical Successes.\nDomain: Blade\n#### Agent\nThe Agent expertly deceives opponents and security systems, sticking closely to the shadows.\nDomain: Codex\n::\n##",
+          "Name": "Infiltrator",
+          "Type": "class"
+        },
+        "zRXU7lCgHZNsj0vg": {
+          "Description": "# Sentinel\nDomains: Splendor, Codex\n#### Guardian\nThe Guardian uses powerful shields to protect their team and enhance their abilities.\nDomain: Valor\n#### Raider\nThe Raider is a jack-of-all-trades that can catch people off-guard by weaving their many talents together.\nDomain: Sage\n::\n##",
+          "Name": "Sentinel",
+          "Type": "class"
+        }
+      },
+      "mass-heart-subclasses": {
+        "0xZuJYUWfM2HrliW": {
+          "Description": "Play the Slayer if you want to move quickly around the battlefield, risking your safety to deal more damage. Gain access to the Arcana domain.\nFoundation Features Assault: Before you make an attack, you may mark a Shield Slot to use a d20 as your Hope die. If the attack succeeds against a target in Melee range, add 1d10 energy damage to the damage roll and knock them back to a Close range from you.\nBattery: Gain Overshield 1 at the start of a scene. Additionally, you may gain Overshield 2 when you choose the Overcharge downtime move.\nSpecialization Features Heavy Assault: The energy damage from Assault increases to 2d10.\nLiving on the Edge: The first time each rest when all your Shield Slots are marked, clear 2 Stress. Additionally, when you would mark a Shield Slot but cannot, you can mark 2 Stress instead.\nMastery Features Unrelenting Assault: The energy damage from Assault increases to 3d10.\nNova: Once per rest, when you mark a Shield Slot from the Assault feature, you can mark an additional Shield Slot to use the attack roll against all targets in Very Close range.",
+          "Name": "Slayer",
+          "Type": "subclass"
+        },
+        "49WUyk3j2iNvUnvo": {
+          "Description": "Play the Guardian if you want to take hits for your team and support them. Gain access to the Valor domain.\nFoundation Features Fortification: Once per long rest when you activate Tech Armor, gain Overshield equal to your Tier and these additional benefits until Tech Armor deactivates: resistance to physical damage, immunity to Restrained and Vulnerable, and you cannot be moved against your will.\nRetaliate: When you mark a Shield Slot to reduce damage from an adversary in Close range while Tech Armor is active, they must mark a Stress.\nSpecialization Feature Protector: When an ally in Very Close range would take damage, you may mark a Shield Slot to reduce the damage by one threshold.\nDefense Matrix: When Tech Armor ends, clear a Shield Slot.\nMastery Feature Tech Burst: Once per rest when Tech Armor ends, all adversaries in Very Close range must succeed on a Reaction Roll (17) or they are knocked back to Far range and become temporarily Vulnerable. Additionally, all allies in Very Close range clear one Shield Slot.",
+          "Name": "Guardian",
+          "Type": "subclass"
+        },
+        "6SL8IE1YezAWFbT1": {
+          "Description": "Play the Raider if you want to use your versatile skillset to keep your enemies guessing. Gain access to the Sage domain.\nFoundation Feature Jack-of-all-trades: At the start of a session, roll an amount of d6 equal to your level. For each value, place an Affinity token on the corresponding trait from left to right on your character sheet. When you make a roll using that trait, expend Affinity to apply one distinct effect for each token spent: gain +1 to an action or reaction, add 1d6 to damage, or gain a Hope. Remove unused Affinity at the end of a session.\nSpecialization Features Flow State: When you make a Spellcast Roll with the bonus from Versatile Skillset, spend a Hope to use a trait with Affinity as your Spellcast Trait. Describe how you use this trait to cast this spell in a unique way.\nGot your Back: When you Help an ally, spend one Affinity token from the trait that matches their action roll to give them the benefit.\nMastery Features Dreamteam: You are a rallying point for your allies. You can initiate a Tag Team Roll one additional time per session. Additionally, when you spend Affinity during a Tag Team that involves you, you may both choose an effect for each token spent.",
+          "Name": "Raider",
+          "Type": "subclass"
+        },
+        "DflNE5ssMohraFeH": {
+          "Description": "Play the Saboteur if you want to use the environment to tip the scales in your favor. Gain access to the Midnight domain.\nFoundation Features Hack: Once per session, describe an unattended object in the area to hack for one benefit: give Overshield 1 to yourself and all allies; you and an ally clear a HP or a Stress; you gain 2 Hope or a handful of gold; or you learn one secret about the area.\nSpecialization Feature Sabotage: When an adversary in Close range attacks, make a Knowledge Reaction Roll against their attack roll. When you succeed, spend a Hope to have them mark a Stress or reroll their attack.\nHacker: Once per long rest, when an adversary fails an attack, you may apply one temporary condition: Jammed, Shocked, or Staggered.\nMastery Feature Hackst: You may use Hacker three times per long rest; each option once.\nDemolitionist: Describe a technical item you wish to destroy within Far range, then make a Spellcast Roll. Once per long rest on a success, create a temporary hazardous area in Very Close range around the item. Creatures in the area must succeed on a Reaction Roll against the Spellcast result to escape. All creatures are Vulnerable while in the hazard.",
+          "Name": "Saboteur",
+          "Type": "subclass"
+        },
+        "eHyJPnEbIP8SvrY9": {
+          "Description": "Play the Warlord if you want to get in your enemies' face and lock them down. Gain access to the Valor domain.\nFoundation Feature Opportunist: If an adversary within Melee range attempts to move, you can make a reaction roll using your primary weapon trait against their Difficulty. Choose one effect on a success, or two if you critically succeed: they cannot move, you deal your primary weapon damage to them, you move with them, or you gain a Hope or clear a Stress.\nSpecialization Feature Battlemaster: If an adversary within Melee range attempts to make an attack where you are not the target, you may also use Opportunist. You also gain extra options: become the target of their attack, or make them Vulnerable until they mark HP.\nLash: Once per rest, you can make a Spellcast Roll against an adversary in Far range. On a success, pull them into Melee range with you.\nMastery Features Lord of War: When you succeed on the reaction from your Opportunist Feature, you may choose one additional option. Additionally, once per rest, spend any amount of Hope to choose one more option for each Hope spent.",
+          "Name": "Warlord",
+          "Type": "subclass"
+        },
+        "eVGMeTENfWTepfIz": {
+          "Description": "Play the Mechanic if you want to work in tandem with your drone as an extension of yourself. Gain access to the Splendor domain.\nFoundation Features Zap!: When you damage a target in Melee range of your drone, add 1d6 to the damage roll.\nRelay: You may mark a Stress to use your drone as the point of origin of a spell. Spells cast this way cannot trigger Zap!\nSpecialization Feature Drone Specialist: When you summon your drone, you can spend an additional Hope to give it a specialization: Defense gives adversaries in Melee range of the drone Disadvantage on attacks; Combat lets you make a Spellcast Roll against a target in Far range of your Drone to command an attack that deals d8+6 physical damage using your proficiency; Explosive makes all adversaries in Very Close range mark a Stress when the drone dissipates.\nMastery Feature Artificer: As an additional downtime move you can choose, create a simple consumable that expires on your next rest.\nDelivery: When you summon your drone, you may attach one consumable from your inventory. Any ally in Melee range of your Drone can use the consumable, or you may command your drone to use it.",
+          "Name": "Mechanic",
+          "Type": "subclass"
+        },
+        "HY900I2m2JEO8Iti": {
+          "Description": "Play the Assassin if you want to employ lethal precision to best your enemies. Gain access to the Blade domain.\nFoundation Features Anticipation: After a rest, roll a d12 and place it on this card. When you roll your Duality Dice, you may mark 2 Stress to replace the value of your Fear die with the value of this die. If this results in a Success, remove it.\nHeadshot: When you critically succeed on an attack, duplicate a damage die of your choice.\nSpecialization Feature No Distractions: If you have not moved during your spotlight or there are no other characters in Close range of you, you may spend an amount of Hope up to your Tier to add to the result of your Hope Die.\nHigh Expectations: Once per long rest, you may give the GM a Fear to roll a new die for your Anticipation feature.\nMastery Features Professional Standards: You may reroll any dice that land on a 1 until they land on a different value.",
+          "Name": "Assassin",
+          "Type": "subclass"
+        },
+        "J6LKdsWiImUQsHVI": {
+          "Description": "Play the Agent if you want to deceive your opponents and strike at the most opportune moments. Gain access to the Codex domain.\nFoundation Features Decoy: When you become Cloaked, create a stationary decoy that looks like you and is convincing from Close range and further. While the Decoy is active, you can spend a Hope to stay Cloaked even when you end your move in line of sight. The decoy deactivates when it takes damage, is out of range, or when you create a new Decoy.\nI'm In: You gain Advantage on bypassing security systems and handling evidence, such as falsifying security logs, using cameras, finding or deleting footage, and setting off alarms.\nSpecialization Features Superposition: You may mark a Stress to swap your position with your Tactical Decoy, switching the target of any attacks. Additionally, you may immediately move a Close range when you become Cloaked.\nExpertise: When you add an experience, you may mark a Stress instead of spending Hope to double the bonus.\nMastery Feature Pass without Trace: Once per rest, when you become Cloaked, you may spend any amount of Hope to make an additional ally in Close range also Cloaked for each Hope spent.",
+          "Name": "Agent",
+          "Type": "subclass"
+        },
+        "KC6bsExTkH5ey9ig": {
+          "Description": "Play the Bastion to use biotics to manipulate and control the battlefield. Gain access to the Bone domain.\nFoundation Feature Cantrip: Mark a Stress to roll a number of d4 equal to your Instinct and place them on this card. Clear unspent dice at a long rest.\nBiotic Trick: Expend a Cantrip die to hinder an adversary in Far range. Depending on its value: 1 subtracts 1d4 from a reaction roll; 2 rolls another damage die and discards the highest; 3 moves them a Very Close range horizontally; 4 lets you choose one option.\nSpecialization Features Barrier Siphon: When you succeed on a spell or deal energy damage against a target, spend cantrip dice to clear a Shield Slot for each multiple of 3 in their combined value.\nAnchor: While you have no marked Shield Slots, you cannot be moved or lifted against your will. You may also use the result of 4 on a Cantrip die to temporarily Restrain an adversary instead.\nMastery Features Lift: When you Restrain an enemy, you can spend doubles from your Cantrip dice to make them Massless while they are Restrained. Massless characters float in place and are considered Vulnerable. If they are moved by any effect, they move one range increment further, ending Massless.",
+          "Name": "Bastion",
+          "Type": "subclass"
+        },
+        "oqm14LK1994RIB5h": {
+          "Description": "Play the Commando if you like to enhance your weapons with special Munitions to be prepared for anything. Gain access to the Midnight domain.\nFoundation Features Bandolier: When picking this subclass, you gain access to two Munitions. When you reach a new tier, choose one more. Once per long rest, you may swap one Munition on your belt for another.\nLocked & Loaded: Mark a Stress to load a Munition on a non-Heavy weapon until the end of the scene or until the GM ends it as a consequence. When you make a successful attack with that weapon, you can apply the effects of the Munition. Each weapon can only be loaded with one Munition at a time.\nSpecialization Features Special Reserves: When you use a consumable or spend Ammo from a Heavy Weapon, roll a d6. On a 6, it is not consumed.\nThriller: When you would gain Hope, you may choose to gain Adrenaline instead.\nMastery Feature Powerful Attacks: You can always spend 1 Adrenaline during a damage roll to roll another damage die and discard the lowest.\nMunitions Inferno Rounds: The target must Mark a Stress. Cryo Rounds: The target has Disadvantage on their next reaction roll. Warp Rounds: The target's Damage Thresholds are reduced by your Tier until they clear a Hit Point. Disruptor Rounds: The target uses a d12 instead of a d20 for their next attack roll. Tungsten Rounds: Damage dealt cannot be reduced by any features. Shredder Rounds: If you deal Severe damage, the target marks an additional HP. Hammerhead Rounds: The target must succeed on a Reaction Roll (14) or they are knocked back a Close range. Phasing Rounds: Your attack roll ignores disadvantage on Hidden targets and may hit targets in cover. Radioactive Rounds: The next action against the target has Advantage. Chemical Rounds: The target becomes Corroded, reducing their difficulty by 1 until cleared.",
+          "Name": "Commando",
+          "Type": "subclass"
+        },
+        "rhvLYidg0K8jtfhb": {
+          "Description": "Play the Nemesis to exert yourself to become a master of biotic destruction. Gain access to the Arcana domain.\nFoundation Features Warp: Make a Spellcast Roll against a target. On a success, spend a Hope to make the target Warped. Spellcast and damage rolls against a Warped target gain a bonus equal to your tier. This condition lasts until the GM spends Fear equal to your Instinct to remove it, until you Warp another creature, or until the scene ends.\nExert: Once per session, when you Fail with Fear on a Spellcast Roll from a Domain Card, you can place that card in your Vault to turn it into a Success with Fear. Its recall cost is increased by 2 until your next rest.\nSpecialization Features Unstable Warp: When a Spellcast Roll succeeds against your Warped target, you can end the condition and cause a Biotic Detonation. The target takes d20+3 additional energy damage using your proficiency.\nClear Mind: You may add the number of cards in your Vault to your energy damage rolls.\nMastery Feature Biotic God: Once per long rest, after you make a successful Spellcast Roll, you may cast an additional Spell using the same roll. Then, place that card in your Vault.",
+          "Name": "Nemesis",
+          "Type": "subclass"
+        },
+        "RO6BoGdtB6amQG00": {
+          "Description": "Play the Shock Trooper to be a mobile tank that can use Adrenaline to push beyond their limits. Gain access to the Bone domain.\nFoundation Features Stay Cool: When you would mark Stress, you may spend any amount of Adrenaline to mark one less per 2 Adrenaline spent.\nReady: When you gain the spotlight with less than 2 Adrenaline, set your Adrenaline to 2.\nSpecialization Features Quick Reflexes: When you are targeted by an attack, spend any amount of Adrenaline to gain an equal bonus to your Evasion against that attack. If that causes the attack to fail, clear a Shield Slot.\nStoked: When you gain the spotlight with less than 3 Adrenaline, set your Adrenaline to 3.\nMastery Features Tactical Reposition: Once per long rest, if you would mark any amount of Hit Points, you can mark that much Stress instead and immediately move a Close range.\nPumped Up: When you gain the spotlight with less than 4 Adrenaline, set your Adrenaline to 4. Your Adrenaline die becomes a d10.",
+          "Name": "Shock Trooper",
+          "Type": "subclass"
+        }
+      },
+      "mass-heart-ancestries": {
+        "2gtbKXBNkMdGHLW7": {
+          "Description": "Geth are a synthetic hivemind, originally created by the Quarians. Many Geth live in server nodes, but some may choose to control a bipedal mobile platform, consisting of an array of synthetic muscle netting, armor plating, and a single flashlight as their &#x27;head&#x27;. These Geth can still connect to other Geth programs, although it will never be as efficient as living directly in the network.\n> Geth are not welcome in Citadel space, because of their history with driving the Quarians from their homeworld (in self-defense).\n- Synthetic: You do not need to eat, breathe, or sleep. You are immune to poison and organic diseases.\n- Neural Network: Make an Instinct roll (12) to connect to the Geth network. On a success, you can communicate across any distance with other Geth.",
+          "Name": "Geth",
+          "Type": "ancestry"
+        },
+        "EOOJXzmCdSLHXjED": {
+          "Description": "Originally hailing from Rannoch, Quarians are humanoid ship-dwellers, rarely seen outside their suits. These suits protect them in any harmful environments and vacuums. They also rely on them to prevent infections as they have weak immune systems. They have distinctly long fingers and toes - three per limb, are slightly smaller than humans, and can live up to 80 years.\n> Quarians were driven from their planet-side colonies during the Geth War. Being forced to live on ships for extended periods of time caused the atrophy of their immune systems.\n- Enviro-suit: You may ignore disadvantage on rolls caused by environmental effects or toxins.\n- Hazard Protocol: Once per session, if you would become Vulnerable or gain another condition, you may instantly clear the effect. Mark a Stress to also clear a Shield Slot.\n}}",
+          "Name": "Quarian",
+          "Type": "ancestry"
+        },
+        "fHydPZekYQwstGbT": {
+          "Description": "Hanar are tall, jellyfish-like beings from the ocean planet Kahje. They generally live in water but have the ability to walk and breathe in air with the support of mass effect fields. Their skin is often pink, which shifts color as they speak through bioluminescence. Thankfully, modern translator units are able to convert this into more commonly understood audible language for other species.\n> Hanar are known for their intense politeness and use different names depending on who they are speaking with. Learning a Hanar&#x27;s Soul Name is a great honor.\n- Amphibious: You can breathe and move naturally underwater.\n- Tentacular: You can swap weapons without marking Stress. Additionally, treat the range of your Melee weapons, abilities, and spells as Very Close.",
+          "Name": "Hanar",
+          "Type": "ancestry"
+        },
+        "FofG5Ehh0tyPtqqR": {
+          "Description": "Humanoids native to the world of Khar&#x27;shan, the Batarians have isolated themselves after several incidents where the strict adherence of their caste-like system caused conflict with other Citadel species. They have pointed ears, several bony protrusions on their face that surround their distinctive set of four eyes. Their skin varies from green/yellow to brownish red, with occasional facial patterns. They do not trust easily and often come across as hostile.\n> The Batarian Hegemony closed their embassy on the Citadel and chose to isolate themselves from the rest of the galaxy. The Terminus Systems are infested with batarian pirate gangs and slaving rings, fueling the stereotype of the batarian thug.\n- Sturdy: When you have 1 Hit Point remaining, attacks against you have Disadvantage.\n- Tormented: While you have 0 or 1 Hope, you may add an Experience to your roll without spending Hope.",
+          "Name": "Batarian",
+          "Type": "ancestry"
+        },
+        "MwQ5VnyFpt13xSas": {
+          "Description": "Known for their unique biology and aggressive behavior, the vorcha of Heshtok are the shortest-lived sapient species currently known, with an average lifespan of only 20 years. The Vorcha&#x27;s cell structure mutates to respond to threats, giving them incredible regeneration and recovery from diseases. Yet, this rapid mutation is also responsible for their quickened lifespan. Many Vorcha have sharp teeth, but most of their other features adapt to the environment.\n> Vorcha are often found among the galaxy&#x27;s darker and more dangerous locations. The rest of galactic civilization regards them as pests and scavengers.\n- Mutagenic Response: Once per rest when you mark HP, you can go into Overdrive. During Overdrive, you gain resistance to the most recent damage type taken, but you also become Vulnerable. Overdrive ends when you take Severe damage or the scene ends.\n- Rapid Regeneration: You may choose to take the long rest version of &#x27;Tend to Wounds&#x27; during a short rest, or use the short rest version as an additional downtime action.",
+          "Name": "Vorcha",
+          "Type": "ancestry"
+        },
+        "PXM25OAcDXt2U44t": {
+          "Description": "Salarians are amphibians, native to the planet Sur&#x27;Kesh. Their extremely quick metabolism lets them live, think and act at twice the speed of other races. Though, this also means they rarely live past 40 human years. They have slender, tall bodies with large oval-shaped eyes and cartilagous horns.\n> Salarians were close behind the Asari in their discovery of the Citadel. They play a vital role in intelligence and research divisions.\n- Rapid Analysis: You may mark a Stress to gain Advantage on a Reaction Roll.\n- Hyperactive: Gain a permanent +1 bonus to your Evasion at character creation.\n{{",
+          "Name": "Salarian",
+          "Type": "ancestry"
+        },
+        "QMcvdz4ftuSbxrD2": {
+          "Description": "Turians, originating from Palaven, are humanoids known for their iron discipline, which is matched only by their metallic skin plating. Their faces have mandibles that they use for expression and eyes are sunken in their vaguely dragon-like features. They stand slightly taller than humans and have a similar lifespan.\n> Turians are the third species on the Citadel Council. Their fleet is by far the largest of any species and their military is the core that their society is build around.\n- Exoskeleton: When you would mark 2 or more Hit Points, you can mark a Stress to mark 1 fewer HP.\n- Apex Predator: When you deal at least Major damage to a creature that already has Hit Points marked, they must also mark a Stress.",
+          "Name": "Turian",
+          "Type": "ancestry"
+        },
+        "RDQecjwAWY8x4iTo": {
+          "Description": "Krogan are tough reptilian people from Tuchanka. They have biological redundancy and a natural ferocity that is unmatched by any species, which makes them able to survive even the most hostile environments. They can live over 1000 years, but their average lifespan is much shorter due to their violent nature. They have large, broad shoulders and stand over 7 feet tall.\n> Rather than having developed their own road to the stars, the Krogan were historically &#x27;uplifted&#x27; by the Council, who wanted to use them as tools for war. Since then, they were effectively neutered with the &#x27;Genophage&#x27;, which makes young Krogan a rare sight.\n- Tough You gain one additional Hit Point slot at character creation.\n- Blood Rage When you take Severe Damage or have less than 3 unmarked HP slots, you can enter a Blood Rage until no adversaries remain. While active, your Proficiency increases by 1 and you gain resistance to physical damage, but you cannot gain Hope.\n}}\n{{",
+          "Name": "Krogan",
+          "Type": "ancestry"
+        },
+        "Tt3IqSBvQhlIQNZv": {
+          "Description": "Asari are humanoids originating from Thessia, capable of living well over 1000 years. They are mono-gendered - neither male nor female - though they are predominantly considered female-presenting. The hue of their skin is blue to violet, betraying a natural affinity with biotics. They do not develop hair, but they possess semi-flexible scalp-crests that grow into shape. They are capable of short psychic connections with other beings to share thoughts and experiences.\n> The Asari are the first race to discover the Citadel. They were instrumental in founding the Council. Naturally gravitating towards cooperation with other species, they have been at the heart of galactic society ever since.\n- Natural Biotic: Asari can use Biotic Amps. Additionally, when you make an Instinct Roll, Spend 2 Hope to reroll the Hope die.\n- Mind Meld: As an additional downtime action, you can make a mental connection with one ally. You may exchange any amount of Hope and Stress between each other.",
+          "Name": "Asari",
+          "Type": "ancestry"
+        },
+        "TwbdDhPPDpXDDDTV": {
+          "Description": "Humans, originally from Earth, have dexterous hands, rounded ears, and can live up to 140 years with proper care. They are remarkably strong-willed and ambitious as they persevere to face the galaxy&#x27;s unknown. This gives them an advantage in adapting to many situations.\n> Humans are relative newcomers in galactic civilization. Some older Humans may still remember a time from before they discovered the Mass Relays. Some inhabitants of the galaxy feel threatened by their quick rise to power.\n- Galactic Ambition: Gain an additional Stress slot at character creation.\n- Persevere: When you roll with Fear, you may mark 2 Stress to turn it into a roll with Hope.",
+          "Name": "Human",
+          "Type": "ancestry"
+        },
+        "XKpmgdCF38GviCSc": {
+          "Description": "Elcor are massive four-legged beings from the high-gravity planet of Dekuuna. Because they use all of their limbs for stability, they mount weapons on their backs for combat situations. Their emotions are usually extremely subtle, using pheromones or very slight adjustments in body language when talking with other Elcor. When dealing with other races, they rely on describing their intonations or other methods of conveying their feelings about a situation.\n- Walking Tank You can Trample enemies as an improvised weapon - Strength, d8+d6 physical, Melee\n- Stoic Speech Once per rest, when you make a Presence Roll you may use another trait in place of your Presence trait.",
+          "Name": "Elcor",
+          "Type": "ancestry"
+        },
+        "YcSIBUJgxRMjodb3": {
+          "Description": "Native to the arid desert world Rakhana, the reptile-like Drell are rarely found in the Milky Way. The sparse resources on their homeworld led to the emergence of perfect eidetic memory, to remember oases as they traveled nomadically. As resources dwindled further, the Hanar took steps to evacuate as many Drell as possible, but many still suffered the harsh reality of extinction.\n> Drell are not well accustomed to the humidity of the Hanar homeworld, leading many of the rescued Drell to develop a disease called &#x27;Kepral Syndrome&#x27;. As of yet, no cure has been discovered, leading many Drell to turn towards\n- Eidetic Memory: You can accurately recall any memory. You have Advantage on Knowledge and Instinct Rolls that involve an enemy or location already encountered.\n- Survival Sense: Once per rest, mark a Stress to force an adversary to reroll an attack against you or an ally within Very Close range.",
+          "Name": "Drell",
+          "Type": "ancestry"
+        },
+        "Ymg7rzBECaFqAdEt": {
+          "Description": "Volus are small humanoids native to the planet Irune, which possesses a high-pressure greenhouse atmosphere and supports a ammonia-based biochemistry. This is vastly different from the other ancestries which are primarily carbon-oxygen based. As a result, the volus must wear strong pressure suits and breathers when dealing with other species.\n> Because they are not physically adept compared to most species, volus mostly make their influence felt through trade and commerce, and they have a long history on the Citadel. However, they have never been invited to join the Council, which is a sore point for many volus individuals.\n- Shell: You have a bonus to your damage thresholds equal to your proficiency.\n- Pressurized: Once per rest, you can release high-pressure ammonia from your suit to create a temporary toxic cloud in Very Close range that obscures vision.",
+          "Name": "Volus",
+          "Type": "ancestry"
+        }
+      },
+      "mass-heart-communities": {
+        "bwL3DWneBmfE0VAg": {
+          "Description": "Your home is among the stars, without gravity holding you down or atmosphere bringing you comfort. The sound of recirculating air and the sight of stars through metal are all you know. You may have lived on a mining station, a cargo ship, or among the Migrant Fleet.\n- Zero-G Adaptation: You have Advantage on Agility rolls to move in zero-gravity and can easily orient yourself in chaotic situations.",
+          "Name": "Spaceborne",
+          "Type": "community"
+        },
+        "DgL6jTZuFTqCrSpb": {
+          "Description": "You may not have necessarily grown up near a large body of water, but you have always been around spaceports and freighter docks. You may have helped with resupplying or maintaining ships that arrived, guiding the crew on their visit, or entertained travelers with a local tradition.",
+          "Name": "Seaborne",
+          "Type": "community"
+        },
+        "EUAY49bTq8KVkTDb": {
+          "Description": "You grew up in high galactic society in a luxurious lifestyle. You may be close to the embassies on the Citadel Presidium, living large in the luxury penthouses dotting the immense skyscrapers near the Silversun Strip, or pursuing lucrative business opportunities on planets like Illium or Bekenstein.",
+          "Name": "Highborne",
+          "Type": "community"
+        },
+        "I6bE3A5EiYb3Rsjh": {
+          "Description": "You were part of a strict organization for a part of your life. You could be part of a military organization, but also a security force like C-Sec or Elanus Risk Control Services, working a bureaucratic job at the Citadel Tower, or living in religious centers like one of numerous Hanar temples devoted to the Enkindlers.",
+          "Name": "Orderborne",
+          "Type": "community"
+        },
+        "IUpdmYPSiqy35ZT9": {
+          "Description": "You grew up on a world at the edge of known space, where civilization is a fragile outpost and under constant threat of nature, predators, or criminals. You&#x27;ve learned to make the most of any situation despite hardship and that you need to pull your weight in order to survive.\n- Frontier Spirit: Once per rest, if you have less than 2 Hope, you may mark a Stress to gain 2 Hope.",
+          "Name": "Frontierborne",
+          "Type": "community"
+        },
+        "nReGk984z7t5JqNI": {
+          "Description": "Your body was forged by the crushing gravity and extreme atmospheric conditions of planets like Tuchanka or Dekuuna, or maybe you became a captive of criminals, that forced you to work in an illegal mining operation.",
+          "Name": "Ridgeborne",
+          "Type": "community"
+        },
+        "NVohPO6jBpY45hT5": {
+          "Description": "You spent most of your time near the first footsteps of your ancestors, in the core systems of your ancestry. You are particularly well aware of where you came from and how far you&#x27;ve come since as a people.\n- Historic Purpose: During character creation, you may choose an Experience that best reflects your time in the core worlds and describe what you learned from it. Give it a permanent +1 bonus.",
+          "Name": "Coreborne",
+          "Type": "community"
+        },
+        "TmoFRAbZ6xvzDW8F": {
+          "Description": "You grew up in the lawless territories outside Citadel-protected space - the Terminus Systems. Growing up here, you quickly learned that kindness and trust are a form of weakness to exploit. You might have been a part of mercenary groups on Omega, part of a pirate squad, or a slaver by trade. Alternatively, you might have been subjected to the brutal reign these groups enforced upon you, or you have been fighting tirelessly, often forced to forsake your own principles.\n- Drastic Measure: Once per session, when you or an ally you Helped roll with Hope, you can turn it into a roll with Fear to gain +1 on all action and reaction rolls for the remainder of the session.\n{{FrameHeader,wide\n### Mass Heart\n:",
+          "Name": "Grimborne",
+          "Type": "community"
+        },
+        "UIS6DwsjWPIhHP7A": {
+          "Description": "You never really felt like settling down in one particular place and wandered between planets, ships and space stations, always traveling where your interest or the circumstances would take you.\n### New Communities",
+          "Name": "Wanderborne",
+          "Type": "community"
+        },
+        "x6rcQLljcMuyLIkz": {
+          "Description": "You grew up in centers of research excellence, scientific academies, or digital libraries, where knowledge is the most precious resource. For example you might hail from the prestigious Grissom Academy, or you may have researched relics from a long lost civilization.",
+          "Name": "Loreborne",
+          "Type": "community"
+        }
+      },
+      "mass-heart-weapons": {
+        "04rOXQxWFpBKnekj": {
+          "Description": "Overheat 3",
+          "Name": "Geth Plasma SMG",
+          "Type": "weapon"
+        },
+        "0C7Fi5rHsfRBjLZL": {
+          "Description": "Hot: This weapon cuts through solid material; can attack targets in a line.",
+          "Name": "Geth Javelin",
+          "Type": "weapon"
+        },
+        "0mo0OSSAyCogZhaI": {
+          "Description": "Quick",
+          "Name": "C-96 Harrier",
+          "Type": "weapon"
+        },
+        "0SQzs0ReS062LNJ1": {
+          "Description": "Brutal: If you roll maximum damage on a damage die, roll an additional damage die.",
+          "Name": "Punisher",
+          "Type": "weapon"
+        },
+        "1PRAQwX5pPEAWzzM": {
+          "Name": "Phantom Blade",
+          "Type": "weapon"
+        },
+        "4Tgyl7hCtPXE9DcS": {
+          "Description": "Akimbo: +2 to primary weapon damage in this weapon&#x27;s range.",
+          "Name": "HMWP Spectre",
+          "Type": "weapon"
+        },
+        "4wD4GkrAnbTob6Ze": {
+          "Description": "Reloading",
+          "Name": "M-23 Katana",
+          "Type": "weapon"
+        },
+        "5HOvqn4hbFXhJdbY": {
+          "Description": "Reloading",
+          "Name": "M-77 Paladin",
+          "Type": "weapon"
+        },
+        "6i2sxlxqT3GRLAvy": {
+          "Description": "Explosive: Mark a Stress to use the attack roll against a group of targets.",
+          "Name": "Scorpion",
+          "Type": "weapon"
+        },
+        "7IcZ3GLBi4CBA7ot": {
+          "Description": "Scatter: When you make an attack, target all creatures in front of you within range.",
+          "Name": "N7 Piranha",
+          "Type": "weapon"
+        },
+        "7JHoTDWB3b5B4CAS": {
+          "Description": "Sidearm d6",
+          "Name": "Brawler Sidearm",
+          "Type": "weapon"
+        },
+        "89qZvqVKtP4zcVHZ": {
+          "Description": "Paired: 1+Tier to primary weapon damage to targets within Melee range",
+          "Name": "Asari Shortsword",
+          "Type": "weapon"
+        },
+        "a3ynzapKiY4jmcQg": {
+          "Description": "Ammo 4. Seeker: Attacks against Flying targets have Advantage.",
+          "Name": "ML-77 Cobra Missile Launcher",
+          "Type": "weapon"
+        },
+        "AKD8fbeVaUWXyo4g": {
+          "Description": "Brutal: If you roll maximum damage on a damage die, roll an additional damage die.",
+          "Name": "Executioner",
+          "Type": "weapon"
+        },
+        "AqxwpqmZrhR788bV": {
+          "Description": "Surge: Mark a Shield Slot to double a damage die on a primary weapon attack.",
+          "Name": "Cipher Tool",
+          "Type": "weapon"
+        },
+        "AsDKiDxrL2mCPdAE": {
+          "Description": "Destructive: -1 to Agility; on a successful attack, all adversaries within Very Close range of the target must mark a Stress.",
+          "Name": "Krysae",
+          "Type": "weapon"
+        },
+        "azGGwmCv3hL3xCDw": {
+          "Description": "Hooked: On a successful attack, you can pull the target into Melee range.",
+          "Name": "Gemini Amp",
+          "Type": "weapon"
+        },
+        "ce5iERiZm7lUJOoh": {
+          "Name": "Phaeston",
+          "Type": "weapon"
+        },
+        "ChsjQV260VpQ3fk9": {
+          "Description": "Reel In: On a successful attack, you can spend a Hope to Restrain the target and pull them into Melee range with you.",
+          "Name": "Kishock Harpoon",
+          "Type": "weapon"
+        },
+        "ckfZ5q8C2DUYGeWX": {
+          "Description": "Calculated: Before you make a Knowledge Roll, you can Mark a Stress to gain a +Tier bonus to the result.",
+          "Name": "Bluewire Tool",
+          "Type": "weapon"
+        },
+        "CXVUQf3MDkRtjeLz": {
+          "Description": "Sidearm d4",
+          "Name": "Striker Sidearm",
+          "Type": "weapon"
+        },
+        "Dl8TcaNBepLxGvlG": {
+          "Description": "Ammo 2. Gravity-Warping: On a successful attack, the target and their allies in Very Close range must succeed on a Reaction Roll (16) or they start floating and are Restrained until damaged.",
+          "Name": "M-490 Blackstorm",
+          "Type": "weapon"
+        },
+        "dlbStVkKjBopuveu": {
+          "Description": "Double Duty: +2 to Armor Score; +2 to primary weapon damage within Melee range",
+          "Name": "Logic Arrest Tool",
+          "Type": "weapon"
+        },
+        "E11zgbAd3zmo6x66": {
+          "Description": "Overheat 3",
+          "Name": "Geth Pulse Rifle",
+          "Type": "weapon"
+        },
+        "eE29fVptDOqgjvkE": {
+          "Description": "Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.",
+          "Name": "M-300 Claymore",
+          "Type": "weapon"
+        },
+        "eh5KSLUa2IWzEfag": {
+          "Description": "Quick",
+          "Name": "M-90 Indra",
+          "Type": "weapon"
+        },
+        "ETKXZp6IeKLMinKF": {
+          "Description": "Barrier: +Tier to Armor Score; −1 to Evasion",
+          "Name": "Kinetic Barrier",
+          "Type": "weapon"
+        },
+        "eZhFUKeonmr7kC2w": {
+          "Description": "Sidearm d4",
+          "Name": "Stiletto Sidearm",
+          "Type": "weapon"
+        },
+        "fDKKKRh941TKU8JV": {
+          "Description": "Specialist: Every damage die that rolls a 1 deals 6 damage instead. If you deal Severe damage, the target must mark an additional HP.",
+          "Name": "M-11s Suppressor",
+          "Type": "weapon"
+        },
+        "FUEz13ByMPO1PrnC": {
+          "Description": "Lightweight: +1 to Evasion.",
+          "Name": "M-12 Locust",
+          "Type": "weapon"
+        },
+        "FUtubN58bvjkmD32": {
+          "Description": "Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.",
+          "Name": "X-98 'Black Widow'",
+          "Type": "weapon"
+        },
+        "G8BXwg4lVRnd6nEa": {
+          "Description": "Sidearm d6",
+          "Name": "Karpov Sidearm",
+          "Type": "weapon"
+        },
+        "GR0CuwHUiYsjJqJs": {
+          "Description": "Overheat 2",
+          "Name": "Biotic Force Amplifier",
+          "Type": "weapon"
+        },
+        "gUM5i0Mohx0Fhmjc": {
+          "Description": "Scatter: When you make an attack, target all creatures in front of you within range.",
+          "Name": "Reegar Carbine",
+          "Type": "weapon"
+        },
+        "GWHRPDN5BjuPt7Nz": {
+          "Description": "Organic: Unaffected by tech effects. +1 to Spellcast Trait",
+          "Name": "Collector AR",
+          "Type": "weapon"
+        },
+        "hKywBPN5YWvt0mO6": {
+          "Description": "Stunning: On a successful attack, you can make the target temporarily Restrained until the end of their next spotlight.",
+          "Name": "Stun Baton",
+          "Type": "weapon"
+        },
+        "HtQkP9seDQPpc5R5": {
+          "Description": "Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.",
+          "Name": "Geth Spitfire",
+          "Type": "weapon"
+        },
+        "I2Uzf88pdkTQCzt1": {
+          "Description": "Dual-Barrel: When you fail an attack with Hope, you may reroll it once.",
+          "Name": "N7 Valkyrie",
+          "Type": "weapon"
+        },
+        "i8rKY15YrRhJpHH5": {
+          "Description": "Reliable: +1 to Attack Rolls",
+          "Name": "M-8 Avenger",
+          "Type": "weapon"
+        },
+        "IopHqWQtH9iAtxDV": {
+          "Description": "Deflecting: When you are attacked, you can mark a Shield Slot to gain a bonus to your Evasion equal to your unmarked Shield Slots against the attack.",
+          "Name": "Prodigy Amp",
+          "Type": "weapon"
+        },
+        "iz0XoGPRfcGww70q": {
+          "Description": "Ammo 3. Supermassive: -2 to Evasion, -1 Agility. On a successful attack, reroll any amount of damage dice once.",
+          "Name": "Geth Spitfire Prototype",
+          "Type": "weapon"
+        },
+        "J0iuKSLQELXg7DCe": {
+          "Description": "Ammo 1. Tac. Nuke: Mark 3 Stress to use. Target a point in Far range. Use the attack roll against everything within Close range of the point. Deals half damage against targets it misses.",
+          "Name": "M-920 Cain",
+          "Type": "weapon"
+        },
+        "j0reetmvNDFoXZjh": {
+          "Description": "Overheat 3",
+          "Name": "M-55 Argus",
+          "Type": "weapon"
+        },
+        "j6hF5eIZHlBeHx1W": {
+          "Description": "Ammo 2. Multilock: Mark 1 or more Stress when you attack to target that many additional enemies within range.",
+          "Name": "M-560 Hydra Missile Launcher",
+          "Type": "weapon"
+        },
+        "JPu1PXyRzFXGGjUX": {
+          "Name": "M-22 Eviscerator",
+          "Type": "weapon"
+        },
+        "k9L2IJEuMzPeZwWv": {
+          "Description": "Startling: Mark a Stress to force all adversaries within Melee range back to Close range.",
+          "Name": "Solaris Amp",
+          "Type": "weapon"
+        },
+        "KEdGyl4SLyJbFVi9": {
+          "Description": "Devastating: Mark a Stress before you attack to change the range to Melee and use a d20 as the damage die.",
+          "Name": "M-11 Wraith",
+          "Type": "weapon"
+        },
+        "kH8NtnrSw57HipVX": {
+          "Description": "Ammo 3. Brittle: The next Physical attack against the target deals double damage.",
+          "Name": "M-622 Avalanche",
+          "Type": "weapon"
+        },
+        "kqsxSWv5tmERCNrL": {
+          "Description": "Organic: Unaffected by tech effects. +1 to Spellcast Trait",
+          "Name": "Collector SR",
+          "Type": "weapon"
+        },
+        "l24WQYqDnZShMaFb": {
+          "Description": "Disrupt: On a successful attack, gain a +Tier bonus to the next Spellcast Roll against the target.",
+          "Name": "Acolyte",
+          "Type": "weapon"
+        },
+        "lGwbNY7HBKcWhXgm": {
+          "Description": "Reliable: +1 to Attack Rolls",
+          "Name": "M-3 Predator",
+          "Type": "weapon"
+        },
+        "LHdlTKX1f9iyZyhd": {
+          "Description": "Karma: When you are attacked, roll a d6. On a 6, the target must mark a HP.",
+          "Name": "Chameleon Tool",
+          "Type": "weapon"
+        },
+        "LPo36JkG22Cw2tWa": {
+          "Description": "Concussive: On a successful attack, you can spend a Hope to knock the target back to Far range.",
+          "Name": "Venom",
+          "Type": "weapon"
+        },
+        "lXZCI8f1aYoSq4Dz": {
+          "Description": "Overheat 3",
+          "Name": "M-29 Incisor",
+          "Type": "weapon"
+        },
+        "M4gG0xkS5iYhs9UW": {
+          "Description": "Slugger: On a successful attack, the target must mark a Stress. Spend a Hope to knock them back to Far range.",
+          "Name": "N7 Crusader",
+          "Type": "weapon"
+        },
+        "M8blukTs5K7ghPJw": {
+          "Description": "Recoil: -1 to Attack Rolls.",
+          "Name": "N7 Hurricane",
+          "Type": "weapon"
+        },
+        "mFH3wWUTIWkJIlKd": {
+          "Description": "Tech Mastery: Once per session, you may turn a failure into a Success with Fear on a roll related to using tech.",
+          "Name": "Nexus Tool",
+          "Type": "weapon"
+        },
+        "MUhfuKdlvXTjcGVj": {
+          "Name": "M-15 Vindicator",
+          "Type": "weapon"
+        },
+        "N7368EUwc6CEXMMF": {
+          "Description": "Overload: On a successful attack, the target must Mark a Stress.",
+          "Name": "Adas Anti-Synthetic Rifle",
+          "Type": "weapon"
+        },
+        "n78VxqCVWQpTwqfH": {
+          "Description": "Biotic Mastery: Once per session, you may turn a failure into a Success with Fear on a roll related to using biotics.",
+          "Name": "Savant Amp",
+          "Type": "weapon"
+        },
+        "NDXKYus80TEGawXy": {
+          "Description": "Momentum: Spend a Hope to add your Instinct Modifier to the damage of a primary weapon attack.",
+          "Name": "Polaris Amp",
+          "Type": "weapon"
+        },
+        "nfGdxWgoDcBSk23l": {
+          "Description": "Reloading",
+          "Name": "M-9 Tempest",
+          "Type": "weapon"
+        },
+        "NqphsYhgfyVQE8V8": {
+          "Name": "M-6 Carnifex",
+          "Type": "weapon"
+        },
+        "nV2IMMqmNaaXZfXU": {
+          "Description": "Charged: Mark a Stress to gain a +1 bonus to your Proficiency on your next attack with this weapon.",
+          "Name": "Geth Plasma Shotgun",
+          "Type": "weapon"
+        },
+        "NYixgBGEJf4D03ng": {
+          "Description": "Self-Correcting: When you roll a 1 on a damage die, it deals 8 damage instead.",
+          "Name": "N7 Valiant",
+          "Type": "weapon"
+        },
+        "NypKLTQdwaaeUwQt": {
+          "Description": "Versatile: Can also be used with these statistics - Strength, Melee, d12",
+          "Name": "Graal Spike Thrower",
+          "Type": "weapon"
+        },
+        "O2qHVNiJdm9PAyd7": {
+          "Description": "Ammo 6. Recharging: On rest, if you have less than 2 Ammo remaining on this weapon, regain 1 Ammo token.",
+          "Name": "Collector Particle Beam Cannon",
+          "Type": "weapon"
+        },
+        "oaI0E97kS73bHwF1": {
+          "Description": "Explosive: Mark a Stress to use the attack roll against a group of targets.",
+          "Name": "M-37 Falcon",
+          "Type": "weapon"
+        },
+        "oHkA8FhS46Cn6AbV": {
+          "Description": "Ammo 1. Mass Field: Mark 2 Stress to use. Target a point in Close range. Use the attack against everyone in Very Close range of the point. Targets the attack succeeds against are Restrained, Vulnerable and start floating until damaged.",
+          "Name": "X-492 Blackstar",
+          "Type": "weapon"
+        },
+        "onQXwnENAymhkIr0": {
+          "Name": "M-4 Shuriken",
+          "Type": "weapon"
+        },
+        "OuJNahrTtazx05NP": {
+          "Description": "Quick",
+          "Name": "N7 Eagle",
+          "Type": "weapon"
+        },
+        "OWtBqE2AP4zEpsmm": {
+          "Name": "M-358 Talon",
+          "Type": "weapon"
+        },
+        "PH3kcO6wXBFkjVyv": {
+          "Description": "Sidearm d6",
+          "Name": "Razer Sidearm",
+          "Type": "weapon"
+        },
+        "PUmLhyKw4wpb90Av": {
+          "Name": "Disciple",
+          "Type": "weapon"
+        },
+        "PV1O0noFYQNelMZE": {
+          "Description": "Self-Correcting: When you roll a 1 on a damage die, it deals 8 damage instead.",
+          "Name": "M-99 Saber",
+          "Type": "weapon"
+        },
+        "Q84Fc6QTwK5j27C7": {
+          "Description": "Double Duty: +3 to Armor Score; +3 to primary weapon damage within Melee range",
+          "Name": "Logic Arrest X3 Tool",
+          "Type": "weapon"
+        },
+        "qIWDqpJq994GAnmk": {
+          "Description": "Quick",
+          "Name": "AT-12 Raider",
+          "Type": "weapon"
+        },
+        "R9l8SkmwLWsIYx6r": {
+          "Description": "Versatile: Can also be used with the following traits - Agility, d6, Far",
+          "Name": "M-25 Hornet",
+          "Type": "weapon"
+        },
+        "RgJpDYDItO5pm978": {
+          "Description": "Overheat 4",
+          "Name": "M-7 Lancer",
+          "Type": "weapon"
+        },
+        "rX8NHqG7phkXOniz": {
+          "Description": "Versatile: Can also be used with the following traits - Finesse, d6, Very Far",
+          "Name": "M-13 Raptor",
+          "Type": "weapon"
+        },
+        "S5OXoXMY5vFluMcF": {
+          "Description": "Ammo 4. Scatter: When you make an attack, target all creatures in front of you within range.",
+          "Name": "M-451 Firestorm",
+          "Type": "weapon"
+        },
+        "SFp7daJkfCSsjKMR": {
+          "Description": "Sidearm d4",
+          "Name": "Kessler Sidearm",
+          "Type": "weapon"
+        },
+        "smj6ULAGq5WAYcr7": {
+          "Description": "Paired: 1+Tier to primary weapon damage to targets within Melee range",
+          "Name": "Omni-Blade",
+          "Type": "weapon"
+        },
+        "svKQnfKE0zIDsfh2": {
+          "Description": "Sidearm d4",
+          "Name": "Raikou Sidearm",
+          "Type": "weapon"
+        },
+        "swNoyw8ohLXGTlUw": {
+          "Description": "Powerful: On a successful attack, roll an additional damage die and discard the lowest result.",
+          "Name": "M-98 Widow",
+          "Type": "weapon"
+        },
+        "t9bKwKfZlMldkG2L": {
+          "Description": "Overheat 3",
+          "Name": "M-27 Scimitar",
+          "Type": "weapon"
+        },
+        "tjau6QvBwJOlAhV2": {
+          "Description": "Quick",
+          "Name": "Asari Sword",
+          "Type": "weapon"
+        },
+        "umjTbXMxRAezNSOc": {
+          "Description": "Ramp-up: Overheat 3; for each Heat Token, increase the damage die (d6 > d8, d8 > d10, d10 > d12).",
+          "Name": "Prothean Particle Rifle",
+          "Type": "weapon"
+        },
+        "uNNZ13F36nTT1elu": {
+          "Description": "Reliable: +1 to Attack Rolls",
+          "Name": "M-97 Viper",
+          "Type": "weapon"
+        },
+        "UoLJOe44fCG2QZ7T": {
+          "Description": "Organic: Unaffected by tech effects. +1 to Spellcast Trait",
+          "Name": "Collector SMG",
+          "Type": "weapon"
+        },
+        "VboNYFhJrPxERIDi": {
+          "Description": "Powerful: On a successful attack, roll an additional damage die and discard the lowest result.",
+          "Name": "M-96 Mattock",
+          "Type": "weapon"
+        },
+        "vkb1RrOGoKwKtwEN": {
+          "Description": "Beacon: After a successful attack with this weapon, your next Spellcast Roll against that target automatically succeeds.",
+          "Name": "Seeker Dart",
+          "Type": "weapon"
+        },
+        "x9X2sYS7HgcsqZBc": {
+          "Description": "Explosive: Mark a Stress to use the attack roll against a group of targets.",
+          "Name": "Krogan Striker",
+          "Type": "weapon"
+        },
+        "xG9UzPKsI4HSsTik": {
+          "Description": "Ammo 3. Chaining: On a successful attack, use the same roll against another target within Very Close range of the previous, until no new targets are left. Every target hit marks a Stress.",
+          "Name": "Cerberus Arc Projector",
+          "Type": "weapon"
+        },
+        "XHhGUKbad23fohXS": {
+          "Description": "Ammo 4. Eruptive: On a successful attack, all other adversaries within Very Close range of the target must succeed on a Reaction Roll (13) or take half damage.",
+          "Name": "M-100 Grenade Launcher",
+          "Type": "weapon"
+        },
+        "XjbrM385Q7IrwZlV": {
+          "Description": "Rejuvenating: On a successful attack, roll a d6. On a 6, clear one HP or Stress.",
+          "Name": "Unity Amp",
+          "Type": "weapon"
+        },
+        "xXe5TtaAxfqzFyya": {
+          "Description": "Akimbo: +3 to primary weapon damage in this weapon&#x27;s range.",
+          "Name": "HMWP X Spectre",
+          "Type": "weapon"
+        },
+        "yJdWqlsmqin60kqZ": {
+          "Description": "Overheat 2",
+          "Name": "Arc Pistol",
+          "Type": "weapon"
+        },
+        "yR3nIHaU1rZHV9FX": {
+          "Description": "Cumbersome: -1 to Finesse",
+          "Name": "M-76 Revenant",
+          "Type": "weapon"
+        },
+        "z4nSu6cycmnc2uO1": {
+          "Description": "Unwieldy: -1 to Evasion, -1 to Finesse. Bunker Down: Mark a Stress to gain Resistance to Physical damage until you move (willingly or not).",
+          "Name": "N7 Typhoon",
+          "Type": "weapon"
+        },
+        "z9ay5MRYodXc8r5f": {
+          "Name": "M-92 Mantis",
+          "Type": "weapon"
+        },
+        "ZDwpEfzDgOMqNFOJ": {
+          "Description": "Heavy: -1 to Evasion",
+          "Name": "Krogan Hammer",
+          "Type": "weapon"
+        },
+        "Zk078clEVF8vMfwf": {
+          "Name": "M-5 Phalanx",
+          "Type": "weapon"
+        }
+      },
+      "mass-heart-consumables": {
+        "23lPmF936mEek8SW": {
+          "Description": "All targets that fail a Reaction Roll (14) become Blinded. Blinded targets have no line of sight beyond Melee range.",
+          "Name": "Flashbang",
+          "Type": "consumable"
+        },
+        "dHJYqEQG017RtPiC": {
+          "Description": "Targets you succeed against take 2d20 physical damage. Others take half.",
+          "Name": "Frag",
+          "Type": "consumable"
+        },
+        "exskg43S1FkYHT0P": {
+          "Description": "Clear 1d4+1 HP",
+          "Name": "Medi-gel",
+          "Type": "consumable"
+        },
+        "gDobB1QD4MGcP5lO": {
+          "Description": "Make an Agility Roll against a group of targets within Very Close Range. Targets you succeed against are Restrained.",
+          "Name": "Nightshade Blades",
+          "Type": "consumable"
+        },
+        "H6XmzsMoqMriiDn0": {
+          "Description": "Targets you succeed against are Shocked. Shocked targets can&#x27;t take reactions. Synthetic targets also take 1d20 energy damage.",
+          "Name": "EMP",
+          "Type": "consumable"
+        },
+        "H93iHqaWtuAILRym": {
+          "Description": "The area blocks line of sight for every creature. Creatures inside have Disadvantage on attacks.",
+          "Name": "Smoke",
+          "Type": "consumable"
+        },
+        "HmUmg7ey05tQgaZL": {
+          "Description": "Targets you succeed against become Brittle. Brittle targets take double damage from physical attacks.",
+          "Name": "Cryo",
+          "Type": "consumable"
+        },
+        "j2VQiT9WCVg7dV2a": {
+          "Description": "Clear 1d4+1 Stress",
+          "Name": "Stimulant",
+          "Type": "consumable"
+        },
+        "JVUe2x8sCNhXJm7g": {
+          "Description": "Targets you succeed against become Massless. Massless targets are Restrained, Vulnerable, and float in place until acted upon by an outside force.",
+          "Name": "Lift",
+          "Type": "consumable"
+        },
+        "kq1IZtgCOmfZzgcF": {
+          "Description": "Until the end of the scene, you have a +2 bonus to Instinct, but a -1 malus to all other Traits.",
+          "Name": "Red Sand",
+          "Type": "consumable"
+        },
+        "xto4gdyWkPp75GnI": {
+          "Description": "Targets you succeed against take 1d20 energy damage and become Vulnerable. Others only take the damage.",
+          "Name": "Inferno",
+          "Type": "consumable"
+        }
+      },
+      "mass-heart-adversaries": {
+        "1n2uZ6iY0yDkgfMY": {
+          "Description": "### Tier 4 Bruiser\nA gargantuan piloted mech suit equipped with a mass accelerator cannon and heavy missile launchers.\nMotives & Tactics: Crush cover, grab, endure\n#### Features\nMissile Barrage - Action: Spend 1 Fear. The Atlas fires a volley at up to three different targets within Far range. Each target must make a Reaction Roll or take 4d8 ene damage and became Vulnerable.\nHydraulic Crush - Action: Make an attack in melee range. If the attack is successful, the target is Restrained.\nHardened Ceramic Plating - Reaction: When the Atlas enters the scene, add 10 Shield tokens.\nGargantuan - Reaction: When the Atlas takes damage, you can Spend a Fear and remove a Shield token to reduce the damage by 15.\nSiege Engine - Passive: The Atlas ignores all cover that is not \"Heavy\" (like a reinforced bunker). It destroys smaller cover (crates, thin walls) simply by moving through or shooting at it.\n}}\n{{adversary,",
+          "Name": "Atlas Mech",
+          "Type": "adversary"
+        },
+        "4DouX60rR2pdRs75": {
+          "Description": "### Tier 1 Horde (1/HP)\nSynthetic-organic \"zombies\" created from the bodies of organic beings.\nMotives & Tactics: Grapple, overwhelm, chase\n#### Features\nHorde (1d6+1) - Passive: When the Husks have marked half or more of their HP, their standard attack deals 1d6+1 physical damage instead.\nTerrifying Hiss (Passive): When the Husks make a successful attack, the target must mark a Stress.\n}}\n{{adversary,",
+          "Name": "Husks (Reaper)",
+          "Type": "adversary"
+        },
+        "5yaay4J1X27sVWuv": {
+          "Description": "### Tier 1 Skulk\nA quadruple-legged robotic hound designed for pursuit and takedowns, equipped with a taser bite.\nMotives & Tactics: Rush from cover, stun target\n#### Features\nAmbush Predator - Passive: The Fenris Mech deals direct damage while they’re Hidden.\nNeural Shock - Reaction: When the Fenris Mech deals damage with its Taser Bite, the GM may spend 1 Fear to inflict the Shocked condition. Shocked targets have disadvantage on their next action roll, then clear the condition.\nHigh-Speed Servos - Action: The Fenris Mech can move up to Far range as a free movement and immediately take the Hide action.\n}}\n{{adversary,",
+          "Name": "Fenris Mech",
+          "Type": "adversary"
+        },
+        "5YYU24UwQCG59a6d": {
+          "Description": "### Tier 4 Solo\nA floating, horrific amalgamation of husks with a particle beam and an impenetrable barrier.\nMotives & Tactics: Tank, clearing area\n#### Features\nRelentless (2): The Praetorian can be spotlighted up to 2 times per GM turn. Spend Fear as usual to spotlight them.\nDeath Beam - Action: The Praetorian maintains its beam on a single target. With a successful attack, if the Praetorian uses the next attack on the same target, it deals an additional 2d12 damage.\nBiotic Ground Slam - Action: Spend 2 Fear. The Praetorian crashes into the ground. All targets within Close range take 4d10 phy damage and are pushed to Close range. The Praetorian restores 1 Stress Points per each target.\nOminous Float - Passive: The Praetorian is always hovering. It ignores difficult terrain and can overcome obstacles on the ground.\n}}\n{{wide",
+          "Name": "Collector Praetorian",
+          "Type": "adversary"
+        },
+        "9KeNtfHiASkkRQ78": {
+          "Description": "### Tier 1 Standard\nThe Blood Pack mercenaries o0ften employ Vorcha for their resilience and aggression. This variant focuses on area denial and punishing stationary players.\nMotives & Tactics: Flush out cover, regenerate, burn\nA fragile, bipedal security robot programmed for mass deployment. They march forward firing indiscriminately.\n#### Features\nPyro-Shielding - Passive: The Vorcha takes half damage from fire-based attacks.\nVent Heat - Action: Mark a Stress to unleash a burst of flame in a cone. All targets within Very Close range must make an Agility Reaction Roll. On a failure, they take 1d6 ene damage and they must mark 1 Shield Slot without gaining its benefits due to thermal overload.\nResilient Biology - Reaction: When the Vorcha marks HP, you can spend a Fear to immediately clear 1 Stress.\n}}\n{{adversary,",
+          "Name": "Blood Pack Vorcha (Flamer)",
+          "Type": "adversary"
+        },
+        "BNoYcCnzpRd9zRvy": {
+          "Description": "### Tier 1 Standard\nDisciplined and well-equipped mercenaries, known for their blue armor and use of illegal technology.\nMotives & Tactics: Mercenary Tactics +2\n#### Features\nConcussive Shot - Action: Mark 1 Stress to fire a concussive shot at a target within close range. If the attack is successful, the target is knocked back to Close range and, if it hits a solid surface, becomes Vulnerable.\nShield Disruption - Passive: The Trooper uses disruptor ammunition. If the Trooper&#x27;s attack hits a target that still has active shield slots, it deals +2 damage.\nTactical Retreat - Reaction: When the Trooper takes damage, it can immediately move to a cover area within Close range.\n}}\n{{adversary,",
+          "Name": "Blue Suns Trooper",
+          "Type": "adversary"
+        },
+        "Cyh54mtidp8ETSkf": {
+          "Description": "### Tier 1 Bruiser\nA scaled, predatory beast with a massive jaw, often used as an attack dog by Krogans or pirates.\nMotives & Tactics: Charge, endure pain, feed\n#### Features\nLeaping Charge - Action: The Varren moves to a target within Close range. The target must make a Strength Reaction Roll (14). On a failure, they take 4 phy damage and became Restrained.\nIgnore the Pain - Reaction: When the Varren marks HP, it can spend 1 Stress to reduce the damage by 1.\nPack Frenzy - Passive: The Varren deals +2 damage if another Varren or ally is within Very Close range of its target.\n}}\n{{adversary,",
+          "Name": "Varren",
+          "Type": "adversary"
+        },
+        "EeKQ8pcziSgIxc3d": {
+          "Description": "### Tier 3 Ranged\nA bloated, heavy-artillery monstrosity created from a corrupted Rachni, carrying twin cannons.\nMotives & Tactics: Fire support, suppress\n#### Features\nArtillery Bombardment - Action: The Ravager fires into the air. Choose a location within Far range. All targets within Close range of that spot must make an Agility Reaction Roll or take 3d12 ene damage and become Vulnerable.\nSwarmer Spawning - Reaction: When the Ravager marks HP from a physical attack, the GM may spend 1 Fear to spawn a number of Small Swarm (Tier 1 Minion, 1 HP, Melee 0, Dmg 1) equal to the HP marked, at the Ravager&#x27;s feet.\nAcid Rupture - Passive: When the Ravager is defeated or its Major Threshold is crossed, it leaves a pool of acid (Close range). Any creature entering or starting their turn in the pool takes 6 ene damage.\n}}\n{{adversary,",
+          "Name": "Reaper Ravager",
+          "Type": "adversary"
+        },
+        "eEp1miWNx2S1AzlW": {
+          "Description": "### Tier 2 Skulk\nA disciplined biotic operative who strikes from the shadows.\nMotives & Tactics: Isolate targets, disrupt formations, vanish\n#### Features\nTactical Cloak - Passive: The Huntress deals direct damage while they’re Hidden.\nWarp Field - Action: Mark a Stress to target an enemy within Far range. Make an attack roll. On a success, the target takes standard damage and becomes Vulnerable. Until the end of the scene (or until they clear the condition), the target cannot recover Shield Slots.\nBiotic Blink - Reaction: When the Huntress is targeted by an attack, spend a Fear to teleport to a location within Close range, potentially causing the attack to miss. The attack made against the Huntress has Disadvantage.\n}}\n{{adversary,",
+          "Name": "Asari Huntress",
+          "Type": "adversary"
+        },
+        "g6WPLwccJd2ayKv2": {
+          "Description": "### Tier 3 Horde\nA buzzing cloud of mechanical insects that seeks to sting and paralyze targets for harvest.\nMotives & Tactics: Paralyze, overwhelm\n#### Features\nCollector Paralysis - Passive: Any target hit by the Seeker Swarm must make a Strength Reaction Roll. On a failure, they gain the Restrained condition. While Restrained this way, they cannot gain or spend Hope.\nOminous Buzzing - Action: The swarm fills a zone (Close range). All targets in the zone must make an Instinct Roll (Difficulty 17). On a failure, they mark 2 Stress and are Vulnerable.\nFlight - Passive: The Swarm can move over obstacles and ignore difficult terrain. It has Advantage on Agility-based rolls.\n}}\n{{adversary,",
+          "Name": "Seeker Swarm (Collector)",
+          "Type": "adversary"
+        },
+        "GatMsVSnG2omRfbI": {
+          "Description": "### Tier 2 Support\nA tactical specialist wearing distinct yellow and white armor, deploying turrets to control the battlefield.\nMotives & Tactics: Deploy tech, strip defenses, flush out targets\n#### Features\nIncinerate -Action: Mark a Stress to fire a superheated plasma blast at a target within Close range. On a success, deal 2d6+4 ene damage. If the target has no active Shield Slots, they are Vulnerable.\nDeploy Turret - Action: Spend a Fear. The Engineer places a Sentry Turret (Tier 1 Minion, stationary, Ranged attack +3, Dmg 4) in a zone within Close range. The Turret immediately takes the spotlight.\nOverload - Reaction: When a PC within Far range uses the \"Take Cover\" action or a \"Success with Hope\" to recover Shield Slots, the Engineer can mark a Stress to force the target to make a Knowledge Reaction Roll. On a failure, the PC recovers 0 Shield Slots and takes 1d6 ene damage.\n}}\n{{adversary,",
+          "Name": "Cerberus Engineer",
+          "Type": "adversary"
+        },
+        "ICJv5iS26jfwM968": {
+          "Description": "### Tier 1 Minion\nGeth drones used to flush out the enemy\nMotives & Tactics: Acquire, distract , self-destruction\n#### Features\nMinion (4) - Passive: The Attack Drone is defeated when they take any damage. For every 4 damage a PC dealts to the Attack Drone, defeat an additional Minion whitin range the attack would succeed against.\nSelf-Destruct Protocol - Reaction: When destroyed, the Attack Drone deals 1 damage to anyone within Melee range.\nGroup Attack - Action: Spend a Fear to choose a target and spotlight all Attack Drone within Close range of them. Those Minions make one shared attack roll. On a success, they deal 1 physical damage each. Combine this damage.\n}}\n{{adversary,",
+          "Name": "Geth Attack Drone",
+          "Type": "adversary"
+        },
+        "kSDaPuEu6lhT2stO": {
+          "Description": "### Tier 3 Social/Special\nA genetic variant of the Asari who dominates victims psychically and burns their nervous system.\nMotives & Tactics: Seduce, dominate, terrorize\n#### Features\nDominate Mind - Action: The Ardat-Yakshi locks eyes with a target. The target must make a Presence Reaction Roll. On a failure, they must mark 3 Stress, they gain immediately the Spotlight, and the GM chooses their next action (must be an attack against an ally or a move away from the objective).\nEmbrace Eternity - Action: Make an attack against a Restrained or Vulnerable target at Melee range. If successful, deal 5d10 ene damage. The Ardat-Yakshi clears 2 HP and 2 Stress as she drains the target’s life force.\nAura of Terror - Passive: Any target starting their action within Close range of the Ardat-Yakshi must mark 1 Stress or have Disadvantage on all rolls.\n}}\n{{adversary,",
+          "Name": "Ardat-Yakshi",
+          "Type": "adversary"
+        },
+        "KZdxSwmLLoF3P2Uj": {
+          "Description": "### Tier 2 Minion\nA mindlessly aggressive cybernetic zombie. They swarm in terrifying numbers.\nMotives & Tactics: Swarm, grab and bite\n#### Features\nMinion (10): For every 6 points of damage dealt, defeat an additional Husk in the group.\nStatic Pulse - Reaction: When a Husk is defeated in Melee, it releases an electrical burst. The attacker must make an Instinct Reaction Roll or mark 1 Stress.\nWeight of Numbers - Passive: If a PC is within Melee range of 3 or more Husks, they are Restrained and cannot move until they succeed on a Strength Reaction Roll.\n}}\n{{adversary,",
+          "Name": "Advanced Husk",
+          "Type": "adversary"
+        },
+        "m8GIwtNZofwIVuKQ": {
+          "Description": "### Tier 1 Ranged\nThese soldiers function with determined precision and practiced teamwork\nMotives & Tactics: Acquire, cover, eliminate\n#### Features\nTactical Cover - Reaction: Mark 1 Stress to gain +2 Difficulty against a ranged attack if near cover.\nSmoke Grenade - Action: Creates a Very Close area that grants Disadvantage to all ranged attack rolls made into or out of the area.\n}}\n{{adversary,",
+          "Name": "Cerberus Assault Trooper",
+          "Type": "adversary"
+        },
+        "mqo6oBzCTdhKGs4Z": {
+          "Description": "### Tier 2 Skulk\nAn Asari mercenary clad in yellow armor, crackling with biotic energy.\nMotives & Tactics: Charge in, flank, biotic detonation\n#### Features\nBiotic Charge - Action: Mark a Stress. The Vanguard dissolves into blue energy and reappears within Melee range of a target within Far range, immediately making a standard attack. If the attack hits, the target is knocked back to Close range and became Vulnerable.\nWarp Ammo - Passive: The Vanguard deals +1d8 damage against targets who have at least 1 active Shield Slot.\nBiotic Barrier Initialization - Reaction: When Vangard enters the battlefield, add 3 Biotic Barrier tokens.\nBarrier - Reaction: When the Vanguard takes Physical damage, you can Spend a Fear and remove a Biotic Barrier token to reduce the damage by 1d10.\n}}\n{{adversary,",
+          "Name": "Eclipse Vanguard",
+          "Type": "adversary"
+        },
+        "NNJqpF4ujZQjMZhG": {
+          "Description": "### Tier 1 Standard\nA savage, regenerative reptilian humanoid wielding an assault rifle and a bad attitude.\nMotives & Tactics: Intimidate, regenerate wounds, flank, suppress fire\n#### Features\nHyper-Regeneration - Passive: When the Vorcha gains the Spotlight, if they has marked HP but are not defeated, clear 1 HP.\nBloodlust - Action: The Vorcha has an advantage against opponents who have already marked HP.\n}}\n{{adversary,",
+          "Name": "Vorcha Trooper (Blood Pack)",
+          "Type": "adversary"
+        },
+        "noFt2jrNI1HtP6Nf": {
+          "Description": "### Tier 1 Minion\nA fragile, bipedal security robot programmed for mass deployment. They march forward firing indiscriminately.\nMotives & Tactics: Overwhelm, obey protol, suppress\n#### Features\nMinion (5): This adversary is defeated when it takes any damage. For every 5 points of damage dealt to it beyond the first, defeat another LOKI Mech within range.\nGroup Attack - Action: Spend a Fear to choose a target and spotlight all LOKI Mechs within Close range of them. They make one shared attack roll. On a success, they deal 3 physical damage each. Combine this damage.\nSuppressive Fire - Reaction: When you make a successful Group Attack with at least 3 LOKI Mechs, spend a Fear to make their target Restrained.\n}}\n{{adversary,",
+          "Name": "LOKI Mech",
+          "Type": "adversary"
+        },
+        "qs7ae7ExdXcByDl6": {
+          "Description": "### Tier 1 Horde (4/HP)\nSmall, acid-spitting insectoid creatures that swarm targets in a chaotic wave of claws and toxins.\nMotives & Tactics: Swarm, overwhelm\n#### Features\nHorde (1d4+1) - Passive: When the Rachni Worker have marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead.\nToxic Burst - Action: Some of the workers explode to protect the group. Mark one HP, then all targets in Melee range must succeed on an Agility Reaction Roll or take 1d20+3 direct phy damage.\nVolatile Acid - Reaction: When the Rachni worker takes physical damage, PCs in Melee range must mark 1 Stress from the resulting acid spray.\n}}\n{{adversary,",
+          "Name": "Rachni Worker",
+          "Type": "adversary"
+        },
+        "reIQUlZHP2iuTp9I": {
+          "Description": "### Tier 2 Solo\nAn elder warlord possessing immense physical strength and biotics, capable of taking on whole squads alone.\nMotives & Tactics: Charge, barrier regeneration, blast, rage\n#### Features\nRelentless (2): The Banshee can be spotlighted up to 2 times per GM turn. Spend Fear as usual to spotlight them.\nBiotic Charge - Action: Mark a Stress to charge through a group within Close range and make an attack against all targets in the Battlemaster’s path. Targets the Battlemaster succeeds against take 2d6+8 physical damage and are knocked back to Very Far range. If a target is knocked into a solid object or another creature, they take an extra 1d6 damage (combine their damage).\nBarrier - Reaction: When the Battlemaster would take damage, spend 1 Stress to roll 1d12. Reduce the damage by the result.\nNova - Action: Spend 2 Fear. The Battlemaster expends their Biotic Barrier in an explosion. All targets within Close range take 4d8 ene damage. The Battlemaster can&#x27;t use the Barrier reaction anymore.\n}}\n{{adversary,",
+          "Name": "Krogan Battlemaster",
+          "Type": "adversary"
+        },
+        "tMD16QeSkMriajX5": {
+          "Description": "### Tier 2 Bruiser\nA massive reptilian warrior with redundant organs and heavy armor, charging headfirst into battle.\nMotives & Tactics: Charge, headbutt, soak damage, regenerate, refuse to die\n#### Features\nRedundant Organs - Passive: When the Krogan Warrior should mark HP, they may mark 1 Stress instead.\nKrogan Charge - Action: Spend a fear to move the Krogan to a target within Far range and to make a Melee attack. On a success, the target takes +1d8 phy damage.\nBlood Rage - Reaction: When the Krogan is at 3 HP or less, they gain Advantage on all Melee attacks and deal +5 damage, but they cannot use Ranged attacks.\n}}\n{{adversary,",
+          "Name": "Krogan Warrior",
+          "Type": "adversary"
+        },
+        "uBp2u0TdLQhI5MON": {
+          "Description": "### Tier 2 Skulk\nA synthetic trooper equipped with a tactical cloaking device and a powerful shotgun.\nMotives & Tactics: Ambush, jamming\n#### Features\nTactical Cloak - Action: The Geth Hunter becomes Hidden. While Hidden, they have +3 to their difficulty.\nRadar Jamming - Passive: While the Geth Hunter is within Close range of a target, that target has Disadvantage on any rolls that rely on Tech or sensors.\nFlanking Strike - Passive: If the Geth Hunter attacks a target that is already engaged with another Geth, it deals an additional 1d10 ene damage.\n}}\n{{adversary,",
+          "Name": "Geth Hunter",
+          "Type": "adversary"
+        },
+        "uBSHC2lzkZidTESz": {
+          "Description": "### Tier 2 Standard\nA disturbing fusion of insect and cybernetics, controlled by a remote will.\nMotives & Tactics: Paralyze, collect samples, advance inexorably, \"Take Direct Control\"\n#### Features\nParticle Beam - Action: Mark 1 Stress to emit a continuous beam at a target. Make an attack roll. If successful, the target takes standard damage and the beam remains locked on. For the next attack to the same target, the Collector Drone has advantage, and it causes Direct Damage.\nHarbinger&#x27;s Will - Passive: Each Collector Drone knows everything that the other Collector Drones in the same scene know, including any hidden enemies that are only visible to one of them.\nAssume Control - Reaction: When the Drone is defeated, roll a d6. On a 6, the drone explodes in a burst of biotic energy, forcing all enemies within close range to make an Instinct Reaction roll. Those who fail are Vulnerable.\n}}\n{{adversary,",
+          "Name": "Collector Drone",
+          "Type": "adversary"
+        },
+        "UtIdwT5kRGcVcCfy": {
+          "Description": "### Tier 2 Support\nA tech specialist capable of stripping shields and deploying combat drones to harass enemies.\nMotives & Tactics: Control the battlefield with drones and high-damage tech abilities from a safe distance.\n#### Features\nDeploy Combat Drone - Action: Spend 1 Fear. The Engineer deploys a Drone (Difficulty 12, 1 HP, Dmg 4 ene). The Drone immediately gain the Spotlight.\nOverload - Action: The Engineer targets a PC&#x27;s tech or armor. The target must make an agility Reaction Roll. On a failure, they must mark one Shield Slot and mark 1 Stress.\nIncinerate - Action: The Engineer launches a high-heat projectile. Target takes 2d6 ene damage and is Burning (takes 3 ene damage whenever they have the Spotlight until they spend an action to put it out).\n}}\n{{adversary,",
+          "Name": "Eclipse Engineer",
+          "Type": "adversary"
+        },
+        "wqlj9zF0u89LNLwZ": {
+          "Description": "### Tier 2 Leader\nA field commander coordinating fireteams with ruthless efficiency and smoke grenades.\nMotives & Tactics: Mark targets, obscure, suppress\n#### Features\nSmoke Grenade - Action: Spend 1 Fear. The Centurion creates a cloud of smoke at Close range. All creatures within the smoke are Obscured (Attacks against them have Disadvantage) and can take the Hide action as a free move.\nFocus Fire - Action: Mark a Stress to spotlight 1d4 allies within range of a target they can attack without moving. On a success, their attacks deal half damage.\nTactical Shield Initialization - Reaction: When the Centurion enters in a scene, put 3 Kinetic Shield token on them.\nTactical Shield - Reaction: When the Centurion takes damage, you can remove a Kinetic Shield token to reduce that damage by 5.\n}}\n{{adversary,",
+          "Name": "Cerberus Centurion",
+          "Type": "adversary"
+        },
+        "X7mLgEqujoQ7Q1M6": {
+          "Description": "### Tier 3 Leader\nA towering white-armored Geth platform that boosts the combat efficiency of nearby synthetic units.\nMotives & Tactics: Command, deploy, suppress\n#### Features\nCombat Network - Reaction: When another Geth ally within Far range is targeted by an attack, you can mark a Stress to give the attacker Disadvantage.\nDeploy Combat Drone - Action: Spend a Fear to summon a Geth Attack Drone (Tier 1 Minion). It appears within Close range and immediately takes the spotlight.\nSiege Protocol - Action: The Prime fires a continuous beam. One target must make a Reaction Roll (Strength 20). On a failure, they take 4d10 ene damage and are pushed back to Far range.\nSiege Pulse - Reaction: When you make a successful standard attack against a target, they must mark a shield slot without gaining its benefits.\n}}\n{{adversary,",
+          "Name": "Geth Prime",
+          "Type": "adversary"
+        },
+        "xNYmLtj9vlgBPCrO": {
+          "Description": "### Tier 3 Standard\nAn elite biotic warrior clad in sleek armor, capable of manipulating gravity to crush her foes.\nMotives & Tactics: Mobility, Control, Suppress\n#### Features\nBiotic Lift - Action: The target must make an Instinct Reaction Roll. On a failure, the target is lifted into the air and become Restrained and Vulnerable until the end of their next turn.\nWarp - Action: Spend 1 Fear. The Commando hits a target with a molecular-shredding field. The target’s Thresholds are reduced by 4 until they receive a heal/cleanse, or until the scene ends. This debuff can&#x27;t stack.\nBlink - Reaction: When targeted by an attack, the Commando may spend 1 Stress to teleport to Close range, potentially causing the attack to miss if the new position provides full cover.\n}}\n{{adversary,",
+          "Name": "Asari Commando (Eclipse)",
+          "Type": "adversary"
+        },
+        "xYj6mf0SuDiNFtwg": {
+          "Description": "### Tier 2 Social\nA ruthless negotiator and intimidation expert who prefers to take prisoners rather than corpses.\nMotives & Tactics: Demoralize, negotiate hostage release, intimidate\n#### Features\nHostage Shield - Reaction: If the Slaver is within Melee range of a target or a restrained ally, they can spend 1 Fear to redirect an incoming attack to that target.\nIntimidating Shout - Action: Mark a Stress to say something mocking and force a target within Close range to make a Presence Reaction Roll (14). On a failure, the target must mark 2 Stress and is Vulnerable until the scene ends.\nNet Trap - Action: The Slaver fires a weighted net. The target must make an Agility Reaction Roll (14) or become Restrained.\n}}\n{{adversary,",
+          "Name": "Batarian Slaver",
+          "Type": "adversary"
+        },
+        "YaEoE7QQL5gUPSH4": {
+          "Description": "### Tier 4 Solo\nA terrifying, corrupted Asari that floats effortlessly, emitting a psychic scream and hurling biotic death.\nMotives & Tactics: Teleport, terrorize, deflect\n#### Features\nRelentless (3): The Banshee can be spotlighted up to 3 times per GM turn. Spend Fear as usual to spotlight them.\nBiotic Blink - Movement: The Banshee does not move normally. She teleports to any location within Far range. This movement allows her to pass through obstacles.\nSonic Scream - Action: Spend 1 Fear. All PCs within Close range must make a Presence Reaction Roll. On a failure, they take 2d12 ene damage and mark 2 Stress. On a success, they only mark 1 Stress.\nHand of the Abyss - Action: The Banshee targets a Restrained or Vulnerable PC in Melee. The PC must make a Strength Reaction Roll. If they fail, they are instantly reduced to 0 HP and must make a Death Move.\nBiotic Aegis - Reaction: When targeted by a Ranged Attack, the Banshee may spend 1 Stress to deflect it. The ranged attack has now Disadvantage.\n}}\n{{adversary,",
+          "Name": "Banshee (Reaper)",
+          "Type": "adversary"
+        },
+        "ymRNbo7Zy7nrBHdm": {
+          "Description": "### Tier 3 Support\nA corrupted Turian strategos that hardens nearby allies with carapace plating.\nMotives & Tactics: Fortify, cover\n#### Features\nCarapace Fortification - Action: The Marauder screams, signaling the Reaper signal. Up to 3 allies within Far range restore 2 HP and their Minor Threshold increases by 3 for the remainder of the scene.\nTactical Elbow - Reaction: If a PC enters Melee range, the Marauder may spend 1 Fear to strike them for 1d12+5 phy damage and push them to Close range.\nCovering Fire - Passive: When an ally within Far range of the Marauder moves, the Marauder may make a free Standard Attack against any PC that has \"Spotlight\" on that ally.\n}}\n{{adversary,",
+          "Name": "Reaper Marauder",
+          "Type": "adversary"
+        }
+      },
+      "mass-heart-environments": {
+        "bEf6Dp8n9muXi3dn": {
+          "Description": "### Tier 3 Event\nA school for young biotics under attack by Cerberus or the Reapers. Unstable force fields everywhere.\nImpulses: Shattering glass, blue energy flares, desperate cries for help.\n#### Features\nBiotic Anomaly - Action: Spend a Fear, to shift the unstable biotic field shifts. Choose a direction: everyone (PCs and enemies) is shoved to Far Range in that direction. Anyone who hits a wall or solid object takes 1d10+5 magic (biotic) damage.\nIs it a wave of blue force or a sudden gravity reversal? Who gets slammed against the ceiling?\nUnstable Singularity - Reaction: When a PC rolls with Fear, a localized singularity collapses nearby. Create a Very Close zone that lasts for one round. Any creature that moves through or ends their turn in this zone takes 2d8 magic damage and is Slowed.\nDoes the singularity look like a miniature black hole or a swirling vortex of blue light?\nStudent Shield - Passive: Panicked students are projecting shields. Once per scene, a PC can move to a student&#x27;s location to immediately recover 2 Shield Slots as they share the protection. However, doing so makes the student the target of the next adversary attack.\nDo you take the protection and risk the student, or stand in front of them to take the hit?\n}}\n{{environment,",
+          "Name": "Biotic Academy Under Siege",
+          "Type": "environment"
+        },
+        "bg8g6Aia1qPV5Yej": {
+          "Description": "### Tier 1 Social\nA maze of red neon-lit alleys, filled with criminals, toxic smoke, and illicit opportunities\nImpulses: Exploit the desperate, hide the truth in smoke, spread corruption\n#### Features\nPlague Vector - Countdown: Setup a Countdown (6) named \"Epidemic.\" When it triggers, the localized plague flares up; all PCs must mark 1d4 Stress and become Vulnerable until they receive medical attention or leave the environment.\nWhat symptoms does the disease manifest first? How do the locals react to outsiders showing signs of infection?\nShakedown - Action: Spend a Fear. A local gang corners the party or a specific PC, demanding a toll (credits, gear, or a favor). If the PCs refuse or fail a Presence Reaction Roll (11), the gang attacks or alerts nearby enemies.\nWhich faction controls this specific alley? What happens if you refuse to pay?\nToxic Smog - Reaction: When a PC rolls Failure with Fear, the ventilation systems fail. The area fills with choking gas. PCs must make a Strength Reaction Roll (11) or suffer 2 Stress from the fumes.\nDoes the smoke smell of chemicals or decay? How does it obscure your vision?\n}}\n{{environment,",
+          "Name": "Slums",
+          "Type": "environment"
+        },
+        "fZmZJxwXC5588rHm": {
+          "Description": "### Tier 2 Infiltration / Stealth\nA high-tech research facility nestled within a lush, vibrant jungle. Waterfalls cascade over glass structures where Salarian scientists push the boundaries of evolution.\nImpulses: Steal the data, bypass the sensors, silence the alarm.\n#### Features\nSecurity Protocol - Countdown: Setup a Consequence Countdown (6) named \"Detected.\" When a PC fails a Stealth or Hacking roll, mark a box. When it triggers, the lab enters lockdown: heavy blast doors close, and two Security Drones (Geth Hunter reskined) are deployed immediately into the scene.\nDoes the alarm sound like a rhythmic pulse or a piercing shriek? How do the Salarian scientists react to the intrusion?\nSTG Cloaking Field - Action: Spend a Fear. The lab&#x27;s internal sensors activate a localized jamming field. PCs have disadvantage to all Tech or Knowledge Roll for the remainder of the scene, as their systems are flooded with white noise.\nWhy is your Omni-tool suddenly displaying gibberish? Can you still navigate by sight alone?\nEvolutionary Mutagen - Reaction: When a PC marks HP while near a containment tank, the tank shatters. Spend a Fear. The mutagenic gas grants the PC a temporary +2 to Strength Rolls for the remainder of the scene, but forces them to mark 2 Stress as their biology begins to mutate painfully.\nDoes your skin harden or do your muscles swell? What is the price of this sudden strength?\n}}\n{{environment,",
+          "Name": "Sur'Kesh: STG Bio-Lab",
+          "Type": "environment"
+        },
+        "HJEpHtj4CUMeunc6": {
+          "Description": "### Tier 2 Exploration / Horror\nA ship adrift in deep space, with no gravity and no atmosphere, infested with Husks or rogue VIs.\nImpulses: Drifting into the void, flickering lights, the sound of metal groaning.\n#### Features\nZero-G Combat - Passive: Movement is handled by pushing off surfaces. PCs have Advantage on Agility rolls to maneuver or dodge, but Disadvantage on Strength rolls for melee or physical force.\nHow do you stabilize your aim while floating? What happens when you push off a wall too hard?\nOxygen Reserve - Countdown: Setup a Dynamic Countdown (8) named \"Oxygen.\" When the countdown triggers, the air is gone; every PC must mark 1 HP when they gain a Spotlight until they restore life support.\nDoes the air taste metallic before it runs out? Is there a frantic scramble for the last remaining emergency canisters?\nLife Support Breach - Action: Spend a Fear. An explosion or hull breach creates a vacuum. All PCs and adversaries within a zone must make a Strength Reaction Roll (15). On a failure, they are pulled toward the breach and become Restrained as they cling to the environment for dear life.\nWhat piece of the ship just blew out into the stars? Can you seal the door before everyone is sucked out?\n}}\n{{environment,",
+          "Name": "Derelict Freighter",
+          "Type": "environment"
+        },
+        "HW3CH4mxNav37cuC": {
+          "Description": "### Tier 3 Exploration / Mental\nAn abstract digital landscape within the geth collective consciousness. Reality is made up of cascading green and black data, where thoughts take physical form.\nImpulses: Rewrite the code, glitch the system, merge with the collective.\n#### Features\nVirtual Physics - Passive: Physicality is an illusion here. PCs must use Knowledge instead of Strength and Instinct instead of Agility for all movement, defense, and melee attack rolls.\nHow does your digital avatar differ from your physical body? Does your weapon look like code or a shimmering light?\nHacking Reality - Action: A PC may attempt to rewrite the environment. On a successful Knowledge Roll (17), they can create a temporary bridge, delete a piece of cover an enemy is using, or grant an ally Advantage on their next roll.\nWhat lines of code do you visualize to bridge the digital chasm?\nFirewall Detection - Reaction: When a PC rolls with Fear, the system identifies them as a virus. Spend a Fear to spawn a \"Security Spike.\" The target must make a Knowledge Reaction Roll (17) or take 2d10+5 tech damage as the server attempts to purge their consciousness.\nDo you feel the heat of the server&#x27;s processing power as it tries to delete you?\n}}\n{{environment,",
+          "Name": "Geth Server Node",
+          "Type": "environment"
+        },
+        "N77juKhLpw0NJ88t": {
+          "Description": "### Tier 1 Exploration\nAncient ruins on an unstable planet, with alien technology pulsating with unknown energy and collapsing ground.\nImpulses: Reveal ancient secrets, collapse under pressure, emit strange signals.\n#### Features\nBeacon Pulse - Action: Mark a Stress to have the central Alien artifact emit a wave of incomprehensible data. All PCs within Far range must make a Knowledge Reaction Roll (11). On a failure, their Omni-tools/Tech abilities are disabled (overloaded) until the end of the scene, and they may mark 2 Stress to activate them agaim.\nWhat visions flash before your eyes? How does your tech spark and whine before shutting down?\nUnstable Ground - Reaction: When a PC moves or takes physical action, the ancient walkways crumble. Spend a Fear to force a PC to make an Agility Reaction Roll (11). On a failure, they fall to Close range below and take 1d6+2 physical damage.\nHow deep is the pit beneath the walkway? What ancient machinery do you crash into?\nDecipher the Glyphs - Passive: PCs can attempt to activate ancient consoles to gain an advantage. A successful Knowledge Roll grants the party a Hope and reveals a secret path or hazard. A failure advances a \"Security Protocols\" Countdown (4) that summons Geth or Mechs when filled.\nDo the glyphs warn of danger or promise power?\n}}\n{{environment,",
+          "Name": "Ancient Alien Dig Site",
+          "Type": "environment"
+        },
+        "pAqJDLkLxIeHWzm5": {
+          "Description": "### Tier 4 Traversal / Psychological\nThe biomechanical interior of a Reaper. Pulsating tubes of liquid sentient species, whispers in the mind, and shifting gravity. It is the belly of the beast.\nImpulses: Corrupt the soul, bend the will, offer false salvation.\n#### Features\nIndoctrination - Countdown: Setup a Consequence Countdown (6) named \"Indoctrination\" for each PC. Every time a PC fails a roll with Fear, mark a box. When a PC&#x27;s countdown is filled, the GM takes the Spotlight for that character, forcing them to either attack an ally, freeze in Paralysis, or drop their weapon in \"submission.\" After this action, clear the countdown.\nWhat lies is the Reaper whispering to you? Whose voice does it use to trick you?\nOrganic Gravity - Reaction: The Reaper&#x27;s internal orientation is non-Euclidean. When a PC fails with Fear, the floor becomes the ceiling. The PC must make an Instinct Reaction Roll (20) or fall, becoming Vulnerable until their next spotlight and taking 1d10 Direct Damage.\nDoes your stomach churn as the world spins? Can you find your footing on the pulsating walls?\nSentient Attrition - Action: Mark a Stress. The core pulses with a psychic scream. All PCs must make a Presence Reaction Roll (20). On a failure, they cannot spend Hope until they successfully hit an enemy, as their resolve is temporarily shattered by the Reaper&#x27;s overwhelming presence.\nHow do you maintain your sense of self against the weight of a machine-god&#x27;s mind?\n}}\n{{environment,",
+          "Name": "Reaper Core",
+          "Type": "environment"
+        },
+        "XuBKnj8Nb8lQaPuF": {
+          "Description": "### Tier 4 Extreme Traversal\nThe exterior hull of a massive vessel caught in an eternal storm. Lightning strikes the metal plates while the wind threatens to tear you into the abyss.\nImpulses: Cling to the hull, outrun the storm, sell out a secret.\n#### Features\nLightning Discharge - Action: At the start of the GM turn, roll a d6. On a 5 or 6, lightning strikes a random zone. All creatures in that zone must make an Agility Reaction Roll (20). On a failure, they take 3d10+10 tech damage. This damage cannot be reduced by using Shield Slots.\nIs the sky purple or blinding white when the bolt hits? Does the smell of ozone overwhelm your senses?\nInformation Overload - Passive: The Advanced ship broadcasts tactical data intended to demoralize. Whenever a PC spends Hope, they must first make a Presence Reaction Roll (20). On a failure, they must mark 1 Stress to successfully spend that Hope, as the Ship whispers their deepest failures into their comms.\nWhose voice does the Broker use to mock you? What secret from your past is being broadcast?\nShifting Hull Plates - Reaction: When a PC rolls with Fear, the massive radiator plates of the ship shift. The PC must make a Strength Reaction Roll (20). On a failure, they are pinned between plates, becoming Restrained and taking 1d12 Direct Physical Damage.\nCan you hear the grinding of the massive gears over the roar of the storm?\n}}",
+          "Name": "Advanced Ship in Dangerous Environment",
+          "Type": "environment"
+        }
+      },
+      "mass-heart-journals": {
+        "5QcHf5qVvnxtaf7v": {
+          "Name": "Mass Heart GM Moves",
+          "Page": {
+            "0": {
+              "Content": "## Suggested GM Moves\nIn this section you will find suggestions for moves that can be activated by spending 1 or more Fear points to drastically change the course of a scene or put the characters in serious difficulty.\n}}\n#### Combat and Technology\nThese moves focus on the high-tech nature of the Mass Effect universe, where hardware failure or tactical precision can be as deadly as a bullet.\n- 1 Fear: A PC&#x27;s weapon or omni-tool malfunctions. The PC cannot use that specific equipment or a related tech ability until they spend an Action (or mark 1 Stress) to manual-reset the system.\n- 1 Fear: Instead of dealing physical damage, inflict 2 Stress on a PC, representing a kinetic barrier overload or a debilitating neural shock.\n- 1 Fear: A group of enemies coordinates their fire. Until the PC moves to a different Range or finds new cover, they take Disadvantage on all Attack Rolls.\n- 1 Fear: An enemy hacker or an automated turret identifies a weakness in a PC’s armor. The next time that PC marks Shield to reduce damage, they must mark two Shield Slots instead of one.\n- 2 Fear: Spend this when a PC is out of cover or separated from the group. An elite unit (like an Atlas Mech or a Geth Hunter) moves instantly to Melee or Very Close range and immediately makes an Attack Roll with Advantage.\n:\n#### Environment & Galactic Tension\nThese moves leverage the vacuum of space, hostile alien worlds, and the complex political landscape of the Citadel and beyond.\n- 1 Fear: A localized jammer or solar flare cuts the feed to the ship or HQ. PCs lose access to external intel or support (like orbital scans or remote hacking) for the remainder of the scene.\n- 2 Fear: A hull breach or a toxic leak occurs. The GM starts a 4-segment Countdown Clock. When it fills, the area becomes uninhabitable; PCs must either seal the breach or start marking 1 HP directly every time they take an action without a pressurized suit.\n- 1 Fear: A stray shot hits a volatile fuel cell or a power conduit. The GM creates a new Hazard on the field (e.g., Dangerous terrain that deals d8 Magic damage to anyone ending their turn nearby).\n- 1 Fear: Use this in social or high-security situations. A Citadel official or a local warlord demands a \"security tax\" or a permit. The PCs must either spend a resource (like a specific loot item or local currency) or take Disadvantage on their next Social roll to convince or bypass them.\n- 2 Fear: The presence of Reaper technology weighs on the mind. Every PC in the area must immediately mark 1 Stress. Additionally, for the rest of the scene, any roll that results in Fear causes the PC to see a hallucination of a loved one or a traumatic memory, momentarily distracting them.\n#### Social Intrigue & NPC Influence\nThese moves represent the complex web of loyalties, diplomatic friction, and personal costs involved in galactic politics.\n- 1 Fear: An NPC reveals they know something compromising about a PC’s past or their current mission. The PC must either mark 1 Stress to remain stoic or give in to a minor demand to keep the NPC quiet.\n- 1 Fear: After a PC makes a social roll (even a success), an NPC subtly undermines their authority in front of an audience. The next social roll made by any PC in this scene takes Disadvantage.\n- 1 Fear: An ally or contact provides help, but they demand an immediate and inconvenient favor in return. If the PCs refuse, they lose a Bond or a point of Reputation with that faction.\n- 1 Fear: A PC inadvertently offends a sensitive alien custom (e.g., Turian hierarchy or Krogan rites). The GM creates a Countdown Clock (3-segments) called \"Diplomatic Fallout.\" If it fills before the PCs apologize or fix it, the NPC becomes Hostile.\n- 2 Fear: A PC antagonist appears in a moment of great impact, complicating the scene with emotional hooks from the past.\n{{wide",
+              "Name": "Mass Heart GM Moves"
+            }
+          },
+          "Type": "base"
+        },
+        "FMblqFKwlMcXDZjx": {
+          "Name": "Mass Heart Mechanics",
+          "Page": {
+            "0": {
+              "Content": "## Campaign Frame Mechanics\nThese are mechanics specific to this campaign frame.\n}}\n### Magic Damage and Spells\nIn a Mass Effect campaign, Magic damage is called Energy damage. Energy damage can come from different sources - Biotic, Tech, or non-projectile weapons. Some abilities may care about the type of source that causes damage.\nSpells and Spellcast Rolls are similarly divided into Biotic and Tech, depending on the character class.\n:\n### Armor\nIn this campaign frame, you still have access to the regular sets of armor, but this armor is equipped with personal shield generators. This makes them behave slightly different.\n:\n#### Shield Slots\nThe Armor Slots on your character sheet are used as Shield Slots which reflect the strength of your Kinetic Barrier. You have a number of Shield Slots equal to half your Armor Score, rounded down. This also means that any effects that change your Armor Score have a halved effect on your Shield Slots.\nUnlike standard armor that requires repairs, any marked Shield Slots are automatically cleared during downtime. Downtime can be a rest, but also any other sufficiently long period of low tension.\n:\n#### Taking Cover\nIt&#x27;s also possible to replenish Shield Slots during tense situations. Several classes have abilities or features that restore Shield Slots for themselves or allies. Additionally, every character can &#x27;Take Cover&#x27; to restore Shield Slots.\n- Take Cover Make an Action Roll to take cover and become Hidden. If you roll with Hope, you may immediately clear 1 Shield Slot instead of gaining Hope.\n> The trait used for &#x27;Take Cover&#x27; depends on the narrative; it does not need to be Finesse because of &#x27;hiding&#x27;. Work together to describe the cover to make it fit in the story.\n:\n#### Overshield\nSome abilities apply \"Overshield\". Overshield applies temporary Shield Slots on top of your regular Shield Slots, with some special rules.\n- Overshield can not be recharged. Once you mark the Shield Slot, it is depleted until a new source of Overshield is applied.\n- Overshield does not stack. When you have Overshield 1 and gain Overshield 2 from another source, the new source overrides the old one. You&#x27;ll have 2 temporary Shield Slots, not 3.\n- Any remaining Overshield clears when you take a rest.\n#### New Downtime Moves\nWith automatic Shield regeneration, the \"Repair Armor\" downtime move no longer exists. These alternative downtime moves are available instead.\n##### Short Rest\n- Overcharge: Gain Overshield 1.\n- Talk to the Team: Choose a teammate. Until your next rest, you can both use a d20 as a Hope die for the next Tag Team Roll you make together.\n:\n##### Long Rest\n- Recalibrate: Gain a permanent Shield Slot until your next long rest.\n- Talk to the Crew: Speak to your group about your adventure and the choices you made. Describe the scene, then gain 1 Morality point*.\n> \\* Morality Points are described on the next page!\n:\n### Domains\n#### Sage\nWhen using this frame, there are likely few places that have not been touched by civilization at some point. This can make abilities that rely on your natural connection with the world narratively unsatisfying.\nWe&#x27;ve chosen to reflavor the Sage domain to fit a wider interpretation of &#x27;connection&#x27;. Think about how you connect to your surroundings as a whole. Feel the silent hum of the Element Zero that is used to power the things around you. Sage spells are deeply connected with biotics, gravity, and mass-altering effects. Use this information to guide your descriptions for any Sage-related abilities and spells.\n:\n#### Valor\nArmorer (Level 5) does not work, as there is no downtime move to repair armor. Instead, when you &#x27;Overcharge&#x27; you can apply the effect to one other ally.\nAs mentioned in the section about Kinetic Barriers, any gains to Armor Score are converted into Shield Slots with the conversion rate of 2 Armor Score > 1 Shield Slot. You can instead choose to change the effect into granting Overshield, if this causes confusion.\n#",
+              "Name": "Mass Heart Mechanics"
+            }
+          },
+          "Type": "base"
+        },
+        "ga1wC9YAH5Cdb5ps": {
+          "Name": "Mass Heart Overview",
+          "Page": {
+            "0": {
+              "Content": "## Overview\nIf your group decides to play this campaign, give your players the following information before character creation.\n}}\nThe Milky Way galaxy is a vast, interconnected web of ancient secrets and burgeoning civilizations, all linked by the enigmatic Mass Relays. In this campaign frame, players step into a world where the discovery of Prothean technology has catapulted humanity into a galactic community governed by the Citadel Council. It is a setting of high-stakes diplomacy, breathtaking exploration, and the looming shadow of an ancient threat. As players traverse the stars, they will find themselves at the heart of a cosmic drama where every choice resonates through the vacuum of space, balanced between the cold logic of survival and the burning hope of unity.\nThe galactic landscape is defined by its diverse inhabitants and the fragile peace maintained by the Council. From the disciplined hierarchy of the Turian Hierarchy to the brilliant, fast-paced innovation of the Salarian Union, and the centuries-long wisdom of the Asari Republics, each culture brings its own philosophy to the table. Players can choose to embody these iconic races or others, like the resilient Krogan or the technologically nomadic Quarians. In Mass Heart, these ancestries are more than just stats; they are the lenses through which characters view a galaxy that is often hostile, yet filled with potential allies.\nThe world of Mass Heart is a duality of gleaming utopias and gritty underworlds. The Citadel stands as a beacon of civilization, a massive space station where laws are debated and the fate of trillions is decided. Contrast this with Omega, a lawless station in the Terminus Systems where mercenaries, smugglers, and outcasts thrive in the neon-lit shadows. Players will find themselves jumping from corporate laboratories on frozen moons to ancient ruins on lush, uncharted worlds, utilizing their Omni-tools and biotics to overcome obstacles that range from political scandals to localized extinction events.\nFactions pull the strings of this galaxy, creating a complex web of loyalty and betrayal. The Systems Alliance represents humanity’s ambition and drive, while the shadowy organization known as Cerberus operates on the fringes, championing human supremacy at any cost. Meanwhile, the Geth—a collective AI consciousness—and the mysterious Collectors remind the galaxy that not all threats come from within the Council’s borders. Navigating these organizations requires more than just firepower; it requires the social finesse and tactical brilliance that Daggerheart’s \"Spotlight\" and \"Hope/Fear\" mechanics excel at portraying.\nThe gameplay experience in Mass Heart merges tactical combat with cinematic narrative. Combat is fast and lethal, emphasizing the use of cover, tech overrides, and devastating biotic fields.\nSpace travel is the lifeblood of the campaign. The players’ ship is not just a vehicle, but a home and a base of operation, a \"silent character\" that grows with the crew. Whether you are hunting a rogue Spectre across the Attican Traverse or investigating a distress signal from a derelict freighter, the ship provides the sanctuary needed for Downtime moves. Here, characters bond, upgrade their gear, and prepare for the inevitable moment when diplomacy fails and the guns must be drawn.\nAs the campaign progresses, the true nature of the cosmic cycle begins to reveal itself through fragmented whispers and terrifying anomalies. Ancient, sentient horrors of unimaginable power wait in the freezing dark space between galaxies, watching and preparing for their periodic harvest of all organic life. This existential threat provides a silent, ticking clock for the narrative, as the players uncover evidence of a doom that has claimed countless civilizations before their own. These revelations force characters to attempt the impossible: uniting warring factions against a shadow they can barely comprehend. The stakes are nothing less than the survival of every sentient being in the galaxy, turning every mission into a desperate, crucial step toward salvation or an inevitable, silent extinction.\nCommanders, the galaxy is at a crossroads. The stars are beautiful, but they are also cold and indifferent to the struggles of those who dwell among them. It takes a special kind of hero to bridge the gap between species, to stand against the tide of darkness, and to prove that the heart of a team is stronger than the cold steel of a machine. Assemble your crew, calibrate your weapons, and prepare to make your mark on the stars.\nThe fate of the Milky Way is in your hands, will you be the light that guides it home?\n{{FrameHeader,wide\n### Mass Heart\n:",
+              "Name": "Mass Heart Overview"
+            }
+          },
+          "Type": "base"
+        },
+        "i5FKYdoNFMg2Q2ab": {
+          "Name": "Mass Heart Reputation",
+          "Page": {
+            "0": {
+              "Content": "## Morality and Reputation\nThe Morality and Reputation systems define a character&#x27;s method of operation and how they are perceived by the galaxy. They have two opposing ideologies. Paragons are inspiring leaders who strive to uphold the law and Renegades are determined pragmatists who put results above all else. Try to avoid treating them as &#x27;Good&#x27; vs &#x27;Evil&#x27;, each ideology has their own strengths and shortcomings.\n#### Morality\nEach character has a two-sided tracker for Morality. When you gain a Morality point, you shift the tracker in that direction; when you gain Renegade Morality, you lose Paragon Morality, and vice versa.\n- Paragon Morality These are earned by acting with diplomacy, altruism, following protocols, and mercy.\n- Renegade Morality These are earned through intimidation, brute force, pragmatism, and achieving your goal at all costs.\nMorality can be gained in several ways. At the end of a scene, the GM can award Paragon or Renegade Morality to characters depending on the PC&#x27;s behavior during the scene. Additionally, the new \"Talk to the Crew\" downtime move lets players earn Morality of their choice.\nThe maximum Morality you can have towards a particular side is 3. If you gain any more Morality towards that direction, the effects are ignored. If you gain Morality in the opposite direction, your Morality reduces to 2.\n#### Reputation\nReputation represents how you are remembered by the galaxy as the word spreads of your heroic deeds.\nWhen a character levels up, they gain a Paragon or a Renegade Reputation Point, depending on the standing of their Morality at that time. If their Morality is Neutral, they may choose which type of Reputation point to get.\nReputation Points are not opposed; you can accumulate both Paragon and Renegade Reputation simultaneously. After you gain a Reputation Point, your Morality is reset to Neutral.\n##### Reputation Abilities\nWhen you have enough Paragon or Renegade Reputation, you gain the corresponding ability from the table below.\n#### Graceful & Dreadful Reputation\nThe Grace and Dread domains are not used in the 6 base classes. Instead, these domains are tied to your Reputation as a Paragon (Grace) or Renegade (Dread). When a player chooses the Pick a Domain Card level-up option, they may take a card of their level or lower from additional domains.\n- If Paragon Reputation is higher, take a card from the &#x27;Grace&#x27; domain.\n- If Renegade Reputation is higher, take a card from the &#x27;Dread&#x27; domain.\n- If Reputation is equal for both, choose from either &#x27;Grace&#x27; or &#x27;Dread&#x27; domain.\nPresence is your Spellcasting Trait for the cards of these domains. The player may still choose to gain a card from their &#x27;normal&#x27; domains instead.\n> If you don&#x27;t own the Hope and Fear expansion, you can use the Dread domain from the public playtest, or have Renegades choose from any domain (keep the party composition in mind).\n#### Morality Interruptions\nInterruptions allow you to break the normal flow of the narrative to perform iconic actions tied to your character&#x27;s nature. As long as you have at least 2 Paragon or Renegade Reputation, you may use the respective Interruption. If you use an Interruption, you also gain the corresponding Morality.\n- Paragon Intervention Once per session, when a character in Close range takes a hostile action, Spend 2 Hope and declare a Paragon Intervention. Make a Presence Reaction Roll against their difficulty. On a success, you de-escalate the situation or convince someone to take your side or follow your lead.\n- Renegade Interruption Once per session, when you roll a Failure with Fear, you can Mark a Stress and declare a Renegade Interrupt. Describe how you \"burn\" the scene. Your roll becomes a Success with Fear, but the GM gains 1 additional Fear to spend on consequences.\n:\n#### Optional: Moral Experience\nDuring character creation, you may reflect your innate morality by using one of your two experiences as a Moral Experience (e.g., \"Alliance Diplomat (Paragon) +2\" or \"Ruthless Ex-Mercenary (Renegade) +2\"). You gain +1 to that experience while the matching Morality has the most points. You gain a -1 malus if the other Morality has more.\n{{FrameHeader,wide\n### Mass Heart\n:",
+              "Name": "Mass Heart Reputation"
+            }
+          },
+          "Type": "base"
+        },
+        "rhI0NGPmxRBWJnvx": {
+          "Name": "Mass Heart Weapon Rules",
+          "Page": {
+            "0": {
+              "Content": "## Weapons\nThis following weapons are available in this campaign. Share these tables with the players during character creation.\n}}\n### Weapon Scaling\nThe weapons in these tables have been separated by Tier in order to reflect their rarity and overall availability among merchants. The tier where the weapon appears is generally the earliest moment it can be acquired.\nWeapons of lower tiers remain viable as they can be found in higher Tiers when characters reach higher levels. This can be represented by custom modifications, better manufacturers, or overall higher quality.\nFor each tier increase, the damage of the weapon increases by 3 (2 for Secondary Weapons).\nIf an effect mentions a \"+Tier\" in the description of its effect, that effect scales when the weapon is found in higher tiers.\n> It&#x27;s generally not advised to downscale weapons, because their special features can make them extremely powerful on lower levels.\n::\n#### Optional: Heavy Weapons\nThere is a special table with Heavy weapons, which are much stronger than most regular weapons. The caveat is that these weapons require a lot of energy to fire, that normal power cells and thermal clips can&#x27;t provide.\nAll Heavy weapons are carried like regular weapons. Remember that switching weapons during combat requires marking a Stress. Additionally, each Heavy Weapon has the Ammo feature.\n> Ammo X: The weapon can have up to X Ammo tokens on it. When you make an attack with this weapon, remove an Ammo Token. If it has no Ammo, the weapon cannot be used.\nAmmo tokens do not replenish during rests. If you decide to use Heavy Weapons, make sure to it clear to everyone at the table whether the weapon is discarded after its Ammo is spent, or if there will be possibilities to replenish Ammo tokens.\nIf you choose to allow replenishing Ammo, Heavy Weapon Ammo can be made available from merchants or by scavenging. These can be individual Ammo tokens, or packs that restore the entire capacity at once. Loading new Ammo into a weapon during downtime is free, but characters must Mark a Stress to do so during combat.\n### Weapon Mechanics\n- Amp (Weapon Type) Amplifiers are only available to characters that are already naturally capable of Biotics: Sentinel, Adept, Vanguard, or using the Asari Ancestry.\n- Overheat X When you attack using this weapon, add a Heat token to it. If you take an action without this weapon, remove 1 Heat. If it has more than X Heat Tokens, it cannot be used. Mark a Stress to clear all Heat. Heat automatically clear at the end of a scene.\n- Sidearm dX When an attack with your primary weapon would miss in range of this weapon, you may add 1dX to the attack roll. If that would succeed against the adversary, deal this weapon&#x27;s damage. The attack is still considered a Failure.\n- Reloading After an attack, roll a d6. On a 1, you must Mark a Stress to un-jam and reload the weapon before you can use it again.\n- Quick Mark a Stress to attack another adversary in range.\n{{DHTable,wide",
+              "Name": "Mass Heart Weapon Rules"
+            }
+          },
+          "Type": "base"
+        },
+        "udz0IpldzjJvW9Gi": {
+          "Name": "Mass Heart Inciting Incidents",
+          "Page": {
+            "0": {
+              "Content": "## The Inciting Incidents\nYou can use one of the prompts below to start your campaign, or create your own.\n}}\n#### The Beacon’s Echo (Era: The Eden Prime Legacy)\nThe galaxy is still reeling from the discovery of humanity, and tensions are high on the Citadel as the newest species struggles to find its place. Your crew has been tasked with a high-priority escort mission to a remote research outpost in the Attican Traverse. Upon arrival, the silence is deafening. The colony’s communications are dead, and as your shuttle breaks the cloud layer, you see the charred remains of a settlement that was thriving only hours ago. A massive, jagged ship of unknown design (resembling a giant, metallic hand) is seen tearing through the upper atmosphere, leaving a wake of distorted gravity behind.\nIn the center of the ruins, a Prothean Beacon has been unearthed, vibrating with a primal hum that vibrates in the marrow of your bones. It’s emitting a rhythmic pulse that overloads Omni-tools and creates a localized distortion field. As you approach, the mechanical chatter of Geth troopers begins to echo from the surrounding treeline. You are the only ones close enough to secure the artifact before it falls into the hands of the machine-consensus, but the Beacon’s energy is volatile. Every step closer feels like a hammer blow to your mind, threatening to push your resolve to the breaking point.\n:::\n#### Shadows of the Collector (Era: The Terminus Void)\nThe Citadel Council insists the \"Reaper threat\" died with Sovereign, dismissing the warnings as Geth propaganda. But in the lawless Terminus Systems, the truth is far more terrifying: entire colonies are vanishing in a single night. Your crew, operating from a refurbished freighter docked at the neon-soaked Omega nebula, is approached by a shadowy contact with a lead too grim to ignore. They provide coordinates to a \"Stilled\" colony, a settlement where life hasn&#x27;t been extinguished by fire, but simply erased.\nWalking through the streets of the colony is like walking through a museum of a life interrupted. You find half-eaten meals still warm on tables and vehicles still idling in the streets, but not a single body, human or alien, remains. As the sun sets, a low, buzzing sound fills the air. Thousands of Seekers, tiny, glowing insects of biomechanical origin, begin to swarm from the shadows. You soon realize you aren&#x27;t just investigating a crime scene; you are the next harvest. Somewhere in the dark, a Collector General is watching through the eyes of its swarm, and you must find a way to escape or become another statistic in the galaxy&#x27;s growing list of the missing.\n#### Pathfinders of the Heleus (Era: The Andromeda Initiative)\nAfter six hundred years of drifting through the dark space between galaxies, you were supposed to wake up to a new beginning. Instead, you awaken to a nightmare. The Ark has been struck by \"The Scourge\", a sprawling, chaotic cloud of dark energy that has crippled the ship’s systems and left thousands of pioneers trapped in malfunctioning cryo-pods. As part of an emergency Pathfinder team, you are deployed to the surface of Habitat 7, a world that was promised to be a lush paradise but is now a jagged wasteland of floating rocks and perpetual lightning storms.\nThe mission is simple but desperate: find a way to stabilize the Ark’s power core before the life support fails for the thousands still sleeping. However, you are not alone in this new galaxy. Amidst the ruins of an ancient, self-replicating architecture that defies all known laws of physics, you encounter the Kett, a militaristic alien race that views your arrival not as a diplomatic first contact, but as a biological resource to be exploited. With your supplies running low and your ship falling apart in orbit, you must decide what it means to be a hero in a place where no one knows your name and the very air is trying to kill you.\n:::\n## Session Zero Questions\nAsk your players one or more of these questions or make up\nyour own.\n- When your ship’s signature appears on a station&#x27;s radar, what is the first thing people think of you?\n- Which two members of the crew have served together the longest, and what was the \"impossible mission\" that cemented your trust?\n- Is your ship a cutting-edge Alliance prototype, a refurbished freighter from the Terminus Systems, or a gift from a shadowy benefactor with strings attached?\n- In a galaxy of diverse species and ancient grudges, what is one cultural misunderstanding or historical bias that currently creates tension within your crew?\n- Does the crew operate within the laws of the Citadel Council, or do you find that getting the job done often requires stepping into the gray areas of galactic law?\n- Do we want a story about idealistic heroes trying to save everyone, or a gritty tale of survivors making the cold choices necessary for the greater good?\n- Which galactic themes, such as indoctrination, the rights of synthetic life, or genetic manipulation, are we most excited to explore together?\n{{FrameHeader,wide\n### Mass Heart\n:",
+              "Name": "Mass Heart Inciting Incidents"
+            }
+          },
+          "Type": "base"
+        }
+      }
+    },
+    "Feature": {
+      "Weapon": {
+        "dhsAkimbo2": {
+          "Action": {
+            "0": {
+              "Description": "+2 to primary weapon damage in this weapon range.",
+              "Name": "Akimbo"
+            }
+          },
+          "Description": "+2 to primary weapon damage in this weapon range.",
+          "Label": "Akimbo"
+        },
+        "dhsAkimbo3": {
+          "Action": {
+            "0": {
+              "Description": "+3 to primary weapon damage in this weapon range.",
+              "Name": "Akimbo"
+            }
+          },
+          "Description": "+3 to primary weapon damage in this weapon range.",
+          "Label": "Akimbo"
+        },
+        "dhsAmmo1": {
+          "Action": {
+            "0": {
+              "Description": "Remove an Ammo token when you attack with this weapon.",
+              "Name": "Ammo 1"
+            }
+          },
+          "Description": "This weapon can hold up to 1 Ammo token.",
+          "Label": "Ammo 1"
+        },
+        "dhsAmmo2": {
+          "Action": {
+            "0": {
+              "Description": "Remove an Ammo token when you attack with this weapon.",
+              "Name": "Ammo 2"
+            }
+          },
+          "Description": "This weapon can hold up to 2 Ammo tokens.",
+          "Label": "Ammo 2"
+        },
+        "dhsAmmo3": {
+          "Action": {
+            "0": {
+              "Description": "Remove an Ammo token when you attack with this weapon.",
+              "Name": "Ammo 3"
+            }
+          },
+          "Description": "This weapon can hold up to 3 Ammo tokens.",
+          "Label": "Ammo 3"
+        },
+        "dhsAmmo4": {
+          "Action": {
+            "0": {
+              "Description": "Remove an Ammo token when you attack with this weapon.",
+              "Name": "Ammo 4"
+            }
+          },
+          "Description": "This weapon can hold up to 4 Ammo tokens.",
+          "Label": "Ammo 4"
+        },
+        "dhsAmmo6": {
+          "Action": {
+            "0": {
+              "Description": "Remove an Ammo token when you attack with this weapon.",
+              "Name": "Ammo 6"
+            }
+          },
+          "Description": "This weapon can hold up to 6 Ammo tokens.",
+          "Label": "Ammo 6"
+        },
+        "dhsBarrierMass": {
+          "Description": "+Tier to Armor Score; -1 to Evasion.",
+          "Effect": {
+            "0": {
+              "Description": "+Tier to Armor Score; -1 to Evasion.",
+              "Name": "Barrier"
+            }
+          },
+          "Label": "Barrier"
+        },
+        "dhsBeacon": {
+          "Action": {
+            "0": {
+              "Description": "After a successful attack, your next Spellcast Roll against that target automatically succeeds.",
+              "Name": "Beacon"
+            }
+          },
+          "Description": "After a successful attack, your next Spellcast Roll against that target automatically succeeds.",
+          "Label": "Beacon"
+        },
+        "dhsBioticMastery": {
+          "Action": {
+            "0": {
+              "Description": "Once per session, turn a failure into a Success with Fear on a roll related to using biotics.",
+              "Name": "Biotic Mastery"
+            }
+          },
+          "Description": "Once per session, turn a failure into a Success with Fear on a roll related to using biotics.",
+          "Label": "Biotic Mastery"
+        },
+        "dhsBrittle": {
+          "Action": {
+            "0": {
+              "Description": "The next Physical attack against the target deals double damage.",
+              "Name": "Brittle"
+            }
+          },
+          "Description": "The next Physical attack against the target deals double damage.",
+          "Label": "Brittle"
+        },
+        "dhsBrutal": {
+          "Action": {
+            "0": {
+              "Description": "If you roll maximum damage on a damage die, roll an additional damage die.",
+              "Name": "Brutal"
+            }
+          },
+          "Description": "If you roll maximum damage on a damage die, roll an additional damage die.",
+          "Label": "Brutal"
+        },
+        "dhsCalculated": {
+          "Action": {
+            "0": {
+              "Description": "Before a Knowledge Roll, mark a Stress to gain a +Tier bonus to the result.",
+              "Name": "Calculated"
+            }
+          },
+          "Description": "Before a Knowledge Roll, mark a Stress to gain a +Tier bonus to the result.",
+          "Label": "Calculated"
+        },
+        "dhsChaining": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, use the same roll against another target within Very Close range of the previous target until no new targets remain. Every target hit marks a Stress.",
+              "Name": "Chaining"
+            }
+          },
+          "Description": "On a successful attack, use the same roll against another nearby target until no new targets remain. Every target hit marks a Stress.",
+          "Label": "Chaining"
+        },
+        "dhsCharged": {
+          "Action": {
+            "0": {
+              "Description": "Mark a Stress to gain +1 Proficiency on your next attack with this weapon.",
+              "Name": "Charged"
+            }
+          },
+          "Description": "Mark a Stress to gain +1 Proficiency on your next attack with this weapon.",
+          "Label": "Charged"
+        },
+        "dhsConcussive": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, spend a Hope to knock the target back to Far range.",
+              "Name": "Concussive"
+            }
+          },
+          "Description": "On a successful attack, spend a Hope to knock the target back to Far range.",
+          "Label": "Concussive"
+        },
+        "dhsCumbersome": {
+          "Description": "-1 to Finesse.",
+          "Effect": {
+            "0": {
+              "Description": "-1 to Finesse.",
+              "Name": "Cumbersome"
+            }
+          },
+          "Label": "Cumbersome"
+        },
+        "dhsDeflectingShield": {
+          "Action": {
+            "0": {
+              "Description": "When attacked, mark a Shield Slot to gain an Evasion bonus equal to your unmarked Shield Slots against the attack.",
+              "Name": "Deflecting"
+            }
+          },
+          "Description": "When attacked, mark a Shield Slot to gain an Evasion bonus equal to your unmarked Shield Slots against the attack.",
+          "Label": "Deflecting"
+        },
+        "dhsDestructive": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, all adversaries within Very Close range of the target must mark a Stress.",
+              "Name": "Destructive"
+            }
+          },
+          "Description": "-1 to Agility; on a successful attack, nearby adversaries mark a Stress.",
+          "Effect": {
+            "0": {
+              "Description": "-1 to Agility.",
+              "Name": "Destructive"
+            }
+          },
+          "Label": "Destructive"
+        },
+        "dhsDevastating": {
+          "Action": {
+            "0": {
+              "Description": "Mark a Stress before attacking to change the range to Melee and use a d20 as the damage die.",
+              "Name": "Devastating"
+            }
+          },
+          "Description": "Mark a Stress before attacking to change the range to Melee and use a d20 as the damage die.",
+          "Label": "Devastating"
+        },
+        "dhsDisrupt": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, gain a +Tier bonus to the next Spellcast Roll against the target.",
+              "Name": "Disrupt"
+            }
+          },
+          "Description": "On a successful attack, gain a +Tier bonus to the next Spellcast Roll against the target.",
+          "Label": "Disrupt"
+        },
+        "dhsDoubleDuty2": {
+          "Description": "+2 Armor Score; +2 to primary weapon damage within Melee range.",
+          "Effect": {
+            "0": {
+              "Description": "+2 Armor Score; +2 to primary weapon damage.",
+              "Name": "Double Duty"
+            }
+          },
+          "Label": "Double Duty"
+        },
+        "dhsDoubleDuty3": {
+          "Description": "+3 Armor Score; +3 to primary weapon damage within Melee range.",
+          "Effect": {
+            "0": {
+              "Description": "+3 Armor Score; +3 to primary weapon damage.",
+              "Name": "Double Duty"
+            }
+          },
+          "Label": "Double Duty"
+        },
+        "dhsDualBarrel": {
+          "Action": {
+            "0": {
+              "Description": "When you fail an attack with Hope, you may reroll it once.",
+              "Name": "Dual-Barrel"
+            }
+          },
+          "Description": "When you fail an attack with Hope, you may reroll it once.",
+          "Label": "Dual-Barrel"
+        },
+        "dhsEruptive": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, all other adversaries within Very Close range of the target must succeed on a Reaction Roll (13) or take half damage.",
+              "Name": "Eruptive"
+            }
+          },
+          "Description": "On a successful attack, nearby adversaries must succeed on a Reaction Roll (13) or take half damage.",
+          "Label": "Eruptive"
+        },
+        "dhsExplosive": {
+          "Action": {
+            "0": {
+              "Description": "Mark a Stress to use the attack roll against a group of targets.",
+              "Name": "Explosive"
+            }
+          },
+          "Description": "Mark a Stress to use the attack roll against a group of targets.",
+          "Label": "Explosive"
+        },
+        "dhsGravityWarping": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, the target and their allies in Very Close range must succeed on a Reaction Roll (16) or start floating and become Restrained until damaged.",
+              "Name": "Gravity-Warping"
+            }
+          },
+          "Description": "On a successful attack, the target and nearby allies may float and become Restrained until damaged.",
+          "Label": "Gravity-Warping"
+        },
+        "dhsHeavy": {
+          "Description": "-1 to Evasion.",
+          "Effect": {
+            "0": {
+              "Description": "-1 to Evasion.",
+              "Name": "Heavy"
+            }
+          },
+          "Label": "Heavy"
+        },
+        "dhsHooked": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, pull the target into Melee range.",
+              "Name": "Hooked"
+            }
+          },
+          "Description": "On a successful attack, pull the target into Melee range.",
+          "Label": "Hooked"
+        },
+        "dhsHot": {
+          "Action": {
+            "0": {
+              "Description": "This weapon cuts through solid material and can attack targets in a line.",
+              "Name": "Hot"
+            }
+          },
+          "Description": "This weapon cuts through solid material and can attack targets in a line.",
+          "Label": "Hot"
+        },
+        "dhsKarma": {
+          "Action": {
+            "0": {
+              "Description": "When you are attacked, roll a d6. On a 6, the target must mark a HP.",
+              "Name": "Karma"
+            }
+          },
+          "Description": "When you are attacked, roll a d6. On a 6, the target must mark a HP.",
+          "Label": "Karma"
+        },
+        "dhsLightweight": {
+          "Description": "+1 to Evasion.",
+          "Effect": {
+            "0": {
+              "Description": "+1 to Evasion.",
+              "Name": "Lightweight"
+            }
+          },
+          "Label": "Lightweight"
+        },
+        "dhsMassField": {
+          "Action": {
+            "0": {
+              "Description": "Mark 2 Stress to attack everyone within Very Close range of a point in Close range. Successful targets are Restrained, Vulnerable, and floating until damaged.",
+              "Name": "Mass Field"
+            }
+          },
+          "Description": "Mark 2 Stress to attack everyone near a point; successful targets are Restrained, Vulnerable, and floating until damaged.",
+          "Label": "Mass Field"
+        },
+        "dhsMassive": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, roll an additional damage die and discard the lowest result.",
+              "Name": "Massive"
+            }
+          },
+          "Description": "-1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.",
+          "Effect": {
+            "0": {
+              "Description": "-1 to Evasion.",
+              "Name": "Massive"
+            }
+          },
+          "Label": "Massive"
+        },
+        "dhsMomentum": {
+          "Action": {
+            "0": {
+              "Description": "Spend a Hope to add your Instinct Modifier to the damage of a primary weapon attack.",
+              "Name": "Momentum"
+            }
+          },
+          "Description": "Spend a Hope to add your Instinct Modifier to primary weapon damage.",
+          "Label": "Momentum"
+        },
+        "dhsMultilock": {
+          "Action": {
+            "0": {
+              "Description": "Mark 1 or more Stress when you attack to target that many additional enemies within range.",
+              "Name": "Multilock"
+            }
+          },
+          "Description": "Mark Stress when you attack to target additional enemies within range.",
+          "Label": "Multilock"
+        },
+        "dhsOrganic": {
+          "Description": "Unaffected by tech effects. +1 to Spellcast Trait.",
+          "Effect": {
+            "0": {
+              "Description": "+1 to Spellcast Rolls.",
+              "Name": "Organic"
+            }
+          },
+          "Label": "Organic"
+        },
+        "dhsOverheat2": {
+          "Action": {
+            "0": {
+              "Description": "When you attack, add a Heat token. If this weapon has more than 2 Heat, it cannot be used. Mark a Stress to clear all Heat.",
+              "Name": "Overheat 2"
+            }
+          },
+          "Description": "Track Heat tokens. If this weapon has more than 2 Heat, it cannot be used.",
+          "Label": "Overheat 2"
+        },
+        "dhsOverheat3": {
+          "Action": {
+            "0": {
+              "Description": "When you attack, add a Heat token. If this weapon has more than 3 Heat, it cannot be used. Mark a Stress to clear all Heat.",
+              "Name": "Overheat 3"
+            }
+          },
+          "Description": "Track Heat tokens. If this weapon has more than 3 Heat, it cannot be used.",
+          "Label": "Overheat 3"
+        },
+        "dhsOverheat4": {
+          "Action": {
+            "0": {
+              "Description": "When you attack, add a Heat token. If this weapon has more than 4 Heat, it cannot be used. Mark a Stress to clear all Heat.",
+              "Name": "Overheat 4"
+            }
+          },
+          "Description": "Track Heat tokens. If this weapon has more than 4 Heat, it cannot be used.",
+          "Label": "Overheat 4"
+        },
+        "dhsOverload": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, the target must mark a Stress.",
+              "Name": "Overload"
+            }
+          },
+          "Description": "On a successful attack, the target must mark a Stress.",
+          "Label": "Overload"
+        },
+        "dhsPaired": {
+          "Description": "1+Tier to primary weapon damage to targets within Melee range.",
+          "Effect": {
+            "0": {
+              "Description": "1+Tier to primary weapon damage to targets within Melee range.",
+              "Name": "Paired"
+            }
+          },
+          "Label": "Paired"
+        },
+        "dhsPowerful": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, roll an additional damage die and discard the lowest result.",
+              "Name": "Powerful"
+            }
+          },
+          "Description": "On a successful attack, roll an additional damage die and discard the lowest result.",
+          "Label": "Powerful"
+        },
+        "dhsQuick": {
+          "Action": {
+            "0": {
+              "Description": "Mark a Stress to attack another adversary in range.",
+              "Name": "Quick"
+            }
+          },
+          "Description": "Mark a Stress to attack another adversary in range.",
+          "Label": "Quick"
+        },
+        "dhsRampUp": {
+          "Action": {
+            "0": {
+              "Description": "Overheat 3; for each Heat token, increase the damage die one step (d6 > d8 > d10 > d12).",
+              "Name": "Ramp-up"
+            }
+          },
+          "Description": "Overheat 3; for each Heat token, increase the damage die one step.",
+          "Label": "Ramp-up"
+        },
+        "dhsRecharging": {
+          "Action": {
+            "0": {
+              "Description": "On rest, if you have less than 2 Ammo remaining on this weapon, regain 1 Ammo token.",
+              "Name": "Recharging"
+            }
+          },
+          "Description": "On rest, if you have less than 2 Ammo remaining, regain 1 Ammo token.",
+          "Label": "Recharging"
+        },
+        "dhsRecoil": {
+          "Description": "-1 to attack rolls.",
+          "Effect": {
+            "0": {
+              "Description": "-1 to attack rolls.",
+              "Name": "Recoil"
+            }
+          },
+          "Label": "Recoil"
+        },
+        "dhsReelIn": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, spend a Hope to Restrain the target and pull them into Melee range with you.",
+              "Name": "Reel In"
+            }
+          },
+          "Description": "On a successful attack, spend a Hope to Restrain the target and pull them into Melee range with you.",
+          "Label": "Reel In"
+        },
+        "dhsRejuvenating": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, roll a d6. On a 6, clear one HP or Stress.",
+              "Name": "Rejuvenating"
+            }
+          },
+          "Description": "On a successful attack, roll a d6. On a 6, clear one HP or Stress.",
+          "Label": "Rejuvenating"
+        },
+        "dhsReliable": {
+          "Description": "+1 to attack rolls.",
+          "Effect": {
+            "0": {
+              "Description": "+1 to attack rolls.",
+              "Name": "Reliable"
+            }
+          },
+          "Label": "Reliable"
+        },
+        "dhsReloading": {
+          "Action": {
+            "0": {
+              "Description": "After an attack, roll a d6. On a 1, mark a Stress to reload before firing again.",
+              "Name": "Reloading"
+            }
+          },
+          "Description": "After an attack, roll a d6. On a 1, mark a Stress to reload before firing again.",
+          "Label": "Reloading"
+        },
+        "dhsScatter": {
+          "Action": {
+            "0": {
+              "Description": "When you make an attack, target all creatures in front of you within range.",
+              "Name": "Scatter"
+            }
+          },
+          "Description": "When you make an attack, target all creatures in front of you within range.",
+          "Label": "Scatter"
+        },
+        "dhsSeeker": {
+          "Action": {
+            "0": {
+              "Description": "Attacks against Flying targets have Advantage.",
+              "Name": "Seeker"
+            }
+          },
+          "Description": "Attacks against Flying targets have Advantage.",
+          "Label": "Seeker"
+        },
+        "dhsSelfCorrecting8": {
+          "Action": {
+            "0": {
+              "Description": "When you roll a 1 on a damage die, it deals 8 damage instead.",
+              "Name": "Self-Correcting"
+            }
+          },
+          "Description": "When you roll a 1 on a damage die, it deals 8 damage instead.",
+          "Label": "Self-Correcting"
+        },
+        "dhsSidearmD4": {
+          "Action": {
+            "0": {
+              "Description": "When a primary attack would miss in this weapon range, add 1d4 to the attack roll. If that succeeds, deal this weapon damage.",
+              "Name": "Sidearm d4"
+            }
+          },
+          "Description": "When a primary attack would miss in this weapon range, add 1d4 to the attack roll. If that succeeds, deal this weapon damage.",
+          "Label": "Sidearm d4"
+        },
+        "dhsSidearmD6": {
+          "Action": {
+            "0": {
+              "Description": "When a primary attack would miss in this weapon range, add 1d6 to the attack roll. If that succeeds, deal this weapon damage.",
+              "Name": "Sidearm d6"
+            }
+          },
+          "Description": "When a primary attack would miss in this weapon range, add 1d6 to the attack roll. If that succeeds, deal this weapon damage.",
+          "Label": "Sidearm d6"
+        },
+        "dhsSlugger": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, the target marks Stress. Spend Hope to knock them back to Far range.",
+              "Name": "Slugger"
+            }
+          },
+          "Description": "On a successful attack, the target marks Stress. Spend Hope to knock them back to Far range.",
+          "Label": "Slugger"
+        },
+        "dhsSpecialist": {
+          "Action": {
+            "0": {
+              "Description": "Every damage die that rolls a 1 deals 6 damage instead. If you deal Severe damage, the target must mark an additional HP.",
+              "Name": "Specialist"
+            }
+          },
+          "Description": "Damage dice that roll 1 deal 6 damage instead. Severe damage marks one additional HP.",
+          "Label": "Specialist"
+        },
+        "dhsStartling": {
+          "Action": {
+            "0": {
+              "Description": "Mark a Stress to force all adversaries within Melee range back to Close range.",
+              "Name": "Startling"
+            }
+          },
+          "Description": "Mark a Stress to force all adversaries within Melee range back to Close range.",
+          "Label": "Startling"
+        },
+        "dhsStunning": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, temporarily Restrain the target until the end of their next spotlight.",
+              "Name": "Stunning"
+            }
+          },
+          "Description": "On a successful attack, temporarily Restrain the target until the end of their next spotlight.",
+          "Label": "Stunning"
+        },
+        "dhsSurge": {
+          "Action": {
+            "0": {
+              "Description": "Mark a Shield Slot to double a damage die on a primary weapon attack.",
+              "Name": "Surge"
+            }
+          },
+          "Description": "Mark a Shield Slot to double a damage die on a primary weapon attack.",
+          "Label": "Surge"
+        },
+        "dhsTacNuke": {
+          "Action": {
+            "0": {
+              "Description": "Mark 3 Stress to attack everything within Close range of a point in Far range. Missed targets take half damage.",
+              "Name": "Tac. Nuke"
+            }
+          },
+          "Description": "Mark 3 Stress to attack everything within Close range of a point in Far range. Missed targets take half damage.",
+          "Label": "Tac. Nuke"
+        },
+        "dhsTechMastery": {
+          "Action": {
+            "0": {
+              "Description": "Once per session, turn a failure into a Success with Fear on a roll related to using tech.",
+              "Name": "Tech Mastery"
+            }
+          },
+          "Description": "Once per session, turn a failure into a Success with Fear on a roll related to using tech.",
+          "Label": "Tech Mastery"
+        },
+        "dhsUnwieldyBunkerDown": {
+          "Action": {
+            "0": {
+              "Description": "Mark a Stress to gain Resistance to Physical damage until you move willingly or unwillingly.",
+              "Name": "Bunker Down"
+            }
+          },
+          "Description": "-1 to Evasion, -1 to Finesse. Bunker Down: mark Stress to gain Resistance to Physical damage until you move.",
+          "Effect": {
+            "0": {
+              "Description": "-1 to Evasion, -1 to Finesse.",
+              "Name": "Unwieldy"
+            }
+          },
+          "Label": "Unwieldy"
+        },
+        "dhsVersatileAgility": {
+          "Action": {
+            "0": {
+              "Description": "Can also be used with Agility, d6, Far.",
+              "Name": "Versatile"
+            }
+          },
+          "Description": "Can also be used with Agility, d6, Far.",
+          "Label": "Versatile"
+        },
+        "dhsVersatileFinesse": {
+          "Action": {
+            "0": {
+              "Description": "Can also be used with Finesse, d6, Very Far.",
+              "Name": "Versatile"
+            }
+          },
+          "Description": "Can also be used with Finesse, d6, Very Far.",
+          "Label": "Versatile"
+        },
+        "dhsVersatileStrength": {
+          "Action": {
+            "0": {
+              "Description": "Can also be used with Strength, Melee, d12.",
+              "Name": "Versatile"
+            }
+          },
+          "Description": "Can also be used with Strength, Melee, d12.",
+          "Label": "Versatile"
+        },
+        "dhsSupermassive": {
+          "Action": {
+            "0": {
+              "Description": "On a successful attack, reroll any amount of damage dice once.",
+              "Name": "Supermassive"
+            }
+          },
+          "Description": "-2 to Evasion, -1 Agility. On a successful attack, reroll any amount of damage dice once.",
+          "Effect": {
+            "0": {
+              "Description": "-2 to Evasion, -1 Agility.",
+              "Name": "Supermassive"
+            }
+          },
+          "Label": "Supermassive"
+        }
+      }
+    }
+  }
+}

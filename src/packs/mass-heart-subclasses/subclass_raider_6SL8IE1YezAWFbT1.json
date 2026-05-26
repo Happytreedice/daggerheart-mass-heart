@@ -1,0 +1,37 @@
+{
+  "name": "Raider",
+  "type": "subclass",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p>Play the Raider if you want to use your versatile skillset to keep your enemies guessing. Gain access to the <strong>Sage</strong> domain.</p><h3>Foundation Feature</h3><p><strong>Jack-of-all-trades:</strong> At the start of a session, roll an amount of d6 equal to your level. For each value, place an Affinity token on the corresponding trait from left to right on your character sheet. When you make a roll using that trait, expend Affinity to apply one distinct effect for each token spent: gain +1 to an action or reaction, add 1d6 to damage, or gain a Hope. Remove unused Affinity at the end of a session.</p><h3>Specialization Features</h3><p><strong>Flow State:</strong> When you make a Spellcast Roll with the bonus from Versatile Skillset, spend a Hope to use a trait with Affinity as your Spellcast Trait. Describe how you use this trait to cast this spell in a unique way.</p><p><strong>Got your Back:</strong> When you Help an ally, spend one Affinity token from the trait that matches their action roll to give them the benefit.</p><h3>Mastery Features</h3><p><strong>Dreamteam:</strong> You are a rallying point for your allies. You can initiate a Tag Team Roll one additional time per session. Additionally, when you spend Affinity during a Tag Team that involves you, you may both choose an effect for each token spent.</p>",
+    "class": "Sentinel",
+    "domain": "Sage",
+    "powerTrait": "Instinct",
+    "features": [
+      "Jack-of-all-trades",
+      "Flow State",
+      "Got your Back",
+      "Dreamteam"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Sentinel",
+      "domain": "Sage"
+    }
+  },
+  "_id": "6SL8IE1YezAWFbT1",
+  "sort": 0,
+  "_key": "!items!6SL8IE1YezAWFbT1"
+}

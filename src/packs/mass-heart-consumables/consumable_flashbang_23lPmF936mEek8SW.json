@@ -1,0 +1,32 @@
+{
+  "name": "Flashbang",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+  "system": {
+    "description": "<p>All targets that fail a Reaction Roll (14) become Blinded. Blinded targets have no line of sight beyond Melee range.</p>",
+    "quantity": 1,
+    "resource": {
+      "value": 1,
+      "max": 1
+    },
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "category": "consumable"
+    }
+  },
+  "_id": "23lPmF936mEek8SW",
+  "sort": 0,
+  "_key": "!items!23lPmF936mEek8SW"
+}

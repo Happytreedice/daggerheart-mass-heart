@@ -1,0 +1,30 @@
+{
+  "name": "Krogan Warrior",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhoette-alien-gray.webp",
+  "system": {
+    "description": "<p>### Tier 2 Bruiser\nA massive reptilian warrior with redundant organs and heavy armor, charging headfirst into battle.  \nMotives &amp; Tactics:  Charge, headbutt, soak damage, regenerate, refuse to die</p><p>#### Features\nRedundant Organs - Passive: When the Krogan Warrior should mark HP, they may mark 1 Stress instead.</p><p>Krogan Charge - Action: Spend a fear to move the Krogan to a target within Far range and to make a Melee attack. On a success, the target takes +1d8 phy damage.</p><p>Blood Rage - Reaction: When the Krogan is at 3 HP or less, they gain Advantage on all Melee attacks and deal +5 damage, but they cannot use Ranged attacks.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Bruiser",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Bruiser"
+    }
+  },
+  "_id": "tMD16QeSkMriajX5",
+  "sort": 0,
+  "_key": "!actors!tMD16QeSkMriajX5"
+}

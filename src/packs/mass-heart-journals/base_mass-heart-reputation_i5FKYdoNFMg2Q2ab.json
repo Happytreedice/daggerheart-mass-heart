@@ -1,0 +1,37 @@
+{
+  "name": "Mass Heart Reputation",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Mass Heart Reputation",
+      "type": "text",
+      "_id": "KjmAvQAytZVxGsWv",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>## Morality and Reputation\nThe Morality and Reputation systems define a character&#x27;s method of operation and how they are perceived by the galaxy. They have two opposing ideologies. Paragons are inspiring leaders who strive to uphold the law and Renegades are determined pragmatists who put results above all else. Try to avoid treating them as &#x27;Good&#x27; vs &#x27;Evil&#x27;, each ideology has their own strengths and shortcomings.</p><p>#### Morality\nEach character has a two-sided tracker for Morality. When you gain a Morality point, you shift the tracker in that direction; when you gain Renegade Morality, you lose Paragon Morality, and vice versa.</p><p>- Paragon Morality These are earned by acting with diplomacy, altruism, following protocols, and mercy.\n- Renegade Morality These are earned through intimidation, brute force, pragmatism, and achieving your goal at all costs.</p><p>Morality can be gained in several ways. At the end of a scene, the GM can award Paragon or Renegade Morality to characters depending on the PC&#x27;s behavior during the scene. Additionally, the new &quot;Talk to the Crew&quot; downtime move lets players earn Morality of their choice.</p><p>The maximum Morality you can have towards a particular side is 3. If you gain any more Morality towards that direction, the effects are ignored. If you gain Morality in the opposite direction, your Morality reduces to 2.</p><p>#### Reputation\nReputation represents how you are remembered by the galaxy as the word spreads of your heroic deeds.</p><p>When a character levels up, they gain a Paragon or a Renegade Reputation Point, depending on the standing of their Morality at that time. If their Morality is Neutral, they may choose which type of Reputation point to get.</p><p>Reputation Points are not opposed; you can accumulate both Paragon and Renegade Reputation simultaneously. After you gain a Reputation Point, your Morality is reset to Neutral.</p><p>##### Reputation Abilities\nWhen you have enough Paragon or Renegade Reputation, you gain the corresponding ability from the table below.</p><p>#### Graceful &amp; Dreadful Reputation\nThe Grace and Dread domains are not used in the 6 base classes. Instead, these domains are tied to your Reputation as a Paragon (Grace) or Renegade (Dread). When a player chooses the Pick a Domain Card level-up option, they may take a card of their level or lower from additional domains.</p><p>- If Paragon Reputation is higher, take a card from the &#x27;Grace&#x27; domain.\n- If Renegade Reputation is higher, take a card from the &#x27;Dread&#x27; domain.\n- If Reputation is equal for both, choose from either &#x27;Grace&#x27; or &#x27;Dread&#x27; domain.</p><p>Presence is your Spellcasting Trait for the cards of these domains. The player may still choose to gain a card from their &#x27;normal&#x27; domains instead.</p><p>&gt; If you don&#x27;t own the Hope and Fear expansion, you can use the Dread domain from the public playtest, or have Renegades choose from any domain (keep the party composition in mind).</p><p>#### Morality Interruptions\nInterruptions allow you to break the normal flow of the narrative to perform iconic actions tied to your character&#x27;s nature. As long as you have at least 2 Paragon or Renegade Reputation, you may use the respective Interruption. If you use an Interruption, you also gain the corresponding Morality.</p><p>- Paragon Intervention Once per session, when a character in Close range takes a hostile action, Spend 2 Hope and declare a Paragon Intervention. Make a Presence Reaction Roll against their difficulty. On a success, you de-escalate the situation or convince someone to take your side or follow your lead.\n- Renegade Interruption Once per session, when you roll a Failure with Fear, you can Mark a Stress and declare a Renegade Interrupt. Describe how you &quot;burn&quot; the scene. Your roll becomes a Success with Fear, but the GM gains 1 additional Fear to spend on consequences.</p><p>:\n#### Optional: Moral Experience\nDuring character creation, you may reflect your innate morality by using one of your two experiences as a Moral Experience (e.g., &quot;Alliance Diplomat (Paragon) +2&quot; or &quot;Ruthless Ex-Mercenary (Renegade) +2&quot;). You gain +1 to that experience while the matching Morality has the most points. You gain a -1 malus if the other Morality has more.</p><p>{{FrameHeader,wide\n### Mass Heart\n:</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!i5FKYdoNFMg2Q2ab.KjmAvQAytZVxGsWv"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "i5FKYdoNFMg2Q2ab",
+  "sort": 0,
+  "_key": "!journal!i5FKYdoNFMg2Q2ab"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Rachni Worker",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhoette-alien-gray.webp",
+  "system": {
+    "description": "<p>### Tier 1 Horde (4/HP)\nSmall, acid-spitting insectoid creatures that swarm targets in a chaotic wave of claws and toxins.  \nMotives &amp; Tactics: Swarm, overwhelm</p><p>#### Features\nHorde (1d4+1) - Passive: When the Rachni Worker have marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead.</p><p>Toxic Burst - Action: Some of the workers explode to protect the group. Mark one HP, then all targets in Melee range must succeed on an Agility Reaction Roll or take 1d20+3 direct phy damage.</p><p>Volatile Acid - Reaction: When the Rachni worker takes physical damage, PCs in Melee range must mark 1 Stress from the resulting acid spray.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 1,
+    "role": "Horde (4/HP)",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Horde (4/HP)"
+    }
+  },
+  "_id": "qs7ae7ExdXcByDl6",
+  "sort": 0,
+  "_key": "!actors!qs7ae7ExdXcByDl6"
+}

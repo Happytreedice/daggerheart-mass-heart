@@ -1,0 +1,26 @@
+{
+  "name": "Vorcha",
+  "type": "ancestry",
+  "img": "icons/commodities/metal/armor-plate-reticulated.webp",
+  "system": {
+    "description": "<p>Known for their unique biology and aggressive behavior, the vorcha of Heshtok are the shortest-lived sapient species currently known, with an average lifespan of only 20 years. The Vorcha&#x27;s cell structure mutates to respond to threats, giving them incredible regeneration and recovery from diseases. Yet, this rapid mutation is also responsible for their quickened lifespan. Many Vorcha have sharp teeth, but most of their other features adapt to the environment.</p><p>&gt; Vorcha are often found among the galaxy&#x27;s darker and more dangerous locations. The rest of galactic civilization regards them as pests and scavengers.</p><p>- Mutagenic Response: Once per rest when you mark HP, you can go into Overdrive. During Overdrive, you gain resistance to the most recent damage type taken, but you also become Vulnerable. Overdrive ends when you take Severe damage or the scene ends.\n- Rapid Regeneration: You may choose to take the long rest version of &#x27;Tend to Wounds&#x27; during a short rest, or use the short rest version as an additional downtime action.</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "MwQ5VnyFpt13xSas",
+  "sort": 0,
+  "_key": "!items!MwQ5VnyFpt13xSas"
+}

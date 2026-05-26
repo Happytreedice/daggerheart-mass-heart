@@ -1,0 +1,26 @@
+{
+  "name": "Krogan",
+  "type": "ancestry",
+  "img": "icons/commodities/metal/armor-plate-reticulated.webp",
+  "system": {
+    "description": "<p>Krogan are tough reptilian people from Tuchanka. They have biological redundancy and a natural ferocity that is unmatched by any species, which makes them able to survive even the most hostile environments. They can live over 1000 years, but their average lifespan is much shorter due to their violent nature. They have large, broad shoulders and stand over 7 feet tall.</p><p>&gt; Rather than having developed their own road to the stars, the Krogan were historically &#x27;uplifted&#x27; by the Council, who wanted to use them as tools for war. Since then, they were effectively neutered with the &#x27;Genophage&#x27;, which makes young Krogan a rare sight.</p><p>- Tough You gain one additional Hit Point slot at character creation.\n- Blood Rage When you take Severe Damage or have less than 3 unmarked HP slots, you can enter a Blood Rage until no adversaries remain. While active, your Proficiency increases by 1 and you gain resistance to physical damage, but you cannot gain Hope.\n}}</p><p>{{</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "RDQecjwAWY8x4iTo",
+  "sort": 0,
+  "_key": "!items!RDQecjwAWY8x4iTo"
+}

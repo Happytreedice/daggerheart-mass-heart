@@ -1,0 +1,30 @@
+{
+  "name": "Cerberus Engineer",
+  "type": "adversary",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>### Tier 2 Support\nA tactical specialist wearing distinct yellow and white armor, deploying turrets to control the battlefield.  \nMotives &amp; Tactics: Deploy tech, strip defenses, flush out targets</p><p>#### Features\nIncinerate -Action: Mark a Stress to fire a superheated plasma blast at a target within Close range. On a success, deal 2d6+4 ene damage. If the target has no active Shield Slots, they are Vulnerable.</p><p>Deploy Turret - Action: Spend a Fear. The Engineer places a Sentry Turret (Tier 1 Minion, stationary, Ranged attack +3, Dmg 4) in a zone within Close range. The Turret immediately takes the spotlight.</p><p>Overload - Reaction: When a PC within Far range uses the &quot;Take Cover&quot; action or a &quot;Success with Hope&quot; to recover Shield Slots, the Engineer can mark a Stress to force the target to make a Knowledge Reaction Roll. On a failure, the PC recovers 0 Shield Slots and takes 1d6 ene damage.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Support",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Support"
+    }
+  },
+  "_id": "GatMsVSnG2omRfbI",
+  "sort": 0,
+  "_key": "!actors!GatMsVSnG2omRfbI"
+}

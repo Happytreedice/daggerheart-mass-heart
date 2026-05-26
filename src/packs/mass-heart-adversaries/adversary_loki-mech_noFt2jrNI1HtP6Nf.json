@@ -1,0 +1,30 @@
+{
+  "name": "LOKI Mech",
+  "type": "adversary",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>### Tier 1 Minion\nA fragile, bipedal security robot programmed for mass deployment. They march forward firing indiscriminately.  \nMotives &amp; Tactics: Overwhelm, obey protol, suppress</p><p>#### Features\nMinion (5): This adversary is defeated when it takes any damage. For every 5 points of damage dealt to it beyond the first, defeat another LOKI Mech within range.</p><p>Group Attack - Action: Spend a Fear to choose a target and spotlight all LOKI Mechs within Close range of them. They make one shared attack roll. On a success, they deal 3 physical damage each. Combine this damage.</p><p>Suppressive Fire - Reaction: When you make a successful Group Attack with at least 3 LOKI Mechs, spend a Fear to make their target Restrained.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 1,
+    "role": "Minion",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Minion"
+    }
+  },
+  "_id": "noFt2jrNI1HtP6Nf",
+  "sort": 0,
+  "_key": "!actors!noFt2jrNI1HtP6Nf"
+}

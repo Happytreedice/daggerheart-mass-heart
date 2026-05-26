@@ -1,0 +1,37 @@
+{
+  "name": "Engineer",
+  "type": "class",
+  "img": "icons/commodities/tech/cog-gear-steel-glass.webp",
+  "system": {
+    "description": "<p># Engineer\nDomains: Codex, Arcana</p><p>#### Mechanic\nThe Mechanic works in tandem with their drone, using it as an extension of themselves.</p><p>Domain: Splendor</p><p>#### Saboteur\nThe Saboteur uses their enemies and the environment to tip the scales in their favor.</p><p>Domain: Midnight</p><p>##</p>",
+    "domains": [
+      "codex",
+      "arcana"
+    ],
+    "evasion": null,
+    "hitPoints": null,
+    "features": [],
+    "subclasses": [
+      "Mechanic",
+      "Saboteur"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "4us66OI0EVPuMKur",
+  "sort": 0,
+  "_key": "!items!4us66OI0EVPuMKur"
+}

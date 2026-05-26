@@ -1,0 +1,30 @@
+{
+  "name": "Slums",
+  "type": "environment",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "description": "<p>### Tier 1 Social\nA maze of red neon-lit alleys, filled with criminals, toxic smoke, and illicit opportunities  \nImpulses: Exploit the desperate, hide the truth in smoke, spread corruption</p><p>#### Features\nPlague Vector - Countdown: Setup a Countdown (6) named &quot;Epidemic.&quot; When it triggers, the localized plague flares up; all PCs must mark 1d4 Stress and become Vulnerable until they receive medical attention or leave the environment.</p><p>What symptoms does the disease manifest first? How do the locals react to outsiders showing signs of infection?</p><p>Shakedown - Action: Spend a Fear. A local gang corners the party or a specific PC, demanding a toll (credits, gear, or a favor). If the PCs refuse or fail a Presence Reaction Roll (11), the gang attacks or alerts nearby enemies.</p><p>Which faction controls this specific alley? What happens if you refuse to pay?</p><p>Toxic Smog - Reaction: When a PC rolls Failure with Fear, the ventilation systems fail. The area fills with choking gas. PCs must make a Strength Reaction Roll (11) or suffer 2 Stress from the fumes.</p><p>Does the smoke smell of chemicals or decay? How does it obscure your vision?\n}}</p><p>{{environment,</p>",
+    "tier": 1,
+    "role": "Social",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Social"
+    }
+  },
+  "_id": "bg8g6Aia1qPV5Yej",
+  "sort": 0,
+  "_key": "!actors!bg8g6Aia1qPV5Yej"
+}

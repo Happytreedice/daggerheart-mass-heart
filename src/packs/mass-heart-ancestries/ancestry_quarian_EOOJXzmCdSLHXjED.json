@@ -1,0 +1,26 @@
+{
+  "name": "Quarian",
+  "type": "ancestry",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>Originally hailing from Rannoch, Quarians are humanoid ship-dwellers, rarely seen outside their suits. These suits protect them in any harmful environments and vacuums. They also rely on them to prevent infections as they have weak immune systems. They have distinctly long fingers and toes - three per limb, are slightly smaller than humans, and can live up to 80 years.</p><p>&gt; Quarians were driven from their planet-side colonies during the Geth War. Being forced to live on ships for extended periods of time caused the atrophy of their immune systems.</p><p>- Enviro-suit: You may ignore disadvantage on rolls caused by environmental effects or toxins.\n- Hazard Protocol: Once per session, if you would become Vulnerable or gain another condition, you may instantly clear the effect. Mark a Stress to also clear a Shield Slot.\n}}</p>",
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "EOOJXzmCdSLHXjED",
+  "sort": 0,
+  "_key": "!items!EOOJXzmCdSLHXjED"
+}

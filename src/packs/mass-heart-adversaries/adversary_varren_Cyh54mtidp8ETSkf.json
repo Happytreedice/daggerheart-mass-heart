@@ -1,0 +1,30 @@
+{
+  "name": "Varren",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhoette-alien-gray.webp",
+  "system": {
+    "description": "<p>### Tier 1 Bruiser\nA scaled, predatory beast with a massive jaw, often used as an attack dog by Krogans or pirates.  \nMotives &amp; Tactics: Charge, endure pain, feed</p><p>#### Features\nLeaping Charge - Action: The Varren moves to a target within Close range. The target must make a Strength Reaction Roll (14). On a failure, they take 4 phy damage and became Restrained.</p><p>Ignore the Pain - Reaction: When the Varren marks HP, it can spend 1 Stress to reduce the damage by 1.</p><p>Pack Frenzy - Passive: The Varren deals +2 damage if another Varren or ally is within Very Close range of its target.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 1,
+    "role": "Bruiser",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Bruiser"
+    }
+  },
+  "_id": "Cyh54mtidp8ETSkf",
+  "sort": 0,
+  "_key": "!actors!Cyh54mtidp8ETSkf"
+}

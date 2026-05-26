@@ -1,0 +1,37 @@
+{
+  "name": "Mass Heart Inciting Incidents",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Mass Heart Inciting Incidents",
+      "type": "text",
+      "_id": "fIwXFHV26K5Wpxnh",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>## The Inciting Incidents\nYou can use one of the prompts below to start your campaign, or create your own.\n}}</p><p>#### The Beacon’s Echo (Era: The Eden Prime Legacy)\nThe galaxy is still reeling from the discovery of humanity, and tensions are high on the Citadel as the newest species struggles to find its place. Your crew has been tasked with a high-priority escort mission to a remote research outpost in the Attican Traverse. Upon arrival, the silence is deafening. The colony’s communications are dead, and as your shuttle breaks the cloud layer, you see the charred remains of a settlement that was thriving only hours ago. A massive, jagged ship of unknown design (resembling a giant, metallic hand) is seen tearing through the upper atmosphere, leaving a wake of distorted gravity behind.</p><p>In the center of the ruins, a Prothean Beacon has been unearthed, vibrating with a primal hum that vibrates in the marrow of your bones. It’s emitting a rhythmic pulse that overloads Omni-tools and creates a localized distortion field. As you approach, the mechanical chatter of Geth troopers begins to echo from the surrounding treeline. You are the only ones close enough to secure the artifact before it falls into the hands of the machine-consensus, but the Beacon’s energy is volatile. Every step closer feels like a hammer blow to your mind, threatening to push your resolve to the breaking point.</p><p>:::</p><p>#### Shadows of the Collector (Era: The Terminus Void)\nThe Citadel Council insists the &quot;Reaper threat&quot; died with Sovereign, dismissing the warnings as Geth propaganda. But in the lawless Terminus Systems, the truth is far more terrifying: entire colonies are vanishing in a single night. Your crew, operating from a refurbished freighter docked at the neon-soaked Omega nebula, is approached by a shadowy contact with a lead too grim to ignore. They provide coordinates to a &quot;Stilled&quot; colony, a settlement where life hasn&#x27;t been extinguished by fire, but simply erased.</p><p>Walking through the streets of the colony is like walking through a museum of a life interrupted. You find half-eaten meals still warm on tables and vehicles still idling in the streets, but not a single body, human or alien, remains. As the sun sets, a low, buzzing sound fills the air. Thousands of Seekers, tiny, glowing insects of biomechanical origin, begin to swarm from the shadows. You soon realize you aren&#x27;t just investigating a crime scene; you are the next harvest. Somewhere in the dark, a Collector General is watching through the eyes of its swarm, and you must find a way to escape or become another statistic in the galaxy&#x27;s growing list of the missing.</p><p>#### Pathfinders of the Heleus (Era: The Andromeda Initiative)\nAfter six hundred years of drifting through the dark space between galaxies, you were supposed to wake up to a new beginning. Instead, you awaken to a nightmare. The Ark has been struck by &quot;The Scourge&quot;, a sprawling, chaotic cloud of dark energy that has crippled the ship’s systems and left thousands of pioneers trapped in malfunctioning cryo-pods. As part of an emergency Pathfinder team, you are deployed to the surface of Habitat 7, a world that was promised to be a lush paradise but is now a jagged wasteland of floating rocks and perpetual lightning storms.</p><p>The mission is simple but desperate: find a way to stabilize the Ark’s power core before the life support fails for the thousands still sleeping. However, you are not alone in this new galaxy. Amidst the ruins of an ancient, self-replicating architecture that defies all known laws of physics, you encounter the Kett, a militaristic alien race that views your arrival not as a diplomatic first contact, but as a biological resource to be exploited. With your supplies running low and your ship falling apart in orbit, you must decide what it means to be a hero in a place where no one knows your name and the very air is trying to kill you.</p><p>:::</p><p>## Session Zero Questions\nAsk your players one or more of these questions or make up\nyour own.</p><p>- When your ship’s signature appears on a station&#x27;s radar, what is the first thing people think of you?\n- Which two members of the crew have served together the longest, and what was the &quot;impossible mission&quot; that cemented your trust?\n- Is your ship a cutting-edge Alliance prototype, a refurbished freighter from the Terminus Systems, or a gift from a shadowy benefactor with strings attached?\n- In a galaxy of diverse species and ancient grudges, what is one cultural misunderstanding or historical bias that currently creates tension within your crew?\n- Does the crew operate within the laws of the Citadel Council, or do you find that getting the job done often requires stepping into the gray areas of galactic law?\n- Do we want a story about idealistic heroes trying to save everyone, or a gritty tale of survivors making the cold choices necessary for the greater good?\n- Which galactic themes, such as indoctrination, the rights of synthetic life, or genetic manipulation, are we most excited to explore together?</p><p>{{FrameHeader,wide\n### Mass Heart\n:</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!udz0IpldzjJvW9Gi.fIwXFHV26K5Wpxnh"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "udz0IpldzjJvW9Gi",
+  "sort": 0,
+  "_key": "!journal!udz0IpldzjJvW9Gi"
+}

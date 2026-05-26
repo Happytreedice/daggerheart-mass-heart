@@ -1,0 +1,30 @@
+{
+  "name": "Advanced Ship in Dangerous Environment",
+  "type": "environment",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "description": "<p>### Tier 4 Extreme Traversal\nThe exterior hull of a massive vessel caught in an eternal storm. Lightning strikes the metal plates while the wind threatens to tear you into the abyss.  \nImpulses: Cling to the hull, outrun the storm, sell out a secret.</p><p>#### Features\nLightning Discharge - Action: At the start of the GM turn, roll a d6. On a 5 or 6, lightning strikes a random zone. All creatures in that zone must make an Agility Reaction Roll (20). On a failure, they take 3d10+10 tech damage. This damage cannot be reduced by using Shield Slots.</p><p>Is the sky purple or blinding white when the bolt hits? Does the smell of ozone overwhelm your senses?</p><p>Information Overload - Passive: The Advanced ship broadcasts tactical data intended to demoralize. Whenever a PC spends Hope, they must first make a Presence Reaction Roll (20). On a failure, they must mark 1 Stress to successfully spend that Hope, as the Ship whispers their deepest failures into their comms.</p><p>Whose voice does the Broker use to mock you? What secret from your past is being broadcast?</p><p>Shifting Hull Plates - Reaction: When a PC rolls with Fear, the massive radiator plates of the ship shift. The PC must make a Strength Reaction Roll (20). On a failure, they are pinned between plates, becoming Restrained and taking 1d12 Direct Physical Damage.</p><p>Can you hear the grinding of the massive gears over the roar of the storm?\n}}</p>",
+    "tier": 4,
+    "role": "Extreme Traversal",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Extreme Traversal"
+    }
+  },
+  "_id": "XuBKnj8Nb8lQaPuF",
+  "sort": 0,
+  "_key": "!actors!XuBKnj8Nb8lQaPuF"
+}

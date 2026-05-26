@@ -1,0 +1,37 @@
+{
+  "name": "Mass Heart GM Moves",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Mass Heart GM Moves",
+      "type": "text",
+      "_id": "HMLMYS0hyBEcyshv",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>## Suggested GM Moves\nIn this section you will find suggestions for moves that can be activated by spending 1 or more Fear points to drastically change the course of a scene or put the characters in serious difficulty.\n}}</p><p>#### Combat and Technology\nThese moves focus on the high-tech nature of the Mass Effect universe, where hardware failure or tactical precision can be as deadly as a bullet.</p><p>- 1 Fear: A PC&#x27;s weapon or omni-tool malfunctions. The PC cannot use that specific equipment or a related tech ability until they spend an Action (or mark 1 Stress) to manual-reset the system.\n- 1 Fear: Instead of dealing physical damage, inflict 2 Stress on a PC, representing a kinetic barrier overload or a debilitating neural shock.\n- 1 Fear: A group of enemies coordinates their fire. Until the PC moves to a different Range or finds new cover, they take Disadvantage on all Attack Rolls.\n- 1 Fear: An enemy hacker or an automated turret identifies a weakness in a PC’s armor. The next time that PC marks Shield to reduce damage, they must mark two Shield Slots instead of one.\n- 2 Fear: Spend this when a PC is out of cover or separated from the group. An elite unit (like an Atlas Mech or a Geth Hunter) moves instantly to Melee or Very Close range and immediately makes an Attack Roll with Advantage.\n:\n#### Environment &amp; Galactic Tension\nThese moves leverage the vacuum of space, hostile alien worlds, and the complex political landscape of the Citadel and beyond.\n- 1 Fear: A localized jammer or solar flare cuts the feed to the ship or HQ. PCs lose access to external intel or support (like orbital scans or remote hacking) for the remainder of the scene.\n- 2 Fear: A hull breach or a toxic leak occurs. The GM starts a 4-segment Countdown Clock. When it fills, the area becomes uninhabitable; PCs must either seal the breach or start marking 1 HP directly every time they take an action without a pressurized suit.\n- 1 Fear: A stray shot hits a volatile fuel cell or a power conduit. The GM creates a new Hazard on the field (e.g., Dangerous terrain that deals d8 Magic damage to anyone ending their turn nearby).\n- 1 Fear: Use this in social or high-security situations. A Citadel official or a local warlord demands a &quot;security tax&quot; or a permit. The PCs must either spend a resource (like a specific loot item or local currency) or take Disadvantage on their next Social roll to convince or bypass them.\n- 2 Fear: The presence of Reaper technology weighs on the mind. Every PC in the area must immediately mark 1 Stress. Additionally, for the rest of the scene, any roll that results in Fear causes the PC to see a hallucination of a loved one or a traumatic memory, momentarily distracting them.</p><p>#### Social Intrigue &amp; NPC Influence\nThese moves represent the complex web of loyalties, diplomatic friction, and personal costs involved in galactic politics.\n- 1 Fear: An NPC reveals they know something compromising about a PC’s past or their current mission. The PC must either mark 1 Stress to remain stoic or give in to a minor demand to keep the NPC quiet.\n- 1 Fear: After a PC makes a social roll (even a success), an NPC subtly undermines their authority in front of an audience. The next social roll made by any PC in this scene takes Disadvantage.\n- 1 Fear: An ally or contact provides help, but they demand an immediate and inconvenient favor in return. If the PCs refuse, they lose a Bond or a point of Reputation with that faction.\n- 1 Fear: A PC inadvertently offends a sensitive alien custom (e.g., Turian hierarchy or Krogan rites). The GM creates a Countdown Clock (3-segments) called &quot;Diplomatic Fallout.&quot; If it fills before the PCs apologize or fix it, the NPC becomes Hostile.\n- 2 Fear: A PC antagonist appears in a moment of great impact, complicating the scene with emotional hooks from the past.</p><p>{{wide</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5QcHf5qVvnxtaf7v.HMLMYS0hyBEcyshv"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "5QcHf5qVvnxtaf7v",
+  "sort": 0,
+  "_key": "!journal!5QcHf5qVvnxtaf7v"
+}

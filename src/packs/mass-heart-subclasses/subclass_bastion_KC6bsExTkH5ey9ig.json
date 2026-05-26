@@ -1,0 +1,38 @@
+{
+  "name": "Bastion",
+  "type": "subclass",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "system": {
+    "description": "<p>Play the Bastion to use biotics to manipulate and control the battlefield. Gain access to the <strong>Bone</strong> domain.</p><h3>Foundation Feature</h3><p><strong>Cantrip:</strong> Mark a Stress to roll a number of d4 equal to your Instinct and place them on this card. Clear unspent dice at a long rest.</p><p><strong>Biotic Trick:</strong> Expend a Cantrip die to hinder an adversary in Far range. Depending on its value: 1 subtracts 1d4 from a reaction roll; 2 rolls another damage die and discards the highest; 3 moves them a Very Close range horizontally; 4 lets you choose one option.</p><h3>Specialization Features</h3><p><strong>Barrier Siphon:</strong> When you succeed on a spell or deal energy damage against a target, spend cantrip dice to clear a Shield Slot for each multiple of 3 in their combined value.</p><p><strong>Anchor:</strong> While you have no marked Shield Slots, you cannot be moved or lifted against your will. You may also use the result of 4 on a Cantrip die to temporarily Restrain an adversary instead.</p><h3>Mastery Features</h3><p><strong>Lift:</strong> When you Restrain an enemy, you can spend doubles from your Cantrip dice to make them Massless while they are Restrained. Massless characters float in place and are considered Vulnerable. If they are moved by any effect, they move one range increment further, ending Massless.</p>",
+    "class": "Adept",
+    "domain": "Bone",
+    "powerTrait": "Instinct - Biotic",
+    "features": [
+      "Cantrip",
+      "Biotic Trick",
+      "Barrier Siphon",
+      "Anchor",
+      "Lift"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Adept",
+      "domain": "Bone"
+    }
+  },
+  "_id": "KC6bsExTkH5ey9ig",
+  "sort": 0,
+  "_key": "!items!KC6bsExTkH5ey9ig"
+}

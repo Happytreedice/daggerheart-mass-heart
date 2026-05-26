@@ -1,0 +1,37 @@
+{
+  "name": "Vanguard",
+  "type": "class",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p># Vanguard\nDomains: Blade, Sage</p><p>#### Warlord\nThe Warlord is a powerful melee combatant that overpowers and locks down their enemies.</p><p>Domain: Valor</p><p>#### Slayer\nThe Slayer moves quickly around the battlefield, exchanging their defenses for damage in high-risk, high-reward gameplay.</p><p>Domain: Arcana</p>",
+    "domains": [
+      "blade",
+      "sage"
+    ],
+    "evasion": null,
+    "hitPoints": null,
+    "features": [],
+    "subclasses": [
+      "Warlord",
+      "Slayer"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "0KQtWDyzf1V3cY6r",
+  "sort": 0,
+  "_key": "!items!0KQtWDyzf1V3cY6r"
+}

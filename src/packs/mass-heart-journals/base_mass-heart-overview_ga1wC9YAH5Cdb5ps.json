@@ -1,0 +1,37 @@
+{
+  "name": "Mass Heart Overview",
+  "type": "base",
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Mass Heart Overview",
+      "type": "text",
+      "_id": "GuUO47kZBCgIrGCc",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>## Overview\nIf your group decides to play this campaign, give your players the following information before character creation.\n}}</p><p>The Milky Way galaxy is a vast, interconnected web of ancient secrets and burgeoning civilizations, all linked by the enigmatic Mass Relays. In this campaign frame, players step into a world where the discovery of Prothean technology has catapulted humanity into a galactic community governed by the Citadel Council. It is a setting of high-stakes diplomacy, breathtaking exploration, and the looming shadow of an ancient threat. As players traverse the stars, they will find themselves at the heart of a cosmic drama where every choice resonates through the vacuum of space, balanced between the cold logic of survival and the burning hope of unity.</p><p>The galactic landscape is defined by its diverse inhabitants and the fragile peace maintained by the Council. From the disciplined hierarchy of the Turian Hierarchy to the brilliant, fast-paced innovation of the Salarian Union, and the centuries-long wisdom of the Asari Republics, each culture brings its own philosophy to the table. Players can choose to embody these iconic races or others, like the resilient Krogan or the technologically nomadic Quarians. In Mass Heart, these ancestries are more than just stats; they are the lenses through which characters view a galaxy that is often hostile, yet filled with potential allies.</p><p>The world of Mass Heart is a duality of gleaming utopias and gritty underworlds. The Citadel stands as a beacon of civilization, a massive space station where laws are debated and the fate of trillions is decided. Contrast this with Omega, a lawless station in the Terminus Systems where mercenaries, smugglers, and outcasts thrive in the neon-lit shadows. Players will find themselves jumping from corporate laboratories on frozen moons to ancient ruins on lush, uncharted worlds, utilizing their Omni-tools and biotics to overcome obstacles that range from political scandals to localized extinction events.</p><p>Factions pull the strings of this galaxy, creating a complex web of loyalty and betrayal. The Systems Alliance represents humanity’s ambition and drive, while the shadowy organization known as Cerberus operates on the fringes, championing human supremacy at any cost. Meanwhile, the Geth—a collective AI consciousness—and the mysterious Collectors remind the galaxy that not all threats come from within the Council’s borders. Navigating these organizations requires more than just firepower; it requires the social finesse and tactical brilliance that Daggerheart’s &quot;Spotlight&quot; and &quot;Hope/Fear&quot; mechanics excel at portraying.\nThe gameplay experience in Mass Heart merges tactical combat with cinematic narrative. Combat is fast and lethal, emphasizing the use of cover, tech overrides, and devastating biotic fields.</p><p>Space travel is the lifeblood of the campaign. The players’ ship is not just a vehicle, but a home and a base of operation, a &quot;silent character&quot; that grows with the crew. Whether you are hunting a rogue Spectre across the Attican Traverse or investigating a distress signal from a derelict freighter, the ship provides the sanctuary needed for Downtime moves. Here, characters bond, upgrade their gear, and prepare for the inevitable moment when diplomacy fails and the guns must be drawn.</p><p>As the campaign progresses, the true nature of the cosmic cycle begins to reveal itself through fragmented whispers and terrifying anomalies. Ancient, sentient horrors of unimaginable power wait in the freezing dark space between galaxies, watching and preparing for their periodic harvest of all organic life. This existential threat provides a silent, ticking clock for the narrative, as the players uncover evidence of a doom that has claimed countless civilizations before their own. These revelations force characters to attempt the impossible: uniting warring factions against a shadow they can barely comprehend. The stakes are nothing less than the survival of every sentient being in the galaxy, turning every mission into a desperate, crucial step toward salvation or an inevitable, silent extinction.</p><p>Commanders, the galaxy is at a crossroads. The stars are beautiful, but they are also cold and indifferent to the struggles of those who dwell among them. It takes a special kind of hero to bridge the gap between species, to stand against the tide of darkness, and to prove that the heart of a team is stronger than the cold steel of a machine. Assemble your crew, calibrate your weapons, and prepare to make your mark on the stars.</p><p>The fate of the Milky Way is in your hands, will you be the light that guides it home?</p><p>{{FrameHeader,wide\n### Mass Heart\n:</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ga1wC9YAH5Cdb5ps.GuUO47kZBCgIrGCc"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "ga1wC9YAH5Cdb5ps",
+  "sort": 0,
+  "_key": "!journal!ga1wC9YAH5Cdb5ps"
+}

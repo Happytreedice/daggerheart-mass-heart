@@ -1,0 +1,30 @@
+{
+  "name": "Banshee (Reaper)",
+  "type": "adversary",
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "system": {
+    "description": "<p>### Tier 4 Solo\nA terrifying, corrupted Asari that floats effortlessly, emitting a psychic scream and hurling biotic death.  \nMotives &amp; Tactics: Teleport, terrorize, deflect</p><p>#### Features\nRelentless (3): The Banshee can be spotlighted up to 3 times per GM turn. Spend Fear as usual to spotlight them.</p><p>Biotic Blink - Movement: The Banshee does not move normally. She teleports to any location within Far range. This movement allows her to pass through obstacles.</p><p>Sonic Scream - Action: Spend 1 Fear. All PCs within Close range must make a Presence Reaction Roll. On a failure, they take 2d12 ene damage and mark 2 Stress. On a success, they only mark 1 Stress.</p><p>Hand of the Abyss - Action: The Banshee targets a Restrained or Vulnerable PC in Melee. The PC must make a Strength Reaction Roll. If they fail, they are instantly reduced to 0 HP and must make a Death Move.</p><p>Biotic Aegis - Reaction: When targeted by a Ranged Attack, the Banshee may spend 1 Stress to deflect it. The ranged attack has now Disadvantage.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 4,
+    "role": "Solo",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Solo"
+    }
+  },
+  "_id": "YaEoE7QQL5gUPSH4",
+  "sort": 0,
+  "_key": "!actors!YaEoE7QQL5gUPSH4"
+}

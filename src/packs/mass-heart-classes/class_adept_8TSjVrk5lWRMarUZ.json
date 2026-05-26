@@ -1,0 +1,37 @@
+{
+  "name": "Adept",
+  "type": "class",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p># Adept\nDomains: Sage, Splendor</p><p>#### Nemesis\nThe Nemesis is a master of destruction, pouring maximum effort into violent displays of biotics.</p><p>Domain: Arcana</p><p>#### Bastion\nThe Bastion uses biotic interruptions to controls the battlefield and incapacitate your enemies.</p><p>Domain: Bone\n::\n##</p>",
+    "domains": [
+      "sage",
+      "splendor"
+    ],
+    "evasion": null,
+    "hitPoints": null,
+    "features": [],
+    "subclasses": [
+      "Bastion",
+      "Nemesis"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart"
+    }
+  },
+  "_id": "8TSjVrk5lWRMarUZ",
+  "sort": 0,
+  "_key": "!items!8TSjVrk5lWRMarUZ"
+}

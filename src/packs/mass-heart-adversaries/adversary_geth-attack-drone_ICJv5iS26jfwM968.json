@@ -1,0 +1,30 @@
+{
+  "name": "Geth Attack Drone",
+  "type": "adversary",
+  "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+  "system": {
+    "description": "<p>### Tier 1 Minion\nGeth drones used to flush out the enemy  \nMotives &amp; Tactics: Acquire, distract , self-destruction</p><p>#### Features\nMinion (4) - Passive: The Attack Drone is defeated when they take any damage. For every 4 damage a PC dealts to the Attack Drone, defeat an additional Minion whitin range the attack would succeed against.</p><p>Self-Destruct Protocol - Reaction: When destroyed, the Attack Drone deals 1 damage to anyone within Melee range.</p><p>Group Attack - Action: Spend a Fear to choose a target and spotlight all Attack Drone within Close range of them. Those Minions make one shared attack roll. On a success, they deal 1 physical damage each. Combine this damage.\n}}</p><p>{{adversary,</p>",
+    "tier": 1,
+    "role": "Minion",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Minion"
+    }
+  },
+  "_id": "ICJv5iS26jfwM968",
+  "sort": 0,
+  "_key": "!actors!ICJv5iS26jfwM968"
+}

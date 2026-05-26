@@ -1,0 +1,39 @@
+{
+  "name": "Shock Trooper",
+  "type": "subclass",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p>Play the Shock Trooper to be a mobile tank that can use Adrenaline to push beyond their limits. Gain access to the <strong>Bone</strong> domain.</p><h3>Foundation Features</h3><p><strong>Stay Cool:</strong> When you would mark Stress, you may spend any amount of Adrenaline to mark one less per 2 Adrenaline spent.</p><p><strong>Ready:</strong> When you gain the spotlight with less than 2 Adrenaline, set your Adrenaline to 2.</p><h3>Specialization Features</h3><p><strong>Quick Reflexes:</strong> When you are targeted by an attack, spend any amount of Adrenaline to gain an equal bonus to your Evasion against that attack. If that causes the attack to fail, clear a Shield Slot.</p><p><strong>Stoked:</strong> When you gain the spotlight with less than 3 Adrenaline, set your Adrenaline to 3.</p><h3>Mastery Features</h3><p><strong>Tactical Reposition:</strong> Once per long rest, if you would mark any amount of Hit Points, you can mark that much Stress instead and immediately move a Close range.</p><p><strong>Pumped Up:</strong> When you gain the spotlight with less than 4 Adrenaline, set your Adrenaline to 4. Your Adrenaline die becomes a d10.</p>",
+    "class": "Soldier",
+    "domain": "Bone",
+    "powerTrait": "Agility",
+    "features": [
+      "Stay Cool",
+      "Ready",
+      "Quick Reflexes",
+      "Stoked",
+      "Tactical Reposition",
+      "Pumped Up"
+    ],
+    "actions": {},
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "sourceClass": "Soldier",
+      "domain": "Bone"
+    }
+  },
+  "_id": "RO6BoGdtB6amQG00",
+  "sort": 0,
+  "_key": "!items!RO6BoGdtB6amQG00"
+}

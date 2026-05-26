@@ -1,0 +1,30 @@
+{
+  "name": "Eclipse Vanguard",
+  "type": "adversary",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p>### Tier 2 Skulk\nAn Asari mercenary clad in yellow armor, crackling with biotic energy.  \nMotives &amp; Tactics: Charge in, flank, biotic detonation</p><p>#### Features\nBiotic Charge - Action: Mark a Stress. The Vanguard dissolves into blue energy and reappears within Melee range of a target within Far range, immediately making a standard attack. If the attack hits, the target is knocked back to Close range and became Vulnerable.</p><p>Warp Ammo - Passive: The Vanguard deals +1d8 damage against targets who have at least 1 active Shield Slot.</p><p>Biotic Barrier Initialization - Reaction: When Vangard enters the battlefield, add 3 Biotic Barrier tokens.</p><p>Barrier - Reaction: When the Vanguard takes Physical damage, you can Spend a Fear and remove a Biotic Barrier token to reduce the damage by 1d10.</p><p>}}</p><p>{{adversary,</p>",
+    "tier": 2,
+    "role": "Skulk",
+    "notes": "",
+    "attribution": {
+      "source": "Mass Heart v1.4.2",
+      "page": null,
+      "artist": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "daggerheartSpace": {
+      "sourceBook": "Mass Heart",
+      "role": "Skulk"
+    }
+  },
+  "_id": "mqo6oBzCTdhKGs4Z",
+  "sort": 0,
+  "_key": "!actors!mqo6oBzCTdhKGs4Z"
+}
