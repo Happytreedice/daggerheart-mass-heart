@@ -1,155 +1,179 @@
 {
-    "id": "daggerheart-mass-heart",
-    "title": "Mass Heart for Daggerheart",
-    "description": "Mass Effect-inspired science-fiction compendium module for the Foundryborne Daggerheart system.",
-    "version": "0.1.0",
-    "type": "module",
-    "authors": [
-        {
-            "name": "Happytreedice"
-        }
-    ],
-    "compatibility": {
-        "minimum": "14.361",
-        "verified": "14.363",
-        "maximum": "14"
-    },
-    "system": [
-        "daggerheart"
-    ],
-    "relationships": {
-        "systems": [
-            {
-                "id": "daggerheart",
-                "type": "system",
-                "compatibility": {
-                    "minimum": "2.2.6",
-                    "verified": "2.2.6"
-                }
-            }
-        ]
-    },
-    "url": "https://github.com/Happytreedice/daggerheart-mass-heart",
-    "manifest": "https://github.com/Happytreedice/daggerheart-mass-heart/releases/latest/download/module.json",
-    "download": "https://github.com/Happytreedice/daggerheart-mass-heart/releases/download/v0.1.0/daggerheart-mass-heart.zip",
-    "readme": "readme.md",
-    "esmodules": [
-        "src/module/mass-heart.mjs"
-    ],
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        },
-        {
-            "lang": "ru",
-            "name": "Russian",
-            "path": "lang/ru.json"
-        }
-    ],
-    "scripts": [],
-    "styles": [],
-    "packs": [
-        {
-            "name": "mass-heart-classes",
-            "label": "Mass Heart: Classes",
-            "system": "daggerheart",
-            "path": "packs/mass-heart-classes",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "mass-heart-subclasses",
-            "label": "Mass Heart: Subclasses",
-            "system": "daggerheart",
-            "path": "packs/mass-heart-subclasses",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "mass-heart-ancestries",
-            "label": "Mass Heart: Ancestries",
-            "system": "daggerheart",
-            "path": "packs/mass-heart-ancestries",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "mass-heart-communities",
-            "label": "Mass Heart: Communities",
-            "system": "daggerheart",
-            "path": "packs/mass-heart-communities",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "mass-heart-weapons",
-            "label": "Mass Heart: Weapons",
-            "system": "daggerheart",
-            "path": "packs/mass-heart-weapons",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "mass-heart-consumables",
-            "label": "Mass Heart: Consumables",
-            "system": "daggerheart",
-            "path": "packs/mass-heart-consumables",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "mass-heart-adversaries",
-            "label": "Mass Heart: Adversaries",
-            "system": "daggerheart",
-            "path": "packs/mass-heart-adversaries",
-            "type": "Actor",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "mass-heart-environments",
-            "label": "Mass Heart: Environments",
-            "system": "daggerheart",
-            "path": "packs/mass-heart-environments",
-            "type": "Actor",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "name": "mass-heart-journals",
-            "label": "Mass Heart: Lore and Rules",
-            "system": "daggerheart",
-            "path": "packs/mass-heart-journals",
-            "type": "JournalEntry",
-            "private": false,
-            "flags": {}
-        }
-    ],
-    "packFolders": [
-        {
-            "name": "Mass Heart",
-            "sorting": "m",
-            "color": "#536537",
-            "packs": [
-                "mass-heart-classes",
-                "mass-heart-subclasses",
-                "mass-heart-ancestries",
-                "mass-heart-communities",
-                "mass-heart-weapons",
-                "mass-heart-consumables",
-                "mass-heart-adversaries",
-                "mass-heart-environments",
-                "mass-heart-journals"
-            ],
-            "folders": []
-        }
-    ]
+    "id":  "daggerheart-mass-heart",
+    "title":  "Mass Heart for Daggerheart",
+    "description":  "Mass Effect-inspired science-fiction compendium module for the Foundryborne Daggerheart system.",
+    "version":  "0.1.0",
+    "type":  "module",
+    "authors":  [
+                    {
+                        "name":  "Happytreedice"
+                    }
+                ],
+    "compatibility":  {
+                          "minimum":  "14.361",
+                          "verified":  "14.363",
+                          "maximum":  "14"
+                      },
+    "system":  [
+                   "daggerheart"
+               ],
+    "relationships":  {
+                          "systems":  [
+                                          {
+                                              "id":  "daggerheart",
+                                              "type":  "system",
+                                              "compatibility":  {
+                                                                    "minimum":  "2.2.6",
+                                                                    "verified":  "2.2.6"
+                                                                }
+                                          }
+                                      ]
+                      },
+    "url":  "https://github.com/Happytreedice/daggerheart-mass-heart",
+    "manifest":  "https://github.com/Happytreedice/daggerheart-mass-heart/releases/latest/download/module.json",
+    "download":  "https://github.com/Happytreedice/daggerheart-mass-heart/releases/download/v0.1.0/daggerheart-mass-heart.zip",
+    "readme":  "readme.md",
+    "esmodules":  [
+                      "src/module/mass-heart.mjs"
+                  ],
+    "languages":  [
+                      {
+                          "lang":  "en",
+                          "name":  "English",
+                          "path":  "lang/en.json"
+                      },
+                      {
+                          "lang":  "ru",
+                          "name":  "Russian",
+                          "path":  "lang/ru.json"
+                      }
+                  ],
+    "scripts":  [
+
+                ],
+    "styles":  [
+
+               ],
+    "packs":  [
+                  {
+                      "name":  "mass-heart-classes",
+                      "label":  "Mass Heart: Classes",
+                      "system":  "daggerheart",
+                      "path":  "packs/mass-heart-classes",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "mass-heart-subclasses",
+                      "label":  "Mass Heart: Subclasses",
+                      "system":  "daggerheart",
+                      "path":  "packs/mass-heart-subclasses",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "mass-heart-ancestries",
+                      "label":  "Mass Heart: Ancestries",
+                      "system":  "daggerheart",
+                      "path":  "packs/mass-heart-ancestries",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "mass-heart-communities",
+                      "label":  "Mass Heart: Communities",
+                      "system":  "daggerheart",
+                      "path":  "packs/mass-heart-communities",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "mass-heart-weapons",
+                      "label":  "Mass Heart: Weapons",
+                      "system":  "daggerheart",
+                      "path":  "packs/mass-heart-weapons",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "mass-heart-consumables",
+                      "label":  "Mass Heart: Consumables",
+                      "system":  "daggerheart",
+                      "path":  "packs/mass-heart-consumables",
+                      "type":  "Item",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "mass-heart-adversaries",
+                      "label":  "Mass Heart: Adversaries",
+                      "system":  "daggerheart",
+                      "path":  "packs/mass-heart-adversaries",
+                      "type":  "Actor",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "mass-heart-environments",
+                      "label":  "Mass Heart: Environments",
+                      "system":  "daggerheart",
+                      "path":  "packs/mass-heart-environments",
+                      "type":  "Actor",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  },
+                  {
+                      "name":  "mass-heart-journals",
+                      "label":  "Mass Heart: Lore and Rules",
+                      "system":  "daggerheart",
+                      "path":  "packs/mass-heart-journals",
+                      "type":  "JournalEntry",
+                      "private":  false,
+                      "flags":  {
+
+                                }
+                  }
+              ],
+    "packFolders":  [
+                        {
+                            "name":  "Mass Heart",
+                            "sorting":  "m",
+                            "color":  "#536537",
+                            "packs":  [
+                                          "mass-heart-classes",
+                                          "mass-heart-subclasses",
+                                          "mass-heart-ancestries",
+                                          "mass-heart-communities",
+                                          "mass-heart-weapons",
+                                          "mass-heart-consumables",
+                                          "mass-heart-adversaries",
+                                          "mass-heart-environments",
+                                          "mass-heart-journals"
+                                      ],
+                            "folders":  [
+
+                                        ]
+                        }
+                    ]
 }
